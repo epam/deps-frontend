@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Tag should render correct layout 1`] = `
+<Tooltip
+  title="tag"
+>
+  <TagsInputstyles__StyledTag
+    closable={true}
+    onClose={[Function]}
+  >
+    <TagsInputstyles__Text>
+      tag
+    </TagsInputstyles__Text>
+  </TagsInputstyles__StyledTag>
+</Tooltip>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: PermissionDeniedPage should render the correct layout 1`] = `
+<ErrorLayout
+  heading="Forbidden"
+  info="Sorry, but you don't have permissions to view this document"
+  statusCode={403}
+>
+  <PermissionDeniedPagestyles__Wrapper>
+    <ForwardRef
+      onClick={[Function]}
+      type="ghost"
+    >
+      Take Me to the Home Page
+    </ForwardRef>
+    <PermissionDeniedPagestyles__RetryButton
+      onClick={[Function]}
+      type="ghost"
+    >
+      Try Again
+    </PermissionDeniedPagestyles__RetryButton>
+  </PermissionDeniedPagestyles__Wrapper>
+</ErrorLayout>
+`;

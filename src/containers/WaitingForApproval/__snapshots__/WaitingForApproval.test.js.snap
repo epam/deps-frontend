@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: WaitingForApproval ConnectedComponent should render component correctly 1`] = `
+<SizeMe(Component)
+  columns={
+    Array [
+      Object {
+        "dataIndex": "user",
+        "disableResize": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={true}
+          icon={<SearchIcon />}
+        />,
+        "filteredValue": "John Dou",
+        "render": [Function],
+        "sortOrder": "ascend",
+        "sorter": true,
+        "title": "User",
+      },
+      Object {
+        "disableResize": true,
+        "render": [Function],
+        "width": "95px",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "user": WaitingForApprovalUser {
+          "creationDate": "20.08.2022",
+          "email": "test@test.com",
+          "firstName": "John",
+          "lastName": "Doe",
+          "organisation": "org",
+          "pk": "pk1",
+          "username": "user1",
+        },
+      },
+      Object {
+        "user": WaitingForApprovalUser {
+          "creationDate": "20.08.2022",
+          "email": "test@test.com",
+          "firstName": "John",
+          "lastName": "Doe",
+          "organisation": "org",
+          "pk": "pk2",
+          "username": "user2",
+        },
+      },
+    ]
+  }
+  fetching={true}
+  onFilter={[Function]}
+  pagination={
+    Object {
+      "current": 1,
+      "onChange": [Function],
+      "onShowSizeChange": [Function],
+      "pageSize": 20,
+      "showSizeChanger": true,
+      "showTotal": [Function],
+      "total": 2,
+    }
+  }
+  rowKey={[Function]}
+  rowSelection={
+    Object {
+      "onChange": [MockFunction],
+      "selectedRowKeys": Array [
+        "1",
+      ],
+    }
+  }
+/>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: WindowCanvas should render correct layout 1`] = `
+<ImageViewerstyles__ImgWrapper>
+  <Canvas
+    cursor="crosshair"
+    height={42}
+    imageUrl="http://sample.jpeg"
+    rotationAngle={0}
+    width={42}
+  />
+</ImageViewerstyles__ImgWrapper>
+`;

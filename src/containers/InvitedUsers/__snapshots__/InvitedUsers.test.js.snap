@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: InvitedUsers ConnectedComponent should render correctly 1`] = `
+<SizeMe(Component)
+  columns={
+    Array [
+      Object {
+        "dataIndex": "email",
+        "disableResize": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={true}
+          icon={<SearchIcon />}
+        />,
+        "filteredValue": "john@example.com",
+        "render": [Function],
+        "sortOrder": "ascend",
+        "sorter": true,
+        "title": "EMAIL",
+      },
+      Object {
+        "disableResize": true,
+        "render": [Function],
+        "width": "95px",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "email": "test@test.ru",
+      },
+      Object {
+        "email": "test2@test.ru",
+      },
+    ]
+  }
+  fetching={false}
+  onFilter={[Function]}
+  pagination={
+    Object {
+      "current": 1,
+      "onChange": [Function],
+      "onShowSizeChange": [Function],
+      "pageSize": 20,
+      "showSizeChanger": true,
+      "showTotal": [Function],
+      "total": 5,
+    }
+  }
+  rowKey={[Function]}
+  rowSelection={
+    Object {
+      "onChange": [MockFunction],
+      "selectedRowKeys": Array [
+        "1",
+      ],
+    }
+  }
+/>
+`;

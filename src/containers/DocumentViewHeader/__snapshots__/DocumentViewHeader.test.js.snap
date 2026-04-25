@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentViewHeader should render correct layout according to props 1`] = `
+<DocumentViewHeaderstyles__Wrapper>
+  <DocumentViewHeaderstyles__Header
+    data-automation="document-header"
+  >
+    <BackToSourceButton
+      sourcePath="/documents"
+    />
+    <DocumentViewHeaderstyles__InfoWrapper>
+      <DocumentViewHeaderstyles__InfoWrapperCell>
+        <DocumentNavigationTitle />
+        <DocumentNavigationButton />
+      </DocumentViewHeaderstyles__InfoWrapperCell>
+    </DocumentViewHeaderstyles__InfoWrapper>
+    <DocumentReviewControls />
+  </DocumentViewHeaderstyles__Header>
+</DocumentViewHeaderstyles__Wrapper>
+`;

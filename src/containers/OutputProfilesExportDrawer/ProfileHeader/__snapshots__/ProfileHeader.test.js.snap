@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ProfileHeader should render ProfileHeader 1`] = `
+<ProfileHeaderstyles__Wrapper>
+  <ProfileHeaderstyles__Description>
+    <ProfileHeaderstyles__Title>
+      name
+    </ProfileHeaderstyles__Title>
+    <ProfileHeaderstyles__DateWrapper>
+      Created date:
+      <ProfileHeaderstyles__Date>
+        10-10-2001
+      </ProfileHeaderstyles__Date>
+    </ProfileHeaderstyles__DateWrapper>
+  </ProfileHeaderstyles__Description>
+  <ProfileHeaderstyles__Controls>
+    <OutputProfileFormatInfo
+      profile={
+        OutputProfile {
+          "creationDate": "10-10-2001",
+          "exportingType": "builtin",
+          "format": "json",
+          "id": "id",
+          "name": "name",
+          "schema": ExtractedDataSchema {
+            "fields": Array [],
+            "needsValidationResults": true,
+          },
+          "version": "1.0.0",
+        }
+      }
+    />
+    <ProfileHeaderstyles__Label>
+      Validation errors
+    </ProfileHeaderstyles__Label>
+    <Switch
+      checked={true}
+      disabled={true}
+    />
+  </ProfileHeaderstyles__Controls>
+</ProfileHeaderstyles__Wrapper>
+`;

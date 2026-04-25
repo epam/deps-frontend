@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: BackToSourceButton should render the correct layout 1`] = `
+<Tooltip
+  placement="topRight"
+  title="Click to Go Back"
+>
+  <SecondaryButtonstyles__SecondaryButton
+    icon={<ArrowLeftIcon />}
+    onClick={[Function]}
+  />
+</Tooltip>
+`;

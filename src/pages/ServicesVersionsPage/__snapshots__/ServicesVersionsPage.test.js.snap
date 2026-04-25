@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ServicesVersionsPage should render component correctly 1`] = `
+<ServicesVersionsPagestyles__ServicesVersionsWrapper>
+  <ServicesVersionsPagestyles__ServicesVersionsHeader>
+    <ApplicationLogo />
+  </ServicesVersionsPagestyles__ServicesVersionsHeader>
+  <ServicesVersionsPagestyles__ServicesVersionsContentWrapper>
+    <ServicesVersionsPagestyles__ServicesVersionsContentHeader>
+      Versions of DEPS services
+    </ServicesVersionsPagestyles__ServicesVersionsContentHeader>
+    <ServicesVersionsPagestyles__ServicesVersionsContent>
+      <ServiceVersionCard
+        key="FRONTEND"
+        serviceName="Frontend"
+      />
+      <ServiceVersionCard
+        key="FRONTEND_CUSTOMIZATION"
+        serviceName="Frontend Customization"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="BACKEND"
+        serviceName="Backend"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="TABLES"
+        serviceName="Tables"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="PREPROCESS"
+        serviceName="Preprocess"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="OCR"
+        serviceName="OCR"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="IAM"
+        serviceName="IAM"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="OMR"
+        serviceName="OMR"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="FILE_STORAGE"
+        serviceName="File storage"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="TEMPLATE"
+        serviceName="Template"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="WORKFLOW_MANAGER"
+        serviceName="Workflow Manager"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="OUTPUT_EXPORTING"
+        serviceName="Output Exporting"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="PARSING"
+        serviceName="Parsing"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="API_GATEWAY"
+        serviceName="API Gateway"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="PROMPTER"
+        serviceName="Prompter"
+      />
+    </ServicesVersionsPagestyles__ServicesVersionsContent>
+    <ServicesVersionsPagestyles__Line />
+    <ServicesVersionsPagestyles__ServicesVersionsContent>
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="IMAGE_PREPROCESS"
+        serviceName="Image Preprocess"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="NER"
+        serviceName="Named Entity Recognition"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="DOCUMENT_TYPE"
+        serviceName="Document Type"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="EXTRACTION"
+        serviceName="Extraction"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="UNIFIER"
+        serviceName="Unifier"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="RESULT_EXPORTING"
+        serviceName="Result Exporting"
+      />
+      <ServiceVersionCard
+        apiRequest={[Function]}
+        key="PROTOTYPE"
+        serviceName="Prototype"
+      />
+      <ServiceVersionCard
+        key="METRIC_COLLECTOR"
+        serviceName="Metric Collector"
+      />
+      <ServiceVersionCard
+        key="EXTRACTION_INVOICE"
+        serviceName="Extraction Invoice"
+      />
+      <ServiceVersionCard
+        key="NGINX"
+        serviceName="Nginx"
+      />
+      <ServiceVersionCard
+        key="PLAYGROUND"
+        serviceName="Playground"
+      />
+      <ServiceVersionCard
+        key="GENERIC_UNIFIER_PLUGIN"
+        serviceName="Generic Unifier Plugin"
+      />
+      <ServiceVersionCard
+        key="ALL_FIELDS_QA"
+        serviceName="All Fields QA"
+      />
+      <ServiceVersionCard
+        key="ALL_FIELDS_QA_VALIDATION"
+        serviceName="All Fields QA Validation"
+      />
+    </ServicesVersionsPagestyles__ServicesVersionsContent>
+  </ServicesVersionsPagestyles__ServicesVersionsContentWrapper>
+</ServicesVersionsPagestyles__ServicesVersionsWrapper>
+`;

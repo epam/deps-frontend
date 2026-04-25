@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: GoToPageInput should render correct layout 1`] = `
+<GoToPageInputstyles__Wrapper>
+  <span>
+    Go to page
+  </span>
+  <InputNumber
+    controls={false}
+    onFocus={[Function]}
+    onPressEnter={[Function]}
+  />
+</GoToPageInputstyles__Wrapper>
+`;

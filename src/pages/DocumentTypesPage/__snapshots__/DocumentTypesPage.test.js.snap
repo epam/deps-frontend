@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Document types page correctly 1`] = `
+<Content>
+  <DocumentTypesPagestyles__Header>
+    <DocumentTypesPagestyles__Title>
+      Document Types
+    </DocumentTypesPagestyles__Title>
+    <DocumentTypeImportButton />
+    <AddDocumentTypeModalButton />
+  </DocumentTypesPagestyles__Header>
+  <DocumentTypesPagestyles__StyledTabs
+    activeKey="aiPrompted"
+    animated={false}
+    onChange={[Function]}
+    tabs={
+      Array [
+        Tab {
+          "children": <DocumentTypes
+            documentTypes={Array []}
+            documentTypesExtractor="aiPrompted"
+          />,
+          "hiddenPane": false,
+          "key": "aiPrompted",
+          "label": "AI-Prompted",
+        },
+        Tab {
+          "children": <DocumentTypes
+            documentTypes={Array []}
+            documentTypesExtractor="azureCloudExtractor"
+          />,
+          "hiddenPane": false,
+          "key": "azureCloudExtractor",
+          "label": "Azure Cloud Native",
+        },
+        Tab {
+          "children": <DocumentTypes
+            documentTypes={Array []}
+            documentTypesExtractor="prototypes"
+          />,
+          "hiddenPane": false,
+          "key": "prototypes",
+          "label": "Prototypes",
+        },
+        Tab {
+          "children": <DocumentTypes
+            documentTypes={Array []}
+            documentTypesExtractor="templates"
+          />,
+          "hiddenPane": false,
+          "key": "templates",
+          "label": "Templates",
+        },
+        Tab {
+          "children": <DocumentTypes
+            documentTypes={
+              Array [
+                DocumentType {
+                  "code": "mockDocumentTypeCode",
+                  "engine": "mockEngineCode",
+                  "extractionType": "ml",
+                  "fields": Array [
+                    DocumentTypeField {
+                      "code": "verticalReference",
+                      "documentTypeCode": "mockDocumentTypeCode",
+                      "fieldMeta": DocumentTypeFieldMeta {
+                        "charBlacklist": "BC",
+                        "charWhitelist": "A",
+                      },
+                      "fieldType": "string",
+                      "name": "Vertical Reference",
+                      "order": 1,
+                      "pk": 1,
+                      "required": false,
+                    },
+                    DocumentTypeField {
+                      "code": "glElevation",
+                      "documentTypeCode": "mockDocumentTypeCode",
+                      "fieldMeta": DocumentTypeFieldMeta {
+                        "charBlacklist": "BC",
+                        "charWhitelist": "A",
+                      },
+                      "fieldType": "string",
+                      "name": "GL Elevation",
+                      "order": 2,
+                      "pk": 2,
+                      "required": false,
+                    },
+                    DocumentTypeField {
+                      "code": "table",
+                      "documentTypeCode": "mockDocumentTypeCode",
+                      "fieldMeta": TableFieldMeta {
+                        "columns": Array [],
+                      },
+                      "fieldType": "table",
+                      "name": "Table",
+                      "order": 3,
+                      "pk": 3,
+                      "required": false,
+                    },
+                    DocumentTypeField {
+                      "code": "listOfTables",
+                      "documentTypeCode": "mockDocumentTypeCode",
+                      "fieldMeta": ListFieldMeta {
+                        "baseType": "table",
+                        "baseTypeMeta": undefined,
+                      },
+                      "fieldType": "list",
+                      "name": "List Of Tables",
+                      "order": 4,
+                      "pk": 4,
+                      "required": false,
+                    },
+                    DocumentTypeField {
+                      "code": "fieldCode",
+                      "documentTypeCode": "mockDocumentTypeCode",
+                      "fieldMeta": DocumentTypeFieldMeta {
+                        "charBlacklist": "C",
+                        "charWhitelist": "A",
+                      },
+                      "fieldType": "string",
+                      "name": "Field Name",
+                      "order": 5,
+                      "pk": 5,
+                      "required": false,
+                    },
+                    DocumentTypeField {
+                      "code": "listOfCheckboxes",
+                      "documentTypeCode": "mockDocumentTypeCode",
+                      "fieldMeta": ListFieldMeta {
+                        "baseType": "checkmark",
+                        "baseTypeMeta": undefined,
+                      },
+                      "fieldType": "list",
+                      "name": "List Of Checkboxes",
+                      "order": 6,
+                      "pk": 6,
+                      "required": false,
+                    },
+                  ],
+                  "id": undefined,
+                  "language": "mockLanguageCode",
+                  "name": "mockDocumentTypeName",
+                },
+              ]
+            }
+            documentTypesExtractor="mlModels"
+          />,
+          "hiddenPane": false,
+          "key": "mlModels",
+          "label": "Custom Models",
+        },
+      ]
+    }
+  />
+</Content>
+`;

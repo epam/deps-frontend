@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: SelectOptionModalButton should render ModalFormButton with proper fields prop (with Autocomplete) 1`] = `
+<div>
+  <PreviewAutocomplete
+    dataSource={
+      Array [
+        SelectOption {
+          "text": "mockOptionText",
+          "value": "mockOptionValue",
+        },
+      ]
+    }
+    emptySearchText="Test text"
+    fetching={false}
+    placeholder="Test placeholder"
+  />
+</div>
+`;
+
+exports[`Component: SelectOptionModalButton should render correct layout 1`] = `
+<ModalFormButton
+  areValuesChanged={[Function]}
+  fields={
+    Object {
+      "option": Object {
+        "render": [Function],
+      },
+    }
+  }
+  okButtonProps={
+    Object {
+      "text": "mockSaveButtonText",
+    }
+  }
+  onOk={[Function]}
+  renderOpenTrigger={[Function]}
+  title="Test title"
+/>
+`;

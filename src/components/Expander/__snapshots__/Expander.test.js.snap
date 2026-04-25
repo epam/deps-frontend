@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Expander should correct layout 1`] = `
+<div
+  a={false}
+  b={[Function]}
+>
+  Function
+</div>
+`;
+
+exports[`Component: Expander should correct layout if children is component 1`] = `
+<div
+  a={false}
+  b={[Function]}
+>
+  Function
+</div>
+`;

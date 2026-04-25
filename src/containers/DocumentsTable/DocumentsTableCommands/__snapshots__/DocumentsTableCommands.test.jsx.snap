@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentsTableCommands should render CommandBar for documents managing 1`] = `
+Array [
+  <ManageLabelsModalButton
+    documentIds={
+      Array [
+        "mockId",
+      ]
+    }
+    renderTrigger={[Function]}
+  />,
+  <DownloadMenuCommand
+    checkedDocuments={
+      Array [
+        "mockId",
+      ]
+    }
+    documents={
+      Array [
+        Document {
+          "_id": "mockId",
+          "communication": Object {
+            "comments": Array [],
+            "flagged": false,
+          },
+          "containerMetadata": null,
+          "containerType": "container",
+          "date": undefined,
+          "documentLayout": undefined,
+          "documentType": PreviewEntity {
+            "code": "test",
+            "name": "Test",
+          },
+          "engine": undefined,
+          "error": Object {
+            "description": "mockDescription",
+            "inState": "preprocessing",
+          },
+          "extractedData": undefined,
+          "files": Array [
+            File {
+              "blobName": "blobName.png",
+              "url": "documentUrl.png",
+            },
+          ],
+          "groupInfo": undefined,
+          "initialDocumentData": undefined,
+          "labels": Array [],
+          "language": null,
+          "previewDocuments": Object {},
+          "processingDocuments": Object {},
+          "reviewer": null,
+          "state": "failed",
+          "title": "Title",
+          "unifiedData": undefined,
+          "validation": Object {
+            "detail": Array [],
+            "isValid": true,
+          },
+        },
+      ]
+    }
+  />,
+  <Tooltip
+    title="Delete Document"
+  >
+    <SecondaryButtonstyles__SecondaryButton
+      data-automation="delete-document-button"
+      disabled={false}
+      icon={<DeleteIconFilled />}
+    />
+  </Tooltip>,
+  <MoreOptionsCommandMenu
+    selectedDocuments={
+      Array [
+        Document {
+          "_id": "mockId",
+          "communication": Object {
+            "comments": Array [],
+            "flagged": false,
+          },
+          "containerMetadata": null,
+          "containerType": "container",
+          "date": undefined,
+          "documentLayout": undefined,
+          "documentType": PreviewEntity {
+            "code": "test",
+            "name": "Test",
+          },
+          "engine": undefined,
+          "error": Object {
+            "description": "mockDescription",
+            "inState": "preprocessing",
+          },
+          "extractedData": undefined,
+          "files": Array [
+            File {
+              "blobName": "blobName.png",
+              "url": "documentUrl.png",
+            },
+          ],
+          "groupInfo": undefined,
+          "initialDocumentData": undefined,
+          "labels": Array [],
+          "language": null,
+          "previewDocuments": Object {},
+          "processingDocuments": Object {},
+          "reviewer": null,
+          "state": "failed",
+          "title": "Title",
+          "unifiedData": undefined,
+          "validation": Object {
+            "detail": Array [],
+            "isValid": true,
+          },
+        },
+      ]
+    }
+  />,
+]
+`;
+
+exports[`Component: DocumentsTableCommands should render CommandBar for table managing 1`] = `
+Array [
+  <Tooltip
+    title="Refresh Data"
+  >
+    <SecondaryButtonstyles__SecondaryButton
+      data-automation="refresh-data-button"
+      icon={<ArrowsRotate />}
+      onClick={[MockFunction]}
+    />
+  </Tooltip>,
+  <Tooltip
+    title="Reset Filters"
+  >
+    <SecondaryButtonstyles__SecondaryButton
+      icon={<ResetFiltrationIcon />}
+      onClick={[MockFunction]}
+    />
+  </Tooltip>,
+  <TableColumnsPicker
+    columns={
+      Array [
+        "title",
+      ]
+    }
+  >
+    <Tooltip
+      title="Table Setting"
+    >
+      <SecondaryButtonstyles__SecondaryButton
+        icon={<GearIcon />}
+      />
+    </Tooltip>
+  </TableColumnsPicker>,
+]
+`;
+
+exports[`Component: DocumentsTableCommands should render DocumentsTableCommands with correct props 1`] = `
+<Fragment>
+  <DocumentsTableCommandsstyles__DocumentTableCommandsBar
+    commands={
+      Array [
+        Object {
+          "renderComponent": [Function],
+        },
+        Object {
+          "renderComponent": [Function],
+        },
+        Object {
+          "onClick": [Function],
+          "renderComponent": [Function],
+        },
+        Object {
+          "renderComponent": [Function],
+        },
+      ]
+    }
+    getPopupContainer={[Function]}
+  />
+  <DocumentsTableCommandsstyles__Separator />
+  <DocumentsTableCommandsstyles__DocumentTableCommandsBar
+    commands={
+      Array [
+        Object {
+          "renderComponent": [Function],
+        },
+        Object {
+          "renderComponent": [Function],
+        },
+        Object {
+          "renderComponent": [Function],
+        },
+      ]
+    }
+  />
+</Fragment>
+`;

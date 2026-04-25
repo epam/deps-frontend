@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FieldMappingTypeSelect should render correct layout 1`] = `
+<FieldMappingTypeSelectstyles__Wrapper>
+  <FieldMappingTypeSelectstyles__StyledSelect
+    defaultValue="one_to_one"
+    disabled={false}
+    getPopupContainer={[Function]}
+    onChange={[MockFunction]}
+  >
+    <Option
+      key="one_to_one"
+      value="one_to_one"
+    >
+      <span>
+        1 to 1
+      </span>
+    </Option>
+    <Option
+      key="one_to_many"
+      value="one_to_many"
+    >
+      <span>
+        1 to many
+      </span>
+    </Option>
+  </FieldMappingTypeSelectstyles__StyledSelect>
+</FieldMappingTypeSelectstyles__Wrapper>
+`;

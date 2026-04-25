@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentUploadList should render DocumentsTable and AddDocumentsButton 1`] = `
+<DocumentUploadListstyles__DocumentsTable
+  size="small"
+>
+  <DocumentUploadItem
+    deleteFile={[Function]}
+    document={
+      Object {
+        "documentType": undefined,
+        "engine": undefined,
+        "files": Array [
+          Object {
+            "name": "mockFileName1",
+            "uid": "mockUIDFile1",
+          },
+        ],
+        "name": "date - mockDocumentName1.pdf",
+        "uid": "mockUIDFile1",
+      }
+    }
+    documentTypes={
+      Array [
+        SelectOption {
+          "text": "mockText",
+          "value": "mockValue",
+        },
+      ]
+    }
+    documentUploadState={
+      Object {
+        "files": Object {
+          "mockUIDFile1": 90,
+        },
+        "status": "PENDING",
+      }
+    }
+    engines={
+      Array [
+        SelectOption {
+          "text": "mockText",
+          "value": "mockValue",
+        },
+      ]
+    }
+    key="mockUIDFile1"
+    renderDocumentControls={[MockFunction]}
+    size="small"
+    uploadStatus="PENDING"
+    uploading={false}
+  />
+</DocumentUploadListstyles__DocumentsTable>
+`;

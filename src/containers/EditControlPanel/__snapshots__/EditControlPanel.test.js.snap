@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EditControlPanel should render the correct layout with default props 1`] = `
+<EditControlPanelstyles__Wrapper>
+  <SecondaryButtonstyles__SecondaryButton
+    onClick={[MockFunction]}
+  >
+    Cancel
+  </SecondaryButtonstyles__SecondaryButton>
+  <EditControlPanelstyles__StyledButton
+    disabled={false}
+    onClick={[MockFunction]}
+    type="primary"
+  >
+    Submit
+  </EditControlPanelstyles__StyledButton>
+</EditControlPanelstyles__Wrapper>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DropdownMenu.js should close dropdown after click on menuItem 1`] = `
+<div
+  id="testId"
+>
+  <div
+    class="ht_master"
+  >
+    <div
+      class="wtHolder"
+    />
+  </div>
+</div>
+`;
+
+exports[`Component: DropdownMenu.js should close dropdown after second click 1`] = `
+<div
+  id="testId"
+>
+  <div
+    class="ht_master"
+  >
+    <div
+      class="wtHolder"
+    />
+  </div>
+</div>
+`;
+
+exports[`Component: DropdownMenu.js should render layout correctly 1`] = `
+<div
+  class="dropdown_wrapper"
+  tabindex="-1"
+>
+  ›
+</div>
+`;
+
+exports[`Component: DropdownMenu.js should render table with dropdown after click on wrapper layout correctly 1`] = `
+<div
+  id="testId"
+>
+  <div
+    class="ht_master"
+  >
+    <div
+      class="wtHolder"
+    />
+  </div>
+  <ul
+    class="dropdown_menu"
+    id="testId_menu"
+    style="visibility: visible; top: 0px; left: 0px;"
+  >
+    <li />
+    <li />
+  </ul>
+</div>
+`;

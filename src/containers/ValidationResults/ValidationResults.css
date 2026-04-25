@@ -1,0 +1,4 @@
+.validation-submenu-wrapper > ul {
+  max-height: 26rem;
+  overflow-y: scroll;
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hook: useExpandableText should render the correct layout for ExpandableContainer 1`] = `
+<ExpandableTextstyles__ExpandableTextWrapper>
+  <div>
+    text
+  </div>
+</ExpandableTextstyles__ExpandableTextWrapper>
+`;
+
+exports[`Hook: useExpandableText should render the correct layout for ToggleExpandIcon 1`] = `
+<ExpandableTextstyles__WrapperArrowIcon
+  $isRotated={false}
+  onClick={[Function]}
+>
+  <ArrowDownFilledIcon />
+</ExpandableTextstyles__WrapperArrowIcon>
+`;

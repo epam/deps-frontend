@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FormField should render component correctly in case render was passed as a default prop 1`] = `
+<input
+  onChange={[MockFunction]}
+  placeholder="mockText"
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 1`] = `
+<ForwardRef
+  onChange={[MockFunction]}
+  placeholder="mockText"
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 2`] = `
+<InputNumber
+  onChange={[MockFunction]}
+  placeholder="mockText"
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 3`] = `
+<DateTimePicker
+  onChange={[MockFunction]}
+  placeholder="mockText"
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 4`] = `
+<DatePicker
+  allowClear={true}
+  onChange={[MockFunction]}
+  placeholder="mockText"
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 5`] = `
+<TimePicker
+  onChange={[MockFunction]}
+  placeholder="mockText"
+  value=""
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 6`] = `
+<CustomSelect
+  fetching={false}
+  onChange={[MockFunction]}
+  options={
+    Array [
+      SelectOption {
+        "text": "mock",
+        "value": "mock",
+      },
+    ]
+  }
+  placeholder="mockText"
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 7`] = `
+<Checkbox
+  onChange={[MockFunction]}
+  placeholder="mockText"
+/>
+`;
+
+exports[`Component: FormField should render correct layout for each field type 8`] = `
+<TextAreaField
+  onChange={[MockFunction]}
+  placeholder="mockText"
+/>
+`;

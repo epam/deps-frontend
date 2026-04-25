@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Sidebar should render correct layout 1`] = `
+<Sidebar
+  collapsed={true}
+  config={
+    Array [
+      Array [
+        Object {
+          "icon": <div />,
+          "path": "/mock/path",
+          "title": "mock Title",
+        },
+      ],
+    ]
+  }
+  onClick={[MockFunction]}
+  selectedKeys={
+    Array [
+      "/mock/path",
+    ]
+  }
+  theme={
+    Object {
+      "color": Object {
+        "blueDark": "#1450A9",
+        "borderIcon": "#64A3F5",
+        "completedStatus": "#9EC97F",
+        "error": "#FF5645",
+        "errorBg": "#FFF1F0",
+        "errorBg2": "#FEF8F7",
+        "errorDark": "#ff0000",
+        "errorLight": "rgba(255, 86, 69, 0.25)",
+        "failedStatus": "#DE6E6A",
+        "gradient1": "rgba(93, 185, 255, 0)",
+        "gradient2": "rgba(43, 105, 222, 0.8)",
+        "grayScale8": "#87898B",
+        "grayscale1": "#DCE1E7",
+        "grayscale11": "#8193A7",
+        "grayscale12": "#657990",
+        "grayscale13": "#262D36",
+        "grayscale14": "#F9FAFB",
+        "grayscale15": "#DCE1E7",
+        "grayscale16": "#3B4754",
+        "grayscale17": "#BDC6D1",
+        "grayscale18": "#506072",
+        "grayscale19": "#96BCF3",
+        "grayscale1Darker": "#C4C4C4",
+        "grayscale2": "#EAF0F8",
+        "grayscale20": "#F1F6FD",
+        "grayscale21": "#C4D9F8",
+        "grayscale22": "#9FACBC",
+        "grayscale2Lighter": "#F7FAFD",
+        "grayscale3": "#404040",
+        "grayscale4": "rgba(48, 48, 48, 0.2)",
+        "grayscale4Darker": "rgba(71, 71, 71, 0.5)",
+        "grayscale5": "#657181",
+        "grayscale6": "#F0F6FE",
+        "grayscale6Lighter": "#F9FAFC",
+        "grayscale7": "#D9E6F6",
+        "grayscale8": "#F5F5F5",
+        "greenBright": "#4BCC7E",
+        "inReviewStatus": "#F3C96B",
+        "needsReviewStatus": "#9265AF",
+        "orange": "#FF7C32",
+        "primary1": "linear-gradient(273.22deg, #5DB9FF -9.6%, #3980E8 104.4%);",
+        "primary1Dark": "rgba(48, 48, 48, 0.55)",
+        "primary2": "#3980E8",
+        "primary2Darker": "#1962CD",
+        "primary2Light": "rgba(57, 128, 232, 0.25)",
+        "primary2Lighter": "rgba(57, 128, 232, 0.65)",
+        "primary3": "#ffffff",
+        "primary3Light": "#ffffffE6",
+        "primary4": "#303030",
+        "primary5": "#F2F6FB",
+        "primary6": "#40a9ff",
+        "primary7": "rgba(20, 80, 169, 1)",
+        "processingStatus": "#84BFDB",
+        "red": "#FF0000",
+        "secondaryLight": "#d9d9d9",
+        "shadow1": "rgba(220, 225, 231, 0.6)",
+        "shadow2": "rgba(18, 18, 18, 0.06)",
+        "shadow3": "rgba(94, 105, 119, 0.31)",
+        "statusExtraction": "#85A5FF",
+        "success": "#4BCC7E",
+        "successBg": "#DAF5E5",
+        "versionIdentificationStatus": "#700CD4",
+        "warning": "#EE8F1B",
+        "warningBg": "#FFF7E7",
+      },
+      "size": Object {
+        "drawerWidth": "36rem",
+        "siderCollapsedWidth": "5.6rem",
+        "siderExpandedWidth": "22rem",
+      },
+    }
+  }
+/>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DeleteUsersButton ConnectedComponent should render correct layout 1`] = `
+<Tooltip
+  title="Remove Selected User(s)"
+>
+  <SecondaryButtonstyles__SecondaryButton
+    disabled={false}
+    icon={<DeleteIconFilled />}
+    onClick={[Function]}
+  />
+</Tooltip>
+`;

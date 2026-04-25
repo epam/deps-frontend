@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: KeyValuePairEdFieldActionsMenu should render correct layout 1`] = `
+<ActionsMenu
+  disabled={false}
+  items={
+    Array [
+      Object {
+        "children": Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ],
+        "key": "key-actions",
+        "title": "Key Actions",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ],
+        "key": "value-actions",
+        "title": "Value Actions",
+      },
+      Object {
+        "content": [Function],
+      },
+    ]
+  }
+/>
+`;

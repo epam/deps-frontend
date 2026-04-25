@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: HandsonTable should render correct layout 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c0 .ht_master {
+  overflow: visible !important;
+}
+
+.c0 .ht_master td[class*=fullySelectedMergedCell]::before {
+  opacity: 0.1 !important;
+}
+
+.c0 .handsontableInputHolder,
+.c0.c0 .wtBorder.current,
+.c0.c0 .wtBorder.area {
+  z-index: unset;
+}
+
+.c0 .wtHolder::-webkit-scrollbar-track {
+  background: #F9FAFB;
+}
+
+.c0 .wtHolder::-webkit-scrollbar-thumb {
+  background: #DCE1E7;
+}
+
+.c0 .ht_clone_top,
+.c0 .ht_clone_left,
+.c0 .ht_clone_top_left_corner {
+  z-index: 1;
+}
+
+.c0 .handsontableInput {
+  box-sizing: content-box;
+}
+
+<HotTable
+  afterChange={[Function]}
+  afterCopy={[Function]}
+  afterCreateCol={[Function]}
+  afterCreateRow={[Function]}
+  afterCut={[Function]}
+  afterRemoveCol={[Function]}
+  afterRemoveRow={[Function]}
+  afterScrollHorizontally={[Function]}
+  afterScrollVertically={[Function]}
+  afterSelectionEnd={[Function]}
+  afterUpdateSettings={[Function]}
+  beforeChange={[Function]}
+  className="c0"
+  columns={
+    Array [
+      HTColumn {
+        "data": "0.value",
+      },
+      HTColumn {
+        "data": "1.value",
+      },
+    ]
+  }
+  contextMenu={
+    Object {
+      "items": Array [
+        "copy",
+        "cut",
+        Object {
+          "callback": [Function],
+          "name": "Paste",
+        },
+        Object {
+          "name": "---------",
+        },
+        "clear_column",
+        "make_read_only",
+        Object {
+          "name": "---------",
+        },
+        "redo",
+        "undo",
+        Object {
+          "name": "---------",
+        },
+        "cut",
+        Object {
+          "name": "---------",
+        },
+        Object {
+          "callback": [Function],
+          "name": "mock",
+        },
+      ],
+    }
+  }
+  data={
+    Array [
+      Object {
+        "0": HTCell {
+          "meta": Object {
+            "confidence": 0.01,
+          },
+          "value": "0 0",
+        },
+        "1": HTCell {
+          "meta": Object {
+            "confidence": 0.02,
+          },
+          "value": "0 1",
+        },
+      },
+      Object {
+        "0": HTCell {
+          "meta": Object {
+            "confidence": 0.1,
+          },
+          "value": "1 0",
+        },
+      },
+    ]
+  }
+  mergeCells={
+    Array [
+      HTMerge {
+        "col": 1,
+        "colspan": 1,
+        "row": 0,
+        "rowspan": 2,
+      },
+    ]
+  }
+  readOnly={false}
+  renderer={[Function]}
+  trimWhitespace={false}
+  viewportColumnRenderingOffset={5}
+  viewportRowRenderingOffset={5}
+/>
+`;

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentFields ConnectedComponent should render correct layout 1`] = `
+<div>
+  <ErrorBoundary
+    key="verticalReference1"
+    localBoundary={[Function]}
+  >
+    <FieldAdapter
+      active={true}
+      dtField={
+        DocumentTypeField {
+          "code": "verticalReference1",
+          "documentTypeCode": "mockDocumentTypeCode",
+          "fieldMeta": Object {},
+          "fieldType": "date",
+          "name": "Vertical Reference",
+          "order": 0,
+          "pk": 1,
+          "required": false,
+        }
+      }
+      edField={
+        ExtractedDataField {
+          "data": FieldData {
+            "confidence": 0.69,
+            "coordinates": FieldCoordinates {
+              "h": 0.5,
+              "page": 2,
+              "w": 0.8,
+              "x": 0.19,
+              "y": 0.26,
+            },
+            "setIndex": null,
+            "sourceBboxCoordinates": null,
+            "sourceTableCoordinates": null,
+            "sourceTextCoordinates": null,
+            "tableCoordinates": null,
+            "value": 350,
+          },
+          "fieldPk": 1,
+        }
+      }
+      validation={null}
+    />
+  </ErrorBoundary>
+  <ErrorBoundary
+    key="glElevation"
+    localBoundary={[Function]}
+  >
+    <FieldAdapter
+      active={false}
+      dtField={
+        DocumentTypeField {
+          "code": "glElevation",
+          "documentTypeCode": "mockDocumentTypeCode",
+          "fieldMeta": Object {},
+          "fieldType": "string",
+          "name": "GL Elevation",
+          "order": 0,
+          "pk": 2,
+          "required": false,
+        }
+      }
+      edField={
+        ExtractedDataField {
+          "data": FieldData {
+            "confidence": 0.69,
+            "coordinates": FieldCoordinates {
+              "h": 0.5,
+              "page": 1,
+              "w": 0.4,
+              "x": 0.2,
+              "y": 0.3,
+            },
+            "setIndex": null,
+            "sourceBboxCoordinates": null,
+            "sourceTableCoordinates": null,
+            "sourceTextCoordinates": null,
+            "tableCoordinates": null,
+            "value": 351,
+          },
+          "fieldPk": 2,
+        }
+      }
+      validation={
+        FieldValidation {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            "Test error message",
+          ],
+          "warnings": Array [
+            "Test warning message",
+          ],
+        }
+      }
+    />
+  </ErrorBoundary>
+</div>
+`;
+
+exports[`Container: DocumentFields ConnectedComponent should render correct layout for local error boundary 1`] = `
+<DocumentFieldsstyles__LocalBoundary>
+  We're sorry, but something went wrong while displaying field with code 'verticalReference1' and name 'Vertical Reference'
+</DocumentFieldsstyles__LocalBoundary>
+`;

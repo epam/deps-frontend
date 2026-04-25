@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: CreateTemplateForm should render CreateTemplateForm with correct props 1`] = `
+<Form>
+  <FormItem
+    field={
+      Object {
+        "code": "name",
+        "placeholder": "Enter Name",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "",
+            "value": 128,
+          },
+          "pattern": Object {
+            "message": "The value should not be empty.",
+            "value": /\\^\\(\\?!\\\\s\\*\\$\\)\\.\\+/,
+          },
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="name"
+    label="Name"
+    requiredMark={true}
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "engine",
+        "defaultValue": "TESSERACT",
+        "placeholder": "Select Engine",
+        "render": [Function],
+      }
+    }
+    key="engine"
+    label="Engine"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "baseTemplateId",
+        "defaultValue": null,
+        "disabled": false,
+        "hint": "Select template to copy all fields from it to new one.",
+        "render": [Function],
+      }
+    }
+    key="baseTemplateId"
+    label="Duplicate Fields"
+  />
+  <CreateTemplateFormstyles__CheckboxFormItem
+    field={
+      Object {
+        "code": "markupAutomatically",
+        "defaultValue": false,
+        "disabled": false,
+        "render": [Function],
+      }
+    }
+    key="markupAutomatically"
+    label="Mark up Automatically"
+  />
+</Form>
+`;

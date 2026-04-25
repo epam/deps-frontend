@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: AuthorizationGuard should render component correctly in case user is not defined 1`] = `
+<CenteredSpin
+  spinning={true}
+/>
+`;
+
+exports[`Component: AuthorizationGuard should render component correctly in case user was authorized 1`] = `<div />`;
+
+exports[`Component: AuthorizationGuard should render correct layout in case user іs not assigned to any organisation but in process of joining organisation 1`] = `<div />`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EditableMappingKey should render correct layout 1`] = `
+<EditableMappingKeystyles__MappingKeyWrapper>
+  <EditableMappingKeystyles__MappingKeyInput
+    maxLength={150}
+    onChange={[Function]}
+    placeholder="Enter Key"
+    value="key"
+  />
+  <EditableMappingKeystyles__DeleteIconButton
+    icon={<XMarkIcon />}
+    onClick={[Function]}
+  />
+</EditableMappingKeystyles__MappingKeyWrapper>
+`;

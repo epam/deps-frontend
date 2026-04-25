@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FrequentlyAskedQuestions should render expandIcon with 0 degrees if isActive false 1`] = `
+<div>
+  <FrequentlyAskedQuestionsstyles__StyledIcon
+    rotate={0}
+  />
+</div>
+`;
+
+exports[`Component: FrequentlyAskedQuestions should render expandIcon with 180 degrees if isActive true 1`] = `
+<div>
+  <FrequentlyAskedQuestionsstyles__StyledIcon
+    rotate={180}
+  />
+</div>
+`;
+
+exports[`Component: FrequentlyAskedQuestions should render the correct layout 1`] = `
+<FrequentlyAskedQuestionsstyles__Wrapper>
+  <FrequentlyAskedQuestionsstyles__SearchInputWrapper>
+    <SearchInput
+      autoFocus={true}
+      filter=""
+      onChange={[Function]}
+    />
+  </FrequentlyAskedQuestionsstyles__SearchInputWrapper>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Upload Document"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Upload Document"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Upload Document"
+  >
+    <UploadDocument />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Define the Type of Document"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Define the Type of Document"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Define the Type of Document"
+  >
+    <DefineDocumentType />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Extract the Data"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Extract the Data"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Extract the Data"
+  >
+    <ExtractData />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Do a Review"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Do a Review"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Do a Review"
+  >
+    <Review />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Validate the Document"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Validate the Document"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Validate the Document"
+  >
+    <Validation />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Export Processed Data"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Export Processed Data"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Export Processed Data"
+  >
+    <ExportData />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Label the Document"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Label the Document"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Label the Document"
+  >
+    <LabelDocument />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Search the Document"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Search the Document"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Search the Document"
+  >
+    <Search />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+  <FrequentlyAskedQuestionsstyles__StyledCollapse
+    bordered={false}
+    collapseId="How to Add Users to the Organization"
+    expandIcon={[Function]}
+    expandIconPosition="end"
+    header={
+      <FrequentlyAskedQuestionsstyles__Question>
+        <TextHighlighter
+          searchTerm=""
+          text="How to Add Users to the Organization"
+        />
+      </FrequentlyAskedQuestionsstyles__Question>
+    }
+    key="How to Add Users to the Organization"
+  >
+    <AddUser />
+  </FrequentlyAskedQuestionsstyles__StyledCollapse>
+</FrequentlyAskedQuestionsstyles__Wrapper>
+`;
+
+exports[`Component: FrequentlyAskedQuestions should render the correct layout if there are no components matching filter 1`] = `
+<FrequentlyAskedQuestionsstyles__Wrapper>
+  <FrequentlyAskedQuestionsstyles__SearchInputWrapper>
+    <SearchInput
+      autoFocus={true}
+      filter="Complicated string"
+      onChange={[Function]}
+    />
+  </FrequentlyAskedQuestionsstyles__SearchInputWrapper>
+  <NoData
+    description="No matches found"
+  />
+</FrequentlyAskedQuestionsstyles__Wrapper>
+`;

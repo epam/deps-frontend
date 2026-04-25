@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: StorageButton should render correctly 1`] = `
+<StorageButtonstyles__StyledButton
+  disabled={false}
+  onClick={[MockFunction]}
+  title="Test title"
+  type="ghost"
+>
+  <StorageButtonstyles__LogoWrapper>
+    <span />
+  </StorageButtonstyles__LogoWrapper>
+  name
+  <StorageButtonstyles__IconWrapper>
+    <ArrowRightOutlined />
+  </StorageButtonstyles__IconWrapper>
+</StorageButtonstyles__StyledButton>
+`;

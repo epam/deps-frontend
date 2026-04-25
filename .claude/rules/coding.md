@@ -1,0 +1,32 @@
+# Coding rules
+
+- Use rems, not px (1rem = 10px).
+- Always use styled-components for React component styling. Put all component styles in the related `.styles.ts` / `.styles.js` file.
+- Always use colors from theme: `${({ theme }) => theme.color.primary1}`.
+- For user-visible strings use `import { localize, Localization } from '@/localization/i18n'` and add strings to both `src/localization/translations/en-US.js` and `src/localization/translations/es-ES.js`.
+- Do not add comments unless explicitly asked.
+- Follow ESLint StandardJS conventions configured in the project.
+- In `index.ts`/`index.js` files re-export with asterisk: `export * from './ComponentName'`.
+- Always use named exports — avoid default exports.
+- Use TypeScript (`.ts`/`.tsx`) for all new code. Legacy code stays in `.js`/`.jsx` — do not force migration.
+- In TypeScript files, define prop types with interfaces/types instead of PropTypes. In JavaScript files, use PropTypes.
+- Run `yarn typecheck` to verify TypeScript compilation before committing.
+- Use `yarn` only — not npm.
+- Do not write tests unless explicitly asked. When asked, follow all rules in `.claude/skills/unit-tests.md`.
+- Use the `@/` alias for all imports from `src/`.
+- Keep component folders: `Component.tsx`, `Component.styles.ts`, `Component.test.ts`, `index.ts` (or `.jsx`/`.js` equivalents for legacy).
+- Expose styled-components from `.styles` files with descriptive names: `export { StyledInput as Input }`.
+- When wrapping AntD components, import from `antd/es/<component>` and include `antd/lib/<component>/style/index.less`.
+- Reuse shared PropTypes shapes from `@/models` and `@/utils/propTypes`.
+- Export HOC-wrapped components as named constants: `const ConnectedComponent = withRouter(...); export { ConnectedComponent as ComponentName }`.
+- Read feature toggles from the `ENV` proxy (`import { ENV } from '@/utils/env'`), not `process.env` directly.
+- Use constants from `@/constants/automation` for automation/testing IDs — never hardcode strings.
+- Redux Actions: define `FEATURE_NAME` constant, use in action type strings (`${FEATURE_NAME}/ACTION`).
+- Redux Reducers: use `handleActions` from `redux-actions` with `Map`, export with descriptive names.
+- Redux Selectors: use `createSelector` from `reselect`; name base selectors `featureNameSelector`.
+- Redux containers: prefer `useSelector`/`useDispatch` hooks for new code. Legacy uses `connect(mapStateToProps, mapDispatchToProps)` exported as `ConnectedComponent`.
+- API layer: separate traditional calls (`src/api/`) from RTK Query endpoints (`src/apiRTK/`); prefer RTK Query for new endpoints.
+- Model classes: ES6 classes with static methods; TypeScript files export class + interface, JavaScript files export class + PropTypes.shape.
+- Organize imports: external libraries first, then internal modules (`@/*`), then local relative imports; separate groups with empty line.
+- Use `forwardRef` when exposing DOM refs to parent components.
+- Use `React.lazy()` and `Suspense` for code splitting on large components and routes.

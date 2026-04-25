@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ExtractData Connected component should render correct layout 1`] = `
+<ModalFormButton
+  disabled={false}
+  fields={
+    Object {
+      "engineCode": Object {
+        "initialValue": "TESSERACT",
+        "label": "Engine",
+        "render": [Function],
+      },
+    }
+  }
+  okButtonProps={
+    Object {
+      "text": "OK",
+    }
+  }
+  onOk={[Function]}
+  renderOpenTrigger={[Function]}
+  size="small"
+  text={
+    <h4>
+      Previously extracted data and manual corrections by reviewers will be lost. 
+    </h4>
+  }
+  title={
+    <React.Fragment>
+      <ExtractDatastyles__StyledExclamationCircleOutlinedIcon />
+      <ExtractDatastyles__ModalTitle>
+        Are you sure you want to extract data for this document?
+      </ExtractDatastyles__ModalTitle>
+    </React.Fragment>
+  }
+/>
+`;

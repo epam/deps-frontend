@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: GreetingModal should render correctly 1`] = `
+<GreetingModalstyles__StyledModal
+  footer={
+    Array [
+      <ForwardRef
+        onClick={[Function]}
+        type="primary"
+      >
+        Start
+      </ForwardRef>,
+    ]
+  }
+  onCancel={[Function]}
+  open={true}
+  title={
+    <GreetingModalstyles__Title>
+      Joined to organization
+    </GreetingModalstyles__Title>
+  }
+>
+  <GreetingLetterIcon />
+  <GreetingModalstyles__Text>
+    Dear System User, 
+ You have been joined to the TestOrganisation organization.
+  </GreetingModalstyles__Text>
+</GreetingModalstyles__StyledModal>
+`;
+
+exports[`Component: GreetingModal should render correctly with only user.lastName 1`] = `
+<div>
+  Dear  User, 
+ You have been joined to the TestOrganisation organization.
+</div>
+`;
+
+exports[`Component: GreetingModal should return correct text message if no user.firstName and user.lastName 1`] = `
+<div>
+  Dear system_user@system.com, 
+ You have been joined to the TestOrganisation organization.
+</div>
+`;

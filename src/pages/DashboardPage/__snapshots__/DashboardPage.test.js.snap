@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: DashboardPage should render correct layout 1`] = `
+<DashboardPagestyles__StyledContent>
+  <DashboardPagestyles__Title>
+    Dashboard
+  </DashboardPagestyles__Title>
+  <DashboardCards />
+  <DashboardCharts />
+</DashboardPagestyles__StyledContent>
+`;

@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentLabelingTool connected Component should render correct layout 1`] = `
+<Fragment>
+  <LabelingTool
+    config={
+      Object {
+        "api": Object {
+          "close": [Function],
+          "detectTables": [Function],
+          "getImage": [Function],
+          "notify": Object {
+            "error": [MockFunction],
+            "info": [MockFunction],
+            "success": [MockFunction],
+            "warning": [MockFunction],
+          },
+          "ocrTable": [Function],
+          "ocrText": [Function],
+          "omrArea": [Function],
+          "save": [Function],
+          "saveMarkup": [Function],
+        },
+        "document": Object {
+          "engine": "TESSERACT",
+          "language": "eng",
+          "name": "Mock Title",
+          "pages": Array [
+            "http://mockUrl.com/v5/file/test/preview/0.png",
+            "http://mockUrl.com/v5/file/test/preview/1.png",
+          ],
+        },
+        "events": Object {
+          "onClose": [Function],
+        },
+        "fields": Array [
+          Field {
+            "code": "verticalReference",
+            "fieldType": "string",
+            "name": "Vertical Reference",
+            "required": false,
+          },
+          Field {
+            "code": "glElevation",
+            "fieldType": "string",
+            "name": "GL Elevation",
+            "required": false,
+          },
+          Field {
+            "code": "table",
+            "fieldType": "table",
+            "name": "Table",
+            "required": false,
+          },
+          Field {
+            "code": "listOfTables",
+            "fieldMeta": ListFieldMeta {
+              "baseType": "table",
+            },
+            "fieldType": "list",
+            "name": "List Of Tables",
+            "required": false,
+          },
+          Field {
+            "code": "fieldCode",
+            "fieldType": "string",
+            "name": "Field Name",
+            "required": false,
+          },
+          Field {
+            "code": "listOfCheckboxes",
+            "fieldMeta": ListFieldMeta {
+              "baseType": "checkmark",
+            },
+            "fieldType": "list",
+            "name": "List Of Checkboxes",
+            "required": false,
+          },
+        ],
+        "markup": Object {
+          "1": Object {},
+        },
+        "ocr": Object {
+          "engines": Array [
+            Engine {
+              "code": "GCP_VISION",
+              "name": "AI Vision",
+            },
+            Engine {
+              "code": "AWS_TEXTRACT",
+              "name": "AWS Textract",
+            },
+          ],
+          "languages": Array [
+            Language {
+              "code": "eng",
+              "name": "English",
+            },
+            Language {
+              "code": "rus",
+              "name": "Russian",
+            },
+            Language {
+              "code": "chi_sim",
+              "name": "Simplified Chinese",
+            },
+            Language {
+              "code": "deu",
+              "name": "Deutsch",
+            },
+            Language {
+              "code": "spa",
+              "name": "Spanish",
+            },
+            Language {
+              "code": "ukr",
+              "name": "Ukrainian",
+            },
+          ],
+        },
+        "settings": Object {
+          "features": Array [
+            "export",
+            "import",
+            Object {
+              "code": "paging",
+              "data": Object {
+                "initialPage": 1,
+              },
+            },
+            "language",
+            "specialSymbols",
+            Object {
+              "code": "autoSave",
+              "data": Object {
+                "interval": 180000,
+              },
+            },
+          ],
+          "mode": "default",
+          "panels": Array [
+            "TOOLBAR",
+            "MARKUP_SIDEBAR",
+            "LEFT_SIDEBAR",
+          ],
+          "tools": Array [
+            "detectTables",
+            "label",
+            "table",
+            "merge",
+            "split",
+            "pointer",
+            "grabbing",
+          ],
+        },
+      }
+    }
+  />
+  <LocationChange
+    onDeactivate={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`Container: DocumentLabelingTool connected Component should render spinner 1`] = `
+<Fragment>
+  <LabelingTool
+    config={
+      Object {
+        "api": Object {
+          "close": [Function],
+          "detectTables": [Function],
+          "getImage": [Function],
+          "notify": Object {
+            "error": [MockFunction],
+            "info": [MockFunction],
+            "success": [MockFunction],
+            "warning": [MockFunction],
+          },
+          "ocrTable": [Function],
+          "ocrText": [Function],
+          "omrArea": [Function],
+          "save": [Function],
+          "saveMarkup": [Function],
+        },
+        "document": Object {
+          "engine": "TESSERACT",
+          "language": "eng",
+          "name": "Mock Title",
+          "pages": Array [
+            "http://mockUrl.com/v5/file/test/preview/0.png",
+            "http://mockUrl.com/v5/file/test/preview/1.png",
+          ],
+        },
+        "events": Object {
+          "onClose": [Function],
+        },
+        "fields": Array [
+          Field {
+            "code": "verticalReference",
+            "fieldType": "string",
+            "name": "Vertical Reference",
+            "required": false,
+          },
+          Field {
+            "code": "glElevation",
+            "fieldType": "string",
+            "name": "GL Elevation",
+            "required": false,
+          },
+          Field {
+            "code": "table",
+            "fieldType": "table",
+            "name": "Table",
+            "required": false,
+          },
+          Field {
+            "code": "listOfTables",
+            "fieldMeta": ListFieldMeta {
+              "baseType": "table",
+            },
+            "fieldType": "list",
+            "name": "List Of Tables",
+            "required": false,
+          },
+          Field {
+            "code": "fieldCode",
+            "fieldType": "string",
+            "name": "Field Name",
+            "required": false,
+          },
+          Field {
+            "code": "listOfCheckboxes",
+            "fieldMeta": ListFieldMeta {
+              "baseType": "checkmark",
+            },
+            "fieldType": "list",
+            "name": "List Of Checkboxes",
+            "required": false,
+          },
+        ],
+        "markup": Object {
+          "1": Object {},
+        },
+        "ocr": Object {
+          "engines": Array [
+            Engine {
+              "code": "GCP_VISION",
+              "name": "AI Vision",
+            },
+            Engine {
+              "code": "AWS_TEXTRACT",
+              "name": "AWS Textract",
+            },
+          ],
+          "languages": Array [
+            Language {
+              "code": "eng",
+              "name": "English",
+            },
+            Language {
+              "code": "rus",
+              "name": "Russian",
+            },
+            Language {
+              "code": "chi_sim",
+              "name": "Simplified Chinese",
+            },
+            Language {
+              "code": "deu",
+              "name": "Deutsch",
+            },
+            Language {
+              "code": "spa",
+              "name": "Spanish",
+            },
+            Language {
+              "code": "ukr",
+              "name": "Ukrainian",
+            },
+          ],
+        },
+        "settings": Object {
+          "features": Array [
+            "export",
+            "import",
+            Object {
+              "code": "paging",
+              "data": Object {
+                "initialPage": 1,
+              },
+            },
+            "language",
+            "specialSymbols",
+            Object {
+              "code": "autoSave",
+              "data": Object {
+                "interval": 180000,
+              },
+            },
+          ],
+          "mode": "default",
+          "panels": Array [
+            "TOOLBAR",
+            "MARKUP_SIDEBAR",
+            "LEFT_SIDEBAR",
+          ],
+          "tools": Array [
+            "detectTables",
+            "label",
+            "table",
+            "merge",
+            "split",
+            "pointer",
+            "grabbing",
+          ],
+        },
+      }
+    }
+  />
+  <LocationChange
+    onDeactivate={[Function]}
+  />
+</Fragment>
+`;

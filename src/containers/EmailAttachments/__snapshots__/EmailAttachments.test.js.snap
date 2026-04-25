@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EmailAttachments should render EmailAttachments correctly in case Expander is collapsed 1`] = `
+<div>
+  <TogglerButton
+    block={true}
+    collapsed={true}
+    onClick={[MockFunction]}
+    title="Email Attachments"
+    type="text"
+  />
+  <EmailAttachmentsstyles__EmailAttachmentsWrapper>
+    <DocumentsTable
+      collapsed={true}
+      defaultFilterConfig={
+        Object {
+          "dateRange": Array [],
+          "engines": Array [],
+          "groups": Array [],
+          "labels": Array [],
+          "languages": Array [],
+          "parentId": "1",
+          "reviewer": "",
+          "search": "",
+          "sortDirect": "",
+          "sortField": "",
+          "states": Array [],
+          "title": "",
+          "types": Array [],
+        }
+      }
+      filterConfig={
+        Object {
+          "dateRange": Array [],
+          "engines": Array [],
+          "groups": Array [],
+          "labels": Array [],
+          "languages": Array [],
+          "parentId": "1",
+          "reviewer": "",
+          "search": "",
+          "sortDirect": "",
+          "sortField": "",
+          "states": Array [],
+          "title": "",
+          "types": Array [],
+        }
+      }
+      pagination={false}
+      refreshData={[Function]}
+      tableColumns={
+        Array [
+          "title",
+          "date",
+          "engine",
+          "documentType",
+          "labels",
+          "state",
+        ]
+      }
+    />
+    <Linkstyles__Link
+      onClick={[MockFunction]}
+    >
+      View more...
+    </Linkstyles__Link>
+  </EmailAttachmentsstyles__EmailAttachmentsWrapper>
+</div>
+`;
+
+exports[`Component: EmailAttachments should render EmailAttachments correctly in case Expander is not collapsed 1`] = `
+<Expander>
+  <Component />
+</Expander>
+`;
+
+exports[`Component: EmailAttachments should render EmailAttachments correctly in case Expander is not collapsed 2`] = `
+<div>
+  <TogglerButton
+    block={true}
+    collapsed={false}
+    onClick={[MockFunction]}
+    title="Email Attachments"
+    type="text"
+  />
+  <EmailAttachmentsstyles__EmailAttachmentsWrapper>
+    <DocumentsTable
+      collapsed={false}
+      defaultFilterConfig={
+        Object {
+          "dateRange": Array [],
+          "engines": Array [],
+          "groups": Array [],
+          "labels": Array [],
+          "languages": Array [],
+          "parentId": "1",
+          "reviewer": "",
+          "search": "",
+          "sortDirect": "",
+          "sortField": "",
+          "states": Array [],
+          "title": "",
+          "types": Array [],
+        }
+      }
+      filterConfig={
+        Object {
+          "dateRange": Array [],
+          "engines": Array [],
+          "groups": Array [],
+          "labels": Array [],
+          "languages": Array [],
+          "parentId": "1",
+          "reviewer": "",
+          "search": "",
+          "sortDirect": "",
+          "sortField": "",
+          "states": Array [],
+          "title": "",
+          "types": Array [],
+        }
+      }
+      pagination={false}
+      refreshData={[Function]}
+      tableColumns={
+        Array [
+          "title",
+          "date",
+          "engine",
+          "documentType",
+          "labels",
+          "state",
+        ]
+      }
+    />
+  </EmailAttachmentsstyles__EmailAttachmentsWrapper>
+</div>
+`;
+
+exports[`Component: EmailAttachments should render Empty in case filters and attachments are not present 1`] = `
+<div>
+  <TogglerButton
+    block={true}
+    collapsed={false}
+    onClick={[MockFunction]}
+    title="Email Attachments"
+    type="text"
+  />
+  <EmailAttachmentsstyles__EmailAttachmentsWrapper>
+    <EmailAttachmentsstyles__EmptyContainer>
+      <ForwardRef
+        description="This email does not contain any attaches"
+        image={<EmptyIcon />}
+      />
+    </EmailAttachmentsstyles__EmptyContainer>
+  </EmailAttachmentsstyles__EmailAttachmentsWrapper>
+</div>
+`;

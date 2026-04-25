@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DownloadDropdownButton should render DownloadDropdownButton component correctly 1`] = `
+<div>
+  <MockComponent
+    apiGetRequest={[MockFunction]}
+    documentId="123"
+    documentName="Title"
+    documentTypeCode="test"
+    showErrorMessage={[Function]}
+  />
+</div>
+`;
+
+exports[`Container: DownloadDropdownButton should render correct layout for local error boundary 1`] = `null`;
+
+exports[`Container: DownloadDropdownButton should render correctly 1`] = `
+<ErrorBoundary
+  localBoundary={[Function]}
+>
+  <ModuleLoader
+    url="mockUrl"
+  >
+    <Component />
+  </ModuleLoader>
+</ErrorBoundary>
+`;

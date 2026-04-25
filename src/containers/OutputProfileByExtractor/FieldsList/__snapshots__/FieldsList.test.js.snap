@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FieldsList should render correct layout 1`] = `
+<FieldsListstyles__ScrollingWrapper>
+  <FieldsListstyles__StyledList>
+    <FieldsListstyles__DraggableItem
+      index={0}
+      isDraggable={false}
+      key="code1"
+      onDrop={[Function]}
+      onMove={[Function]}
+    >
+      <ProfileFieldCard
+        disabled={true}
+        enableDragging={[Function]}
+        field={
+          DocumentTypeField {
+            "code": "code1",
+            "documentTypeCode": "code1",
+            "fieldMeta": Object {},
+            "fieldType": "enum",
+            "name": "name",
+            "order": 1,
+            "pk": "pk",
+            "required": false,
+          }
+        }
+        isInProfile={true}
+        onFieldToggle={[MockFunction]}
+      />
+    </FieldsListstyles__DraggableItem>
+    <ProfileFieldCard
+      disabled={true}
+      field={
+        DocumentTypeField {
+          "code": "code2",
+          "documentTypeCode": "code2",
+          "fieldMeta": Object {},
+          "fieldType": "string",
+          "name": "name",
+          "order": 2,
+          "pk": "pk",
+          "required": false,
+        }
+      }
+      isInProfile={false}
+      key="code2"
+      onFieldToggle={[MockFunction]}
+    />
+  </FieldsListstyles__StyledList>
+</FieldsListstyles__ScrollingWrapper>
+`;

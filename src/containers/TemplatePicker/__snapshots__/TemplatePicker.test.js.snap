@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TemplatePicker should render TemplatePicker correctly without selected file 1`] = `
+<UploadCard
+  file={
+    Object {
+      "mime": "image/png",
+      "name": "test",
+      "size": 123,
+      "type": ".png",
+      "uid": "12345",
+    }
+  }
+>
+  <Tooltip
+    placement="topRight"
+    title="Replace Existing File"
+  >
+    <TemplatePickerstyles__FilePickerWrapper>
+      <TemplatePickerstyles__StyledFilesPicker
+        accept=".jpg, .jpeg, .png, .pdf, .tiff, .tif"
+        disabled={false}
+        getMime={[Function]}
+        icon={<FaRotateIcon />}
+        maxFileSize={100}
+        multiple={false}
+        onFileSizeValidationFailed={[Function]}
+        onFilesSelected={[Function]}
+        onFilesValidationFailed={[Function]}
+        type="file"
+      />
+    </TemplatePickerstyles__FilePickerWrapper>
+  </Tooltip>
+</UploadCard>
+`;
+
+exports[`Component: TemplatePicker should render TemplatePicker with correct props 1`] = `
+<UploadCard
+  file={
+    Object {
+      "mime": "image/png",
+      "name": "test",
+      "size": 123,
+      "type": ".png",
+      "uid": "12345",
+    }
+  }
+>
+  <Tooltip
+    placement="topRight"
+    title="Replace Existing File"
+  >
+    <TemplatePickerstyles__FilePickerWrapper>
+      <TemplatePickerstyles__StyledFilesPicker
+        accept=".jpg, .jpeg, .png, .pdf, .tiff, .tif"
+        disabled={false}
+        getMime={[Function]}
+        icon={<FaRotateIcon />}
+        maxFileSize={100}
+        multiple={false}
+        onFileSizeValidationFailed={[Function]}
+        onFilesSelected={[Function]}
+        onFilesValidationFailed={[Function]}
+        type="file"
+      />
+    </TemplatePickerstyles__FilePickerWrapper>
+  </Tooltip>
+</UploadCard>
+`;

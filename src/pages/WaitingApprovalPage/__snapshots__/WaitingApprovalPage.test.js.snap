@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: WaitingApprovalPage Component:  should render the correct layout with many organisations 1`] = `
+<WaitingApprovalPagestyles__WaitingApprovalPageWrapper>
+  <WaitingApprovalPagestyles__Header>
+    <ApplicationLogo />
+  </WaitingApprovalPagestyles__Header>
+  <WaitingApprovalPagestyles__Title>
+    Your access request is under review.
+
+  Once it is confirmed you will be able to join the organization
+  </WaitingApprovalPagestyles__Title>
+  <WaitingApprovalPagestyles__Image />
+  <Dropdown
+    disabled={false}
+    dropdownRender={[Function]}
+    placement="topCenter"
+    trigger="hover"
+  >
+    <ForwardRef
+      type="primary"
+    >
+      Change Organization
+      <DownOutlinedIcon />
+    </ForwardRef>
+  </Dropdown>
+</WaitingApprovalPagestyles__WaitingApprovalPageWrapper>
+`;

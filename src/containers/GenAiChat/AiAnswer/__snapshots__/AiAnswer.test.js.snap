@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: AiAnswer should render correct layout 1`] = `
+<AiAnswerstyles__Wrapper>
+  <AiAnswerstyles__LogoWrapper>
+    <ShortLogoIcon />
+  </AiAnswerstyles__LogoWrapper>
+  <AiAnswerstyles__MessageWrapper>
+    <AiAnswerstyles__MessageHeader>
+      <AiAnswerstyles__MessageOwner>
+        DEPS Gen AI
+      </AiAnswerstyles__MessageOwner>
+      <AiAnswerstyles__MessageTime>
+        11:12
+      </AiAnswerstyles__MessageTime>
+    </AiAnswerstyles__MessageHeader>
+    <AiAnswerstyles__MessageContentWrapper>
+      <AiAnswerstyles__Message
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        test
+      </AiAnswerstyles__Message>
+      <SaveToFieldButton
+        answer="test"
+        prompt="test"
+      />
+    </AiAnswerstyles__MessageContentWrapper>
+  </AiAnswerstyles__MessageWrapper>
+</AiAnswerstyles__Wrapper>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: StorageUploadFile should render correctly 1`] = `
+<StorageUploadFilestyles__ListItem
+  actions={
+    Array [
+      <StorageUploadFilestyles__StyledButton
+        onClick={[Function]}
+        type="text"
+      >
+        Remove
+      </StorageUploadFilestyles__StyledButton>,
+    ]
+  }
+>
+  <StorageUploadFilestyles__ListMeta
+    avatar={
+      <StorageUploadFilestyles__Avatar
+        size="large"
+      >
+        <StorageUploadFilestyles__FileIcon>
+          <FilePDFIcon />
+        </StorageUploadFilestyles__FileIcon>
+      </StorageUploadFilestyles__Avatar>
+    }
+    description="Size: 123 B"
+    title={
+      <span
+        title="name.pdf"
+      >
+        name.pdf
+      </span>
+    }
+  />
+  <DocumentFileUploadItemstyles__ListContent />
+</StorageUploadFilestyles__ListItem>
+`;

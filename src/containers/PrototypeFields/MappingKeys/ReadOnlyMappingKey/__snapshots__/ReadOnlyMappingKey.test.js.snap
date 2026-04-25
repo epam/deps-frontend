@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ReadOnlyMappingKey should render correct layout 1`] = `
+<ReadOnlyMappingKeystyles__StyledTag
+  closable={false}
+>
+  <LongText
+    text="key"
+  />
+</ReadOnlyMappingKeystyles__StyledTag>
+`;

@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: TemplateVersions should correctly render column titles 1`] = `
+<div>
+  Title
+</div>
+`;
+
+exports[`Container: TemplateVersions should correctly render column titles 2`] = `
+<div>
+  Date
+</div>
+`;
+
+exports[`Container: TemplateVersions should correctly render column titles 3`] = `
+<div>
+  Description
+</div>
+`;
+
+exports[`Container: TemplateVersions should correctly render column titles 4`] = `<div />`;
+
+exports[`Container: TemplateVersions should correctly render columns items for version 1`] = `
+<div>
+  <TemplateVersionTitle
+    defaultTitle="test"
+    isEditable={false}
+    placeholder="put version name"
+    updateVersionName={[Function]}
+  />
+</div>
+`;
+
+exports[`Container: TemplateVersions should correctly render columns items for version 2`] = `
+<div>
+  <LongText
+    text="04/21/2023, 12:00 AM"
+  />
+</div>
+`;
+
+exports[`Container: TemplateVersions should correctly render columns items for version 3`] = `
+<div>
+  <LongText />
+</div>
+`;
+
+exports[`Container: TemplateVersions should correctly render columns items for version 4`] = `
+<div>
+  <TemplateVersionsRowCommands
+    refreshTable={[Function]}
+    setEditableVersionId={[MockFunction]}
+    templateId="1"
+    versionId="1"
+  />
+</div>
+`;
+
+exports[`Container: TemplateVersions should render correctly with templates versions 1`] = `
+<Fragment>
+  <TemplateNavHeader
+    getTemplateVersions={[Function]}
+  />
+  <Component
+    columns={
+      Array [
+        Object {
+          "dataIndex": "name",
+          "render": [Function],
+          "sorter": [Function],
+          "title": "Title",
+        },
+        Object {
+          "dataIndex": "createdAt",
+          "render": [Function],
+          "sorter": [Function],
+          "title": "Date",
+        },
+        Object {
+          "dataIndex": "description",
+          "render": [Function],
+          "sorter": [Function],
+          "title": "Description",
+        },
+        Object {
+          "dataIndex": "id",
+          "disableResize": true,
+          "render": [Function],
+          "width": 32,
+        },
+      ]
+    }
+    data={
+      Array [
+        TemplateVersion {
+          "createdAt": "2023-04-21",
+          "id": "1",
+          "name": "test",
+          "originalFiles": Array [],
+          "referencePages": Array [],
+          "templateId": "templateID",
+        },
+      ]
+    }
+    fetching={false}
+    onRow={[Function]}
+    pagination={true}
+    rowKey={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`Container: TemplateVersions should render correctly without data 1`] = `
+<Fragment>
+  <TemplateNavHeader
+    getTemplateVersions={[Function]}
+  />
+  <Component
+    columns={
+      Array [
+        Object {
+          "dataIndex": "name",
+          "render": [Function],
+          "sorter": [Function],
+          "title": "Title",
+        },
+        Object {
+          "dataIndex": "createdAt",
+          "render": [Function],
+          "sorter": [Function],
+          "title": "Date",
+        },
+        Object {
+          "dataIndex": "description",
+          "render": [Function],
+          "sorter": [Function],
+          "title": "Description",
+        },
+        Object {
+          "dataIndex": "id",
+          "disableResize": true,
+          "render": [Function],
+          "width": 32,
+        },
+      ]
+    }
+    data={Array []}
+    fetching={false}
+    onRow={[Function]}
+    pagination={true}
+    rowKey={[Function]}
+  />
+</Fragment>
+`;

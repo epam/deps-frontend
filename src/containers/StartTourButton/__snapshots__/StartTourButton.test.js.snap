@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: StartTourButton should render StartTourButton component correctly 1`] = `
+<div>
+  <MockComponent
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Component: StartTourButton should render correctly 1`] = `
+<ErrorBoundary
+  localBoundary={[Function]}
+>
+  <ModuleLoader
+    url="mockUrl"
+  >
+    <Component />
+  </ModuleLoader>
+</ErrorBoundary>
+`;

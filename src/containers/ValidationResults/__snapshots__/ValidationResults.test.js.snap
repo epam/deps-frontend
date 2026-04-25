@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ValidationResults should render correct layout 1`] = `
+<Dropdown
+  dropdownRender={[Function]}
+  trigger={
+    Array [
+      "click",
+    ]
+  }
+>
+  <Badge
+    color="#FF5645"
+    count={1}
+    size="small"
+  >
+    <ValidationResultsstyles__StyledButton
+      errors={
+        Array [
+          Object {
+            "documentId": "mockId",
+            "errors": Array [
+              "Test error message",
+            ],
+            "fieldCode": "glElevation",
+            "warnings": Array [
+              "Test warning message",
+            ],
+          },
+        ]
+      }
+      warnings={
+        Array [
+          Object {
+            "documentId": "mockId",
+            "errors": Array [
+              "Test error message",
+            ],
+            "fieldCode": "glElevation",
+            "warnings": Array [
+              "Test warning message",
+            ],
+          },
+        ]
+      }
+    >
+      <CircleExclamationIcon />
+    </ValidationResultsstyles__StyledButton>
+  </Badge>
+</Dropdown>
+`;
+
+exports[`Component: ValidationResults should render dropdown menu correctly 1`] = `
+<div>
+  <ValidationResultsstyles__StyledMenu
+    trigger="click"
+  >
+    <ValidationResultsstyles__MenuItemGroup
+      title="Errors:"
+    >
+      <ValidationResultsstyles__StyledMenuItem
+        $section="errors"
+        key="glElevation"
+        onClick={[Function]}
+      >
+        <ValidationResultsstyles__TitleWithIcon>
+          <ErrorIcon />
+          GL Elevation
+        </ValidationResultsstyles__TitleWithIcon>
+      </ValidationResultsstyles__StyledMenuItem>
+    </ValidationResultsstyles__MenuItemGroup>
+    <ValidationResultsstyles__MenuItemGroup
+      title="Warnings:"
+    >
+      <ValidationResultsstyles__StyledMenuItem
+        $section="warnings"
+        key="glElevation"
+        onClick={[Function]}
+      >
+        <ValidationResultsstyles__TitleWithIcon>
+          <WarningTriangleIcon />
+          GL Elevation
+        </ValidationResultsstyles__TitleWithIcon>
+      </ValidationResultsstyles__StyledMenuItem>
+    </ValidationResultsstyles__MenuItemGroup>
+  </ValidationResultsstyles__StyledMenu>
+</div>
+`;

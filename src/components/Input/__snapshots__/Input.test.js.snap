@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Input should render antd Input with and pass correctly props 1`] = `
+<Input
+  disabled={false}
+  innerRef={null}
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  onPressEnter={[MockFunction]}
+  placeholder="MOCK_PLACEHOLDER"
+  value="MOCK_VALUE"
+/>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: PrototypesCard should render correct layout 1`] = `
+<Spin
+  spinning={false}
+>
+  <Card
+    count={5}
+    icon={<PrototypeIcon />}
+    onClick={[Function]}
+    title="Prototypes"
+  />
+</Spin>
+`;

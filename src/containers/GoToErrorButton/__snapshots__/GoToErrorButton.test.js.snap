@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: GoToErrorButton should render GoToErrorButton with correct props 1`] = `
+<TextButtonstyles__TextButton
+  disabled={true}
+  onClick={[MockFunction]}
+>
+  Go To Error
+</TextButtonstyles__TextButton>
+`;

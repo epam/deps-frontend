@@ -1,0 +1,2 @@
+
+export { mapExtractedDataFieldToConsolidatedField } from './mapExtractedDataFieldToConsolidatedField'

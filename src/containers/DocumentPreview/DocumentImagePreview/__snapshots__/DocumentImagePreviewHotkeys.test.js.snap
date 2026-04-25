@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentImagePreviewHotkeys should render correct layout according to props 1`] = `
+<WindowListener
+  onKeyDown={[Function]}
+/>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: Table ConnectedComponent should render correct layout 1`] = `
+<Tablestyles__StyledTable>
+  <tbody>
+    <div />
+  </tbody>
+</Tablestyles__StyledTable>
+`;

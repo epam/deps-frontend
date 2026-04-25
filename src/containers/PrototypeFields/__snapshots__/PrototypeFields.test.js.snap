@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: PrototypeFields should render EditableFieldCard in case isEditMode prop is true 1`] = `
+<EditableFieldCard
+  field={
+    PrototypeField {
+      "confidential": false,
+      "fieldType": PrototypeFieldType {
+        "description": Object {},
+        "typeCode": "string",
+      },
+      "id": "fieldId",
+      "mapping": PrototypeFieldMapping {
+        "keys": Array [
+          "mappingKey1",
+          "mappingKey2",
+        ],
+        "mappingDataType": "string",
+        "mappingType": "one_to_one",
+      },
+      "name": "Test Field",
+      "order": 0,
+      "prototypeId": "prototypeId",
+      "readOnly": false,
+      "required": true,
+    }
+  }
+  isSaved={false}
+  key="fieldId"
+  removeField={[MockFunction]}
+  updatePrototypeField={[MockFunction]}
+/>
+`;
+
+exports[`Container: PrototypeFields should render the correct layout with default props 1`] = `
+<PrototypeFieldsstyles__Wrapper>
+  <PrototypeFieldsstyles__Header>
+    <PrototypeFieldsstyles__Title>
+      List of Fields
+    </PrototypeFieldsstyles__Title>
+    <PrototypeFieldsstyles__Controls>
+      <FieldsSearchInput
+        onChange={[Function]}
+        placeholder="Search Field"
+      />
+    </PrototypeFieldsstyles__Controls>
+  </PrototypeFieldsstyles__Header>
+  <PrototypeFieldsstyles__FieldsListWrapper
+    fieldsColumnsCount={2}
+  >
+    <ReadOnlyFieldCard
+      field={
+        PrototypeField {
+          "confidential": false,
+          "fieldType": PrototypeFieldType {
+            "description": Object {},
+            "typeCode": "string",
+          },
+          "id": "fieldId",
+          "mapping": PrototypeFieldMapping {
+            "keys": Array [
+              "mappingKey1",
+              "mappingKey2",
+            ],
+            "mappingDataType": "string",
+            "mappingType": "one_to_one",
+          },
+          "name": "Test Field",
+          "order": 0,
+          "prototypeId": "prototypeId",
+          "readOnly": false,
+          "required": true,
+        }
+      }
+      key="fieldId"
+    />
+    <ReadOnlyFieldCard
+      field={
+        PrototypeField {
+          "confidential": false,
+          "fieldType": PrototypeFieldType {
+            "description": Object {},
+            "typeCode": "string",
+          },
+          "id": "fieldId2",
+          "mapping": PrototypeFieldMapping {
+            "keys": Array [
+              "Count Key",
+            ],
+            "mappingDataType": "string",
+            "mappingType": "one_to_one",
+          },
+          "name": "Field Name",
+          "order": 0,
+          "prototypeId": "prototypeId2",
+          "readOnly": false,
+          "required": true,
+        }
+      }
+      key="fieldId2"
+    />
+  </PrototypeFieldsstyles__FieldsListWrapper>
+</PrototypeFieldsstyles__Wrapper>
+`;

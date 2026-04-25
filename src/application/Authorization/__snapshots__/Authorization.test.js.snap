@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Authorization should render component correctly 1`] = `
+<Suspense
+  fallback={
+    <CenteredSpin
+      spinning={true}
+    />
+  }
+>
+  <Switch>
+    <ErrorBoundRoute
+      exact={true}
+      path="/error/no-user-organisation"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/error/unauthorized"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/error/missed-core-services"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/"
+    >
+      <Connect(AuthorizationGuard)>
+        <BackendServicesGuard>
+          <OrganisationSettings>
+            <Root />
+            <TrialNotifier />
+          </OrganisationSettings>
+        </BackendServicesGuard>
+      </Connect(AuthorizationGuard)>
+    </ErrorBoundRoute>
+  </Switch>
+</Suspense>
+`;

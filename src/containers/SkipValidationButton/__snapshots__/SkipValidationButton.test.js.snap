@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: SkipValidationButton connected component should render correct layout 1`] = `
+<TextButtonstyles__TextButton
+  disabled={true}
+  onClick={[Function]}
+>
+  Skip Validation
+</TextButtonstyles__TextButton>
+`;

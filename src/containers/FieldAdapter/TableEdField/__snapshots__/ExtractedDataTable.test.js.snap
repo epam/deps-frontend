@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ExtractedDataTable should render correct layout 1`] = `
+<TableEdFieldstyles__TableEdFieldWrapper
+  hasErrors={true}
+  hasWarnings={true}
+>
+  <ExtractedDataHandsonTable
+    dtField={
+      DocumentTypeField {
+        "code": "table",
+        "documentTypeCode": "whole",
+        "fieldMeta": null,
+        "fieldType": "table",
+        "name": "Table",
+        "order": 0,
+        "pk": 2,
+        "required": false,
+      }
+    }
+    pageSize={1}
+    readOnly={false}
+    tableField={
+      ExtractedDataField {
+        "data": TableData {
+          "cells": Array [
+            Cell {
+              "confidence": -1,
+              "coordinates": Object {
+                "colspan": 1,
+                "column": 0,
+                "page": undefined,
+                "row": 0,
+                "rowspan": 1,
+              },
+              "pk": undefined,
+              "sourceBboxCoordinates": undefined,
+              "sourceTableCoordinates": undefined,
+              "tableCoordinates": undefined,
+              "value": "321",
+            },
+          ],
+          "columns": Array [
+            Object {
+              "x": 0,
+            },
+          ],
+          "coordinates": Object {
+            "h": 0.4,
+            "page": 1,
+            "w": 0.3,
+            "x": 0.1,
+            "y": 0.2,
+          },
+          "meta": null,
+          "paginatedRows": null,
+          "rows": Array [
+            Object {
+              "y": 0,
+            },
+          ],
+          "setIndex": null,
+          "sourceBboxCoordinates": null,
+          "sourceTableCoordinates": null,
+          "tableCoordinates": null,
+        },
+        "fieldPk": 2,
+      }
+    }
+    validation={
+      FieldValidation {
+        "crossFieldErrors": undefined,
+        "crossFieldWarnings": undefined,
+        "errors": Array [
+          Object {
+            "column": null,
+            "index": null,
+            "message": "test error",
+            "row": null,
+          },
+        ],
+        "warnings": Array [
+          Object {
+            "column": null,
+            "index": null,
+            "message": "test warning",
+            "row": null,
+          },
+        ],
+      }
+    }
+  />
+</TableEdFieldstyles__TableEdFieldWrapper>
+`;

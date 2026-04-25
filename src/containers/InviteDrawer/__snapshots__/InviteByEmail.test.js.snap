@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: InviteByEmail Connected Component should render correctly 1`] = `
+<Fragment>
+  <InviteByEmailstyles__InviteWrapper>
+    <InviteByEmailstyles__ControlWrapper>
+      <Tooltip
+        title="Add Email List"
+      >
+        <InviteByEmailstyles__StyledListEmailsButton
+          onClick={[Function]}
+        >
+          <EmailsListIcon />
+        </InviteByEmailstyles__StyledListEmailsButton>
+      </Tooltip>
+      <InviteByEmailstyles__InputWrapper>
+        <ForwardRef
+          onChange={[Function]}
+          placeholder="Enter Email"
+          value=""
+        />
+      </InviteByEmailstyles__InputWrapper>
+      <Tooltip
+        placement="topLeft"
+        title="Please Enter a Valid Email Format"
+      >
+        <InviteByEmailstyles__StyledAddEmailButton
+          disabled={true}
+          onClick={[Function]}
+        >
+          <PlusIcon />
+        </InviteByEmailstyles__StyledAddEmailButton>
+      </Tooltip>
+    </InviteByEmailstyles__ControlWrapper>
+    <InviteByEmailstyles__ButtonsWrapper>
+      <ForwardRef
+        disabled={true}
+        onClick={[Function]}
+        type="primary"
+      >
+        Send Invite(s)
+      </ForwardRef>
+    </InviteByEmailstyles__ButtonsWrapper>
+  </InviteByEmailstyles__InviteWrapper>
+  <EmailListDrawer
+    addContent={[Function]}
+    closeDrawer={[Function]}
+    visible={false}
+  />
+</Fragment>
+`;
+
+exports[`Container: InviteByEmail Connected Component should render correctly Clear All Button 1`] = `
+<Fragment>
+  <InviteByEmailstyles__InviteWrapper>
+    <InviteByEmailstyles__ControlWrapper>
+      <Tooltip
+        title="Add Email List"
+      >
+        <InviteByEmailstyles__StyledListEmailsButton
+          onClick={[Function]}
+        >
+          <EmailsListIcon />
+        </InviteByEmailstyles__StyledListEmailsButton>
+      </Tooltip>
+      <InviteByEmailstyles__InputWrapper>
+        <ForwardRef
+          onChange={[Function]}
+          placeholder="Enter Email"
+          value=""
+        />
+      </InviteByEmailstyles__InputWrapper>
+      <Tooltip
+        placement="topLeft"
+        title="Please Enter a Valid Email Format"
+      >
+        <InviteByEmailstyles__StyledAddEmailButton
+          disabled={true}
+          onClick={[Function]}
+        >
+          <PlusIcon />
+        </InviteByEmailstyles__StyledAddEmailButton>
+      </Tooltip>
+    </InviteByEmailstyles__ControlWrapper>
+    <InviteByEmailstyles__EmailsList>
+      <ForwardRef
+        key="test@example.com"
+        onClose={[Function]}
+        onDoubleClick={[Function]}
+      >
+        test@example.com
+      </ForwardRef>
+    </InviteByEmailstyles__EmailsList>
+    <InviteByEmailstyles__Hint>
+      Double click on the email to edit it
+    </InviteByEmailstyles__Hint>
+    <InviteByEmailstyles__ButtonsWrapper>
+      <ForwardRef
+        disabled={false}
+        onClick={[Function]}
+        type="primary"
+      >
+        Send Invite(s)
+      </ForwardRef>
+      <ForwardRef
+        onClick={[Function]}
+        type="link"
+      >
+        Clear All
+      </ForwardRef>
+    </InviteByEmailstyles__ButtonsWrapper>
+  </InviteByEmailstyles__InviteWrapper>
+  <EmailListDrawer
+    addContent={[Function]}
+    closeDrawer={[Function]}
+    visible={false}
+  />
+</Fragment>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: AddUser should render the correct layout 1`] = `
+<Fragment>
+  <div>
+    <p>
+      Add User functionality is available via the 'Add user' button in the right corner of the User Management Tab.
+  Here user can invite any person to the organization.
+    </p>
+    <p>
+      <b>
+        Invite by email
+      </b>
+    </p>
+    <p>
+      <b>
+        Step 1. 
+      </b>
+      Once user clicked 'Add user' button "Invite to the Organization" window appears.
+    </p>
+  </div>
+  <FrequentlyAskedQuestionsstyles__WrapperImg>
+    <AddUserstyles__StyledAddUserButtonImage />
+    <AddUserstyles__StyledInviteToTheOrganizationImage />
+  </FrequentlyAskedQuestionsstyles__WrapperImg>
+  <div>
+    <p>
+      <b>
+        Step 2. 
+      </b>
+      User can enter email address and add person to the organization by clicking 'Send invite' button.
+    </p>
+    <p>
+      <i>
+        Note: 
+      </i>
+      In case of empty email input 'Send Invite' button is disabled
+    </p>
+  </div>
+  <FrequentlyAskedQuestionsstyles__WrapperImg>
+    <AddUserstyles__StyledEnterEmailImage />
+    <AddUserstyles__StyledSendInviteImage />
+  </FrequentlyAskedQuestionsstyles__WrapperImg>
+  <div>
+    <p>
+      <b>
+        Step 3. 
+      </b>
+      Invited users, if they have already been in DEPS before, are added to the organization at once
+    </p>
+    <p>
+      <i>
+        Note: 
+      </i>
+      Users who have never been in DEPS are added to the invited users
+    </p>
+  </div>
+</Fragment>
+`;

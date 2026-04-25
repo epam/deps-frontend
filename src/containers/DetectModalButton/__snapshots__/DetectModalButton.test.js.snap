@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DetectModalButton should correct render button with tablePicker 1`] = `
+<Fragment>
+  <TextButtonstyles__TextButton
+    className="testClassName"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Test
+  </TextButtonstyles__TextButton>
+  <Connect(RegionAreaPicker)
+    message="test"
+    onCancel={[Function]}
+    onOk={[Function]}
+    title="Test"
+  />
+</Fragment>
+`;
+
+exports[`Component: DetectModalButton should correct render default state button 1`] = `
+<Fragment>
+  <TextButtonstyles__TextButton
+    className="testClassName"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Test
+  </TextButtonstyles__TextButton>
+</Fragment>
+`;

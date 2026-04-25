@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DefineDocumentType should render the correct layout 1`] = `
+<Fragment>
+  <div>
+    <p>
+      At the stage of classification, the DEPS recognizes document type (ID, contract, report, etc.)
+  and defines processing model. If the user did not specify the type of document when loading, the system itself performs the
+  classification. During the classification process user can see the 'Identification' state at the main page.
+    </p>
+    <p>
+      After successfully determining the document type, the next step is to extract the data.
+    </p>
+  </div>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <DefineDocumentTypestyles__StyledStateImage />
+    <DefineDocumentTypestyles__StyledUnknownTypeImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <div>
+      <p>
+        In case the document type is defined correctly, the data is extracted using document templates or ML models
+  existing in the DEPS.
+      </p>
+      <p>
+        If the document type cannot be determined automatically, the system shows the document type as 'Unknown'.
+      </p>
+    </div>
+    <DefineDocumentTypestyles__StyledDocumentTypeImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+</Fragment>
+`;

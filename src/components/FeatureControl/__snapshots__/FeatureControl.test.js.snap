@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components: FeatureControl should render children if feature is enabled: 1`] = `
+<div>
+  Mock Component
+</div>
+`;
+
+exports[`Components: FeatureControl should render null if feature is disabled: 1`] = `""`;

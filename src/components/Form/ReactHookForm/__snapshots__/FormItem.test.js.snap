@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FormItem should render FormItem with default props 1`] = `
+<FormItemstyles__Wrapper
+  $hasError={false}
+  $isCheckmarkField={false}
+>
+  <FormItemstyles__StyledFieldLabel
+    $isCheckmarkField={false}
+    name="mockLabel"
+    required={true}
+  />
+  <FormField
+    defaultValue="defaultValue"
+    label="mockLabel"
+    onChange={[Function]}
+    type="string"
+    value="defaultValue"
+  />
+  <FormItemstyles__ErrorMessage
+    data-error={false}
+  />
+</FormItemstyles__Wrapper>
+`;
+
+exports[`Component: FormItem should render children component correctly 1`] = `
+<FormItemstyles__Wrapper
+  $hasError={false}
+  $isCheckmarkField={false}
+>
+  <FormItemstyles__StyledFieldLabel
+    $isCheckmarkField={false}
+    name="mockLabel"
+    required={true}
+  />
+  <textarea />
+  <FormItemstyles__ErrorMessage
+    data-error={false}
+  />
+</FormItemstyles__Wrapper>
+`;
+
+exports[`Component: FormItem should render with hint correctly 1`] = `
+<FormItemstyles__Wrapper
+  $hasError={false}
+  $isCheckmarkField={false}
+>
+  <FormItemstyles__StyledFieldLabel
+    $isCheckmarkField={false}
+    name="mockLabel"
+    required={true}
+  />
+  <FormField
+    defaultValue="defaultValue"
+    label="mockLabel"
+    onChange={[Function]}
+    type="string"
+    value="defaultValue"
+  />
+  <FormItemstyles__HintMessage>
+    Test message
+  </FormItemstyles__HintMessage>
+  <FormItemstyles__ErrorMessage
+    data-error={false}
+  />
+</FormItemstyles__Wrapper>
+`;

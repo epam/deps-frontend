@@ -1,0 +1,2 @@
+
+export { mapGenAiFieldsToStudioFields } from './mapGenAiFieldsToStudioFields'

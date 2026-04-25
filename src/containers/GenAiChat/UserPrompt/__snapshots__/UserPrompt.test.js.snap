@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UserPrompt should render correct layout 1`] = `
+<UserPromptstyles__MessageWrapper
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <UserPromptstyles__MessageHeader>
+    <UserPromptstyles__MessageTime>
+      11:12
+    </UserPromptstyles__MessageTime>
+    <UserPromptstyles__MessageOwner>
+      You
+    </UserPromptstyles__MessageOwner>
+  </UserPromptstyles__MessageHeader>
+  <UserPromptstyles__Message>
+    test
+  </UserPromptstyles__Message>
+</UserPromptstyles__MessageWrapper>
+`;

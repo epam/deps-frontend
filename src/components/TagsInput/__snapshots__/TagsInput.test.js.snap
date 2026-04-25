@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TagsInput should render correct TagsInput with passed props 1`] = `
+<Fragment>
+  <ForwardRef
+    onBlur={[Function]}
+    onChange={[Function]}
+    onPressEnter={[Function]}
+    placeholder="mockPlaceholder"
+    value=""
+  />
+  <Tag
+    key="test1"
+    onClose={[Function]}
+    tag="test1"
+  />
+  <Tag
+    key="test2"
+    onClose={[Function]}
+    tag="test2"
+  />
+</Fragment>
+`;

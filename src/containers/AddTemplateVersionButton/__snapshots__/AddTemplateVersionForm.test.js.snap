@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: AddTemplateVersionForm should render correct layout 1`] = `
+<Form>
+  <FormItem
+    field={
+      Object {
+        "code": "description",
+        "placeholder": "Add some comments here",
+        "render": [Function],
+      }
+    }
+    key="description"
+    label="Description"
+    requiredMark={false}
+  />
+</Form>
+`;
+
+exports[`Container: AddTemplateVersionForm should render description field 1`] = `
+<TextArea
+  autoSize={
+    Object {
+      "minRows": 1,
+    }
+  }
+  maxLength={100}
+/>
+`;

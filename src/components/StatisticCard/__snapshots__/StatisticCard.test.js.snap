@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatisticCard component has correct layout 1`] = `
+<StatisticCardstyles__CardWrapper>
+  <Spin>
+    <StatisticCardstyles__StyledProgress
+      gapPosition="top"
+      percent={10}
+      status="normal"
+      strokeWidth={3}
+      trailColor="#BDC6D1"
+      type="circle"
+      width={55}
+    />
+    <StatisticCardstyles__CardInfoWrapper>
+      <StatisticCardstyles__CardTitle>
+        Mock Title
+      </StatisticCardstyles__CardTitle>
+      <StatisticCardstyles__CardValuesWrapper>
+        <StatisticCardstyles__CurrentValueWrapper>
+          1
+        </StatisticCardstyles__CurrentValueWrapper>
+        /
+        <StatisticCardstyles__TotalValueWrapper>
+          10
+        </StatisticCardstyles__TotalValueWrapper>
+      </StatisticCardstyles__CardValuesWrapper>
+    </StatisticCardstyles__CardInfoWrapper>
+  </Spin>
+</StatisticCardstyles__CardWrapper>
+`;

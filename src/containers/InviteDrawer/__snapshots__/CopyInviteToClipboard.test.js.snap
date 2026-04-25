@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: CopyInviteToClipboard ConnectedComponent should render correctly 1`] = `
+<styled.div>
+  <styled.span>
+    http://localhost/join/1111
+  </styled.span>
+  <SecondaryButtonstyles__SecondaryButton
+    onClick={[Function]}
+  >
+    Copy Link
+  </SecondaryButtonstyles__SecondaryButton>
+</styled.div>
+`;

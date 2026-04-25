@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: TemplatesCard should render correct layout 1`] = `
+<Spin
+  spinning={false}
+>
+  <Card
+    count={1}
+    icon={<LayerGroupIcon />}
+    onClick={[Function]}
+    title="Templates"
+  />
+</Spin>
+`;

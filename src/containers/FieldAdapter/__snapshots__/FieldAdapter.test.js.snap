@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Containers: FieldAdapter should render correct layout for local error boundary 1`] = `
+<StringEdField
+  active={true}
+  disabled={false}
+  dtField={
+    DocumentTypeField {
+      "code": "verticalReference",
+      "documentTypeCode": "mockDocumentTypeCode",
+      "fieldMeta": DocumentTypeFieldMeta {
+        "charBlacklist": "BC",
+        "charWhitelist": "A",
+      },
+      "fieldType": "string",
+      "name": "Vertical Reference",
+      "order": 1,
+      "pk": 1,
+      "required": false,
+    }
+  }
+  edField={
+    ExtractedDataField {
+      "data": FieldData {
+        "confidence": 0.69,
+        "coordinates": FieldCoordinates {
+          "h": 0.5,
+          "page": 2,
+          "w": 0.8,
+          "x": 0.19,
+          "y": 0.26,
+        },
+        "setIndex": null,
+        "sourceBboxCoordinates": null,
+        "sourceTableCoordinates": null,
+        "sourceTextCoordinates": null,
+        "tableCoordinates": null,
+        "value": 350,
+      },
+      "fieldPk": 1,
+    }
+  }
+  onChangeData={[MockFunction]}
+  validation={
+    FieldValidation {
+      "crossFieldErrors": undefined,
+      "crossFieldWarnings": undefined,
+      "errors": Array [
+        Object {
+          "column": 1,
+          "index": null,
+          "message": "MockError",
+          "row": 1,
+        },
+      ],
+      "warnings": Array [
+        Object {
+          "column": 0,
+          "index": null,
+          "message": "MockWarning",
+          "row": 0,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`Containers: FieldAdapter should render correctly 1`] = `
+<ErrorBoundary
+  key="verticalReference"
+  localBoundary={[Function]}
+>
+  <ModuleLoader
+    url="mockUrl"
+  >
+    <Component />
+  </ModuleLoader>
+</ErrorBoundary>
+`;
+
+exports[`Containers: FieldAdapter should render correctly in case of no customization 1`] = `
+<StringEdField
+  active={true}
+  disabled={false}
+  documentId="mockId"
+  dtField={
+    DocumentTypeField {
+      "code": "verticalReference",
+      "documentTypeCode": "mockDocumentTypeCode",
+      "fieldMeta": DocumentTypeFieldMeta {
+        "charBlacklist": "BC",
+        "charWhitelist": "A",
+      },
+      "fieldType": "string",
+      "name": "Vertical Reference",
+      "order": 1,
+      "pk": 1,
+      "required": false,
+    }
+  }
+  edField={
+    ExtractedDataField {
+      "data": FieldData {
+        "confidence": 0.69,
+        "coordinates": FieldCoordinates {
+          "h": 0.5,
+          "page": 2,
+          "w": 0.8,
+          "x": 0.19,
+          "y": 0.26,
+        },
+        "setIndex": null,
+        "sourceBboxCoordinates": null,
+        "sourceTableCoordinates": null,
+        "sourceTextCoordinates": null,
+        "tableCoordinates": null,
+        "value": 350,
+      },
+      "fieldPk": 1,
+    }
+  }
+  id="TestId"
+  validation={
+    FieldValidation {
+      "crossFieldErrors": undefined,
+      "crossFieldWarnings": undefined,
+      "errors": Array [
+        Object {
+          "column": 1,
+          "index": null,
+          "message": "MockError",
+          "row": 1,
+        },
+      ],
+      "warnings": Array [
+        Object {
+          "column": 0,
+          "index": null,
+          "message": "MockWarning",
+          "row": 0,
+        },
+      ],
+    }
+  }
+/>
+`;

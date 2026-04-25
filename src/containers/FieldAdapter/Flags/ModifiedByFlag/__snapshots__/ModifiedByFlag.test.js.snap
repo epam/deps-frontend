@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ModifiedByFlag should render correct layout 1`] = `
+<Flag
+  symbol="M"
+  title="Modified by modifiedByMock"
+  tooltipPlacement="top"
+  type="info"
+/>
+`;

@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Icon should render correct layout based on props 1`] = `<CaretUpOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 2`] = `<CaretDownOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 3`] = `<ic-16-success.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 4`] = `<ic-16-error.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 5`] = `
+<Iconsstyles__Icon>
+  <ic-32-comment.svg />
+</Iconsstyles__Icon>
+`;
+
+exports[`Component: Icon should render correct layout based on props 6`] = `<FaLayerGroup />`;
+
+exports[`Component: Icon should render correct layout based on props 7`] = `<arrow-down.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 8`] = `<ExclamationCircleOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 9`] = `<CiFileOn />`;
+
+exports[`Component: Icon should render correct layout based on props 10`] = `<file-image.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 11`] = `<file-pdf.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 12`] = `<file-jpg.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 13`] = `<file-mail.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 14`] = `
+<Iconsstyles__Icon>
+  <ic-32-info.svg />
+</Iconsstyles__Icon>
+`;
+
+exports[`Component: Icon should render correct layout based on props 15`] = `<AiFillInfoCircle />`;
+
+exports[`Component: Icon should render correct layout based on props 16`] = `<LeftOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 17`] = `<LoadingOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 18`] = `<ic-32-add-data.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 19`] = `<MinusOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 20`] = `<PlusOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 21`] = `
+<Iconsstyles__Icon>
+  <ic-32-question-circle.svg />
+</Iconsstyles__Icon>
+`;
+
+exports[`Component: Icon should render correct layout based on props 22`] = `<FaFilterCircleXmark />`;
+
+exports[`Component: Icon should render correct layout based on props 23`] = `<RightOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 24`] = `<ic-32-rotation-right.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 25`] = `<ic-32-rotation-left.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 26`] = `<SearchOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 27`] = `<FaGear />`;
+
+exports[`Component: Icon should render correct layout based on props 28`] = `<UploadIconstyles__StyledUploadIcon />`;
+
+exports[`Component: Icon should render correct layout based on props 29`] = `<FaUsers />`;
+
+exports[`Component: Icon should render correct layout based on props 30`] = `
+<Iconsstyles__Icon>
+  <ic-16-warning.svg />
+</Iconsstyles__Icon>
+`;
+
+exports[`Component: Icon should render correct layout based on props 31`] = `<emails-list.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 32`] = `
+<Iconsstyles__Icon>
+  <ic-24-delete-filled.svg />
+</Iconsstyles__Icon>
+`;
+
+exports[`Component: Icon should render correct layout based on props 33`] = `
+<Iconsstyles__Icon>
+  <FaArrowLeft />
+</Iconsstyles__Icon>
+`;
+
+exports[`Component: Icon should render correct layout based on props 34`] = `<FaBook />`;
+
+exports[`Component: Icon should render correct layout based on props 35`] = `<laptop.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 36`] = `<FaBan />`;
+
+exports[`Component: Icon should render correct layout based on props 37`] = `<FaCheck />`;
+
+exports[`Component: Icon should render correct layout based on props 38`] = `<FaChartPie />`;
+
+exports[`Component: Icon should render correct layout based on props 39`] = `<google-drive-logo.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 40`] = `<ic-32-key-value-pair.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 41`] = `<ic-18-checkbox.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 42`] = `<ic-18-date-field.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 43`] = `<ic-32-enum.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 44`] = `<FaEye />`;
+
+exports[`Component: Icon should render correct layout based on props 45`] = `<FaEyeSlash />`;
+
+exports[`Component: Icon should render correct layout based on props 46`] = `<ic-32-string.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 47`] = `<ic-32-table.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 48`] = `<FaArrowDown />`;
+
+exports[`Component: Icon should render correct layout based on props 49`] = `<FaArrowRotateLeft />`;
+
+exports[`Component: Icon should render correct layout based on props 50`] = `<FaSpinner />`;
+
+exports[`Component: Icon should render correct layout based on props 51`] = `<FaTag />`;
+
+exports[`Component: Icon should render correct layout based on props 52`] = `<shortLogo.svg />`;
+
+exports[`Component: Icon should render correct layout based on props 53`] = `<FaPaperPlane />`;
+
+exports[`Component: Icon should render correct layout based on props 54`] = `<FaCommentAlt />`;
+
+exports[`Component: Icon should render correct layout based on props 55`] = `<FaCommentMedical />`;
+
+exports[`Component: Icon should render correct layout based on props 56`] = `<FaPaperclip />`;
+
+exports[`Component: Icon should render correct layout based on props 57`] = `<FaCircleCheck />`;
+
+exports[`Component: Icon should render correct layout based on props 58`] = `<FaCopy />`;
+
+exports[`Component: Icon should render correct layout based on props 59`] = `<FaCheckDouble />`;
+
+exports[`Component: Icon should render correct layout based on props 60`] = `<HiDotsVertical />`;
+
+exports[`Component: Icon should render correct layout based on props 61`] = `<HiDownload />`;
+
+exports[`Component: Icon should render correct layout based on props 62`] = `<FaSlidersH />`;
+
+exports[`Component: Icon should render correct layout based on props 63`] = `<MenuOutlined />`;
+
+exports[`Component: Icon should render correct layout based on props 64`] = `<FaFolderClosed />`;
+
+exports[`Component: Icon should render correct layout based on props 65`] = `<FaNoteSticky />`;
+
+exports[`Component: Icon should render correct layout based on props 66`] = `<FaFileAlt />`;
+
+exports[`Component: Icon should render correct layout based on props 67`] = `<FaCalendarXmark />`;
+
+exports[`Component: Icon should render correct layout based on props 68`] = `<LuArrowDownToLine />`;
+
+exports[`Component: Icon should render correct layout based on props 69`] = `<LuArrowUpFromLine />`;
+
+exports[`Component: Icon should render correct layout based on props 70`] = `<FaCloudDownloadAlt />`;
+
+exports[`Component: Icon should render correct layout based on props 71`] = `<FaClipboard />`;
+
+exports[`Component: Icon should render correct layout based on props 72`] = `<FaScissors />`;
+
+exports[`Component: Icon should render correct layout based on props 73`] = `<FaFileCode />`;
+
+exports[`Component: Icon should render correct layout based on props 74`] = `<FaExpand />`;
+
+exports[`Component: Icon should render correct layout based on props 75`] = `<FaNewspaper />`;
+
+exports[`Component: Icon should render correct layout based on props 76`] = `<FaCompress />`;
+
+exports[`Component: Icon should render correct layout based on props 77`] = `<RiAiGenerate2 />`;
+
+exports[`Component: Icon should render correct layout based on props 78`] = `<FaCloud />`;

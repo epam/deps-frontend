@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: FieldPagination should render correct layout 1`] = `
+<FieldPaginationstyles__Wrapper>
+  <FieldPaginationstyles__Text>
+    Showing 1 to 10 of 10 results
+  </FieldPaginationstyles__Text>
+  <FieldPaginationstyles__PaginationWrapper>
+    <Pagination
+      current={1}
+      onChange={[MockFunction]}
+      pageSize={10}
+      pageSizeOptions={
+        Array [
+          15,
+          30,
+          45,
+          60,
+        ]
+      }
+      showSizeChanger={true}
+      total={10}
+    />
+    <GoToPageInput
+      goToPage={[MockFunction]}
+    />
+  </FieldPaginationstyles__PaginationWrapper>
+</FieldPaginationstyles__Wrapper>
+`;

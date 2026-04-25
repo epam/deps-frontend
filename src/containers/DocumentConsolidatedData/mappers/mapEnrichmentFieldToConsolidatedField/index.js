@@ -1,0 +1,2 @@
+
+export { mapEnrichmentFieldToConsolidatedField } from './mapEnrichmentFieldToConsolidatedField'

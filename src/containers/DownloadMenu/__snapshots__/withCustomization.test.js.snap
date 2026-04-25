@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HOC: withCustomization should render correct layout 1`] = `
+<MockComponent
+  getApiUrl={[Function]}
+/>
+`;

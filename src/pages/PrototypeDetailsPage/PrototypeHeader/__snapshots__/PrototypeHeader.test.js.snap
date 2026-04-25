@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: PrototypeHeader should render the correct controls layout if edit mode is enabled 1`] = `
+.c0 {
+  margin-left: auto;
+}
+
+<EditControlPanel
+  className="c0"
+  isSavingDisabled={false}
+  onCancel={[MockFunction]}
+  onSave={[MockFunction]}
+/>
+`;
+
+exports[`Component: PrototypeHeader should render the correct controls layout if edit mode is not enabled 1`] = `
+<PrototypeHeaderstyles__EditButton
+  onClick={[MockFunction]}
+  type="primary"
+>
+  Edit
+</PrototypeHeaderstyles__EditButton>
+`;
+
+exports[`Component: PrototypeHeader should render the correct layout with default props 1`] = `
+<PageNavigationHeader
+  parentPath="/document-types/mockId"
+  renderExtra={[Function]}
+  title="mockName"
+/>
+`;

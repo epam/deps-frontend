@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: BatchFieldsSelection should render correct layout 1`] = `
+<BatchFieldsSelectionstyles__SelectorsWrapper>
+  <BatchFieldsSelectionstyles__StyledSelectorLabel
+    disabled={true}
+    id="checkmark"
+    key="checkmark"
+  >
+    <CheckboxFieldIcon />
+    <BatchFieldsSelectionstyles__StyledText>
+      Checkbox
+    </BatchFieldsSelectionstyles__StyledText>
+    <Checkbox
+      checked={false}
+      disabled={true}
+      indeterminate={false}
+      onChange={[Function]}
+    />
+  </BatchFieldsSelectionstyles__StyledSelectorLabel>
+  <BatchFieldsSelectionstyles__StyledSelectorLabel
+    disabled={false}
+    id="date"
+    key="date"
+  >
+    <DateFieldIcon />
+    <BatchFieldsSelectionstyles__StyledText>
+      Date
+    </BatchFieldsSelectionstyles__StyledText>
+    <Checkbox
+      checked={false}
+      disabled={false}
+      indeterminate={false}
+      onChange={[Function]}
+    />
+  </BatchFieldsSelectionstyles__StyledSelectorLabel>
+  <BatchFieldsSelectionstyles__StyledSelectorLabel
+    disabled={true}
+    id="dict"
+    key="dict"
+  >
+    <KeyValuePairFieldIcon />
+    <BatchFieldsSelectionstyles__StyledText>
+      Key Value Pair
+    </BatchFieldsSelectionstyles__StyledText>
+    <Checkbox
+      checked={false}
+      disabled={true}
+      indeterminate={false}
+      onChange={[Function]}
+    />
+  </BatchFieldsSelectionstyles__StyledSelectorLabel>
+  <BatchFieldsSelectionstyles__StyledSelectorLabel
+    disabled={false}
+    id="enum"
+    key="enum"
+  >
+    <EnumFieldIcon />
+    <BatchFieldsSelectionstyles__StyledText>
+      Enumeration
+    </BatchFieldsSelectionstyles__StyledText>
+    <Checkbox
+      checked={true}
+      disabled={false}
+      indeterminate={false}
+      onChange={[Function]}
+    />
+  </BatchFieldsSelectionstyles__StyledSelectorLabel>
+  <BatchFieldsSelectionstyles__StyledSelectorLabel
+    disabled={false}
+    id="string"
+    key="string"
+  >
+    <StringFieldIcon />
+    <BatchFieldsSelectionstyles__StyledText>
+      String
+    </BatchFieldsSelectionstyles__StyledText>
+    <Checkbox
+      checked={false}
+      disabled={false}
+      indeterminate={true}
+      onChange={[Function]}
+    />
+  </BatchFieldsSelectionstyles__StyledSelectorLabel>
+  <BatchFieldsSelectionstyles__StyledSelectorLabel
+    disabled={true}
+    id="table"
+    key="table"
+  >
+    <TableFieldIcon />
+    <BatchFieldsSelectionstyles__StyledText>
+      Table
+    </BatchFieldsSelectionstyles__StyledText>
+    <Checkbox
+      checked={false}
+      disabled={true}
+      indeterminate={false}
+      onChange={[Function]}
+    />
+  </BatchFieldsSelectionstyles__StyledSelectorLabel>
+</BatchFieldsSelectionstyles__SelectorsWrapper>
+`;

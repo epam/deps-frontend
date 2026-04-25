@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Tabs should render correct layout according to props 1`] = `
+<Tabsstyles__Tabs
+  activeKey="mockKey1"
+  animated={false}
+  items={
+    Array [
+      Tab {
+        "children": <MockTab1Content />,
+        "hiddenPane": false,
+        "key": "mockKey1",
+        "label": "mock Title 1",
+      },
+    ]
+  }
+  onChange={[MockFunction]}
+  tabBarExtraContent={<MockExtra />}
+/>
+`;

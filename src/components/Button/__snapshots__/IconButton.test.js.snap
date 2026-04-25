@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: IconButton should render layout correctly according to props 1`] = `
+<IconButtonstyles__IconButton
+  disabled={false}
+>
+  <div>
+    Icon
+  </div>
+</IconButtonstyles__IconButton>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: OneDrivePicker should render correctly 1`] = `
+<Fragment>
+  <StorageButton
+    disabled={false}
+    icon={<OneDriveIcon />}
+    isActive={true}
+    onClick={[Function]}
+    storageName="One Drive"
+  />
+  <StorageUploadFilesList
+    files={
+      Array [
+        StorageFile {
+          "id": "id",
+          "mimeType": "application/pdf",
+          "name": "name.pdf",
+          "sizeBytes": 123,
+        },
+      ]
+    }
+    removeFile={[Function]}
+  />
+</Fragment>
+`;

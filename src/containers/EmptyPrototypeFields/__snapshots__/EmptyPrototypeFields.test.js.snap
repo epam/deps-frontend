@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EmptyPrototypeFields should render correct layout 1`] = `
+<EmptyPrototypeFieldsstyles__Wrapper>
+  <EmptyPrototypeFieldsstyles__Image />
+  <EmptyPrototypeFieldsstyles__ContentWrapper>
+    <EmptyPrototypeFieldsstyles__Title>
+      This section doesn't have any items
+    </EmptyPrototypeFieldsstyles__Title>
+  </EmptyPrototypeFieldsstyles__ContentWrapper>
+</EmptyPrototypeFieldsstyles__Wrapper>
+`;

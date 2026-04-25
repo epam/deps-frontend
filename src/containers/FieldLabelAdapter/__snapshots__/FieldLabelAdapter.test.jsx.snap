@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: FieldLabelAdapter should render correct layout 1`] = `
+<ErrorBoundary
+  localBoundary={[Function]}
+>
+  <ModuleLoader
+    url="mockUrl"
+  >
+    <Component />
+  </ModuleLoader>
+</ErrorBoundary>
+`;
+
+exports[`Container: FieldLabelAdapter should render correct layout if customization isn't provided 1`] = `<Component />`;

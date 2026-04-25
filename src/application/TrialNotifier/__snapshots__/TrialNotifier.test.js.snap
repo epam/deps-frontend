@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TrialNotifier should render correct layout 1`] = `
+<TrialDrawer
+  closeDrawer={[Function]}
+  visible={false}
+/>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Flag.js should render layout correctly according to props 1`] = `
+<div
+  class="flag"
+  style="background-color: rgb(255, 255, 255);"
+>
+  mockMark
+</div>
+`;

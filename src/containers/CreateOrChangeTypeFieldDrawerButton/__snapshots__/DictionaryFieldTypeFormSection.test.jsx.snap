@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DictionaryFieldTypeFormSection should render component correctly based on props 1`] = `
+Array [
+  <FormItem
+    field={
+      Object {
+        "code": "keyType",
+        "defaultValue": "string",
+        "options": Array [
+          SelectOption {
+            "text": "string",
+            "value": "string",
+          },
+        ],
+        "placeholder": "Select key type for each field",
+        "type": "enum",
+      }
+    }
+    key="keyType"
+    label="Key Type Field"
+  />,
+  <FormItem
+    field={
+      Object {
+        "code": "valueType",
+        "defaultValue": "string",
+        "options": Array [
+          SelectOption {
+            "text": "string",
+            "value": "string",
+          },
+        ],
+        "placeholder": "Select value type for each field",
+        "type": "enum",
+      }
+    }
+    key="valueType"
+    label="Value Type Field"
+  />,
+]
+`;

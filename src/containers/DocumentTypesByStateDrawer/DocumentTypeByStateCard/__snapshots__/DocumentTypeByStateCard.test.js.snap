@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentTypeByStateCard should render correctly 1`] = `
+<StatisticCard
+  currentValue={0}
+  isLoading={false}
+  renderExtra={[Function]}
+  title="name"
+  totalValue={100}
+/>
+`;

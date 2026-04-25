@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components: SearchInput should render Input with correct props 1`] = `
+<SearchInputstyles__StyledInput
+  allowClear={true}
+  autoFocus={false}
+  innerRef={
+    Object {
+      "current": null,
+    }
+  }
+  onChange={[Function]}
+  onClick={[MockFunction]}
+  onPressEnter={[Function]}
+  placeholder="Search"
+  suffix={
+    <SearchInputstyles__StyledSearchIcon
+      onClick={[Function]}
+    />
+  }
+  value="test"
+/>
+`;

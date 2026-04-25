@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component DocumentsByTypeChart should render correct layout 1`] = `
+<React.Fragment>
+  <DocumentsByTypeChartstyles__Wrapper>
+    <DocumentsByTypeChartstyles__Header>
+      <DocumentsByTypeChartstyles__Title>
+        Documents by Types
+      </DocumentsByTypeChartstyles__Title>
+      <DocumentsByTypeChartstyles__StyledPagination
+        current={1}
+        onChange={[Function]}
+        pageSize={10}
+        simple={true}
+        total={2}
+      />
+    </DocumentsByTypeChartstyles__Header>
+    <mockConstructor
+      data={Array []}
+      onClick={[Function]}
+    />
+  </DocumentsByTypeChartstyles__Wrapper>
+  <DocumentStatesByTypeDrawer
+    activeDocumentType={null}
+    closeDrawer={[Function]}
+  />
+</React.Fragment>
+`;

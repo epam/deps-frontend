@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentTypesByStateDrawer should render DocumentTypesByStateDrawer with correct props 1`] = `
+<DocumentTypesByStateDrawerstyles__StyledDrawer
+  destroyOnClose={true}
+  hasCloseIcon={false}
+  onClose={[MockFunction]}
+  open={true}
+  title={
+    <DocumentTypesByStateDrawerstyles__Title>
+      In Review
+    </DocumentTypesByStateDrawerstyles__Title>
+  }
+  width="36rem"
+>
+  <InView
+    id="testType1"
+    key="testType1"
+  >
+    <DocumentTypeByStateCard
+      documentType={
+        DocumentType {
+          "code": "testType1",
+          "engine": "Test Engine Code 1",
+          "extractionType": "ml",
+          "fields": Array [],
+          "id": "id1",
+          "language": "Test Language Code 1",
+          "name": "Test Type 1",
+        }
+      }
+      limitValue={0}
+      states={
+        Array [
+          "inReview",
+        ]
+      }
+    />
+  </InView>
+  <InView
+    id="testType2"
+    key="testType2"
+  >
+    <DocumentTypeByStateCard
+      documentType={
+        DocumentType {
+          "code": "testType2",
+          "engine": "Test Engine Code 2",
+          "extractionType": "template",
+          "fields": Array [],
+          "id": "id2",
+          "language": "Test Language Code 2",
+          "name": "Test Type 2",
+        }
+      }
+      limitValue={0}
+      states={
+        Array [
+          "inReview",
+        ]
+      }
+    />
+  </InView>
+</DocumentTypesByStateDrawerstyles__StyledDrawer>
+`;

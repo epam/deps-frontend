@@ -1,0 +1,120 @@
+{
+  "root": true,
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "babelOptions": {
+      "configFile": "./config/.babelrc"
+    },
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "standard",
+    "plugin:react-hooks/recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "@babel",
+    "indent-class-properties",
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "no-debugger": "error",
+    "brace-style": [
+      "error",
+      "1tbs"
+    ],
+    "computed-property-spacing": [
+      "error",
+      "never"
+    ],
+    "no-trailing-spaces": "error",
+    "keyword-spacing": "error",
+    "spaced-comment": [
+      "error",
+      "always"
+    ],
+    "vars-on-top": "error",
+    "no-undef": "error",
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "eol-last": "error",
+    "no-multiple-empty-lines": "error",
+    "guard-for-in": "error",
+    "no-nested-ternary": "error",
+    "no-eval": "error",
+    "no-with": "error",
+    "valid-typeof": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-continue": "error",
+    "no-console": "off",
+    "no-extra-semi": "error",
+    "no-unreachable": "error",
+    "no-unused-expressions": "error",
+    "max-len": [
+      "error",
+      160,
+      2
+    ],
+    "arrow-parens": "error",
+    "indent-class-properties/indent": [
+      "error",
+      2
+    ],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "never",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "function-call-argument-newline": ["error", "consistent"],
+    "react/forbid-prop-types": [
+      "error",
+      {
+        "forbid": [
+          "array",
+          "object"
+        ]
+      }
+    ],
+    "react-hooks/exhaustive-deps": "error"
+  }
+}

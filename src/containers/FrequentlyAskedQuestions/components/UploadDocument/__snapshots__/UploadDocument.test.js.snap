@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UploadDocument should render the correct layout 1`] = `
+<Fragment>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <div>
+      <p>
+        <b>
+          Upload files:
+        </b>
+      </p>
+      <p>
+        Upload functionality is available via the 'Upload Documents' button in the upper-right corner of the application.
+  Here user can upload one document at a time or a batch of documents.
+      </p>
+      <p>
+        <b>
+          How to upload files:
+        </b>
+      </p>
+      <p>
+        <b>
+          Step 1. 
+        </b>
+        Once user clicked 'Upload Documents' button 'Upload Documents' window appears.
+      </p>
+      <p>
+        <b>
+          Step 2. 
+        </b>
+        User can define document type, engine, and document language before uploading.
+  If no engine is selected, default engine (Tesseract) is used for data extraction.
+  If no language is selected, the default language will be English.
+      </p>
+      <p>
+        <b>
+          Step 3. 
+        </b>
+        User can also choose whether to send the document for data extraction immediately after loading or not.
+      </p>
+      <p>
+        <b>
+          Step 4. 
+        </b>
+        After confirming upload via clicking on 'Upload Documents' button user will return to the 'Documents' page
+  and able to see uploaded documents in the list.
+      </p>
+    </div>
+    <UploadDocumentstyles__StyledUploadImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <div>
+      <p>
+        <b>
+          Additional upload functionality
+        </b>
+      </p>
+      <p>
+        Users have the following additional options during document upload: 
+      </p>
+      <ol>
+        <li>
+          Add Documents: User able to select additional documents for upload.
+  The 'Add Documents' button appears, when at least one document is uploaded.
+        </li>
+        <li>
+          For a specific document:
+          <ul>
+            <li>
+              Remove Document. User can remove selected document.
+            </li>
+            <li>
+              Override Document Type. User can change selected document type for one or more documents.
+            </li>
+            <li>
+              Override Document Language. User can change selected document language for one or more documents.
+            </li>
+            <li>
+              Override Document Engine. User can change selected document engine for one or more documents.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <UploadDocumentstyles__StyledAdditionalUploadImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+</Fragment>
+`;

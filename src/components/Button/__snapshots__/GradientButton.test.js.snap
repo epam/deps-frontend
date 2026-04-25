@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: GradientButton should render PrimaryGradientButton button according to prop 1`] = `
+<GradientButtonstyles__PrimaryGradientButton
+  type="primary"
+/>
+`;
+
+exports[`Component: GradientButton should render SecondaryGradientButton button according to prop 1`] = `
+<GradientButtonstyles__SecondaryGradientButton
+  type="ghost"
+/>
+`;

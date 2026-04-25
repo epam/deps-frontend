@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ImageViewer should render ImageViewer with correct props 1`] = `
+<ImageViewerstyles__ImageViewerContainer>
+  <ImageViewerstyles__Controls>
+    <ImageViewerstyles__LeftControls>
+      <FeatureControl
+        featureName="SHOW_NOT_IMPLEMENTED"
+      >
+        <ForwardRef
+          icon={<MarkupIcon />}
+        />
+        <ForwardRef
+          icon={<LabelingIcon />}
+        />
+        <ForwardRef
+          icon={<LabelIcon />}
+        />
+        <ImageViewerstyles__CommandsSeparator />
+        <ForwardRef
+          icon={<ContrastIcon />}
+        />
+        <ForwardRef
+          icon={<BrightnessIcon />}
+        />
+        <ImageViewerstyles__CommandsSeparator />
+      </FeatureControl>
+      <ForwardRef
+        disabled={false}
+        icon={<RotateLeftIcon />}
+        onClick={[Function]}
+      />
+      <ForwardRef
+        disabled={false}
+        icon={<RotateRightIcon />}
+        onClick={[Function]}
+      />
+      <ImageViewerstyles__CommandsSeparator />
+      <ImageViewerstyles__Slider
+        disabled={false}
+        max={600}
+        min={50}
+        onChange={[Function]}
+        step={10}
+        value={100}
+        valuePrefix="%"
+      />
+      <ImageViewerstyles__CommandsSeparator />
+    </ImageViewerstyles__LeftControls>
+    <ImageViewerstyles__RightControls />
+  </ImageViewerstyles__Controls>
+  <ResizableCanvas
+    imageUrl="http://mock.png"
+    polygons={Array []}
+    rotationAngle={0}
+    scaleConfig={
+      Object {
+        "max": 6,
+        "min": 0.5,
+        "onChange": [Function],
+        "step": 0.1,
+        "value": 1,
+      }
+    }
+    scalingToPointFeature={true}
+  />
+</ImageViewerstyles__ImageViewerContainer>
+`;

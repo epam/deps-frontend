@@ -1,0 +1,62 @@
+[
+  {
+    "fieldName": "OneWordField",
+    "data": [
+      {
+        "value": "OBS_MOCK",
+        "coordinates": {
+          "y": 0.199813831587,
+          "x": 0.500665925258,
+          "w": 0.186832213697,
+          "h": 0.02420217752,
+          "page": 1
+        }
+      }
+    ]
+  },
+  {
+    "fieldName": "MultiWordField",
+    "data": [
+      {
+        "value": "Alpha Beta",
+        "coordinates": {
+          "y": 0.3,
+          "x": 0.1,
+          "w": 0.2,
+          "h": 0.02,
+          "page": 1
+        }
+      }
+    ]
+  },
+  {
+    "fieldName": "MultiLineField",
+    "data": [
+      {
+        "value": "Line\nOne",
+        "coordinates": {
+          "y": 0.35,
+          "x": 0.1,
+          "w": 0.15,
+          "h": 0.05,
+          "page": 1
+        }
+      }
+    ]
+  },
+  {
+    "fieldName": "BigBlockField",
+    "data": [
+      {
+        "value": "Short block text",
+        "coordinates": {
+          "y": 0.45,
+          "x": 0.1,
+          "w": 0.35,
+          "h": 0.03,
+          "page": 1
+        }
+      }
+    ]
+  }
+]

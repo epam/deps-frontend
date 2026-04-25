@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentFileUploadItem should render ListItem with correct props 1`] = `
+<DocumentFileUploadItemstyles__ListItem
+  actions={false}
+>
+  <DocumentFileUploadItemstyles__ListMeta
+    avatar={
+      <Avatar
+        size="large"
+      >
+        <DocumentFileUploadItemstyles__FileIcon>
+          <FileImageIcon />
+        </DocumentFileUploadItemstyles__FileIcon>
+      </Avatar>
+    }
+    description="74 KB"
+    title={
+      <span
+        title="mockName.pdf"
+      >
+        mockName.pdf
+      </span>
+    }
+  />
+  <DocumentFileUploadItemstyles__ListContent>
+    <Progress
+      percent={90}
+    />
+  </DocumentFileUploadItemstyles__ListContent>
+</DocumentFileUploadItemstyles__ListItem>
+`;

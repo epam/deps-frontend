@@ -1,0 +1,17 @@
+.flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.6rem;
+  width: 2.4rem;
+  margin: 0.5rem;
+  line-height: 1.2rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 2px;
+  cursor: default;
+  text-overflow: initial;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

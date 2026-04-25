@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentsStatesLegend should render correct layout with correct props 1`] = `
+<List>
+  <DocumentsStatesLegendstyles__ListItem
+    key="test"
+  >
+    <Meta
+      avatar={
+        <DocumentsStatesLegendstyles__ListStyleType
+          color="red"
+        />
+      }
+      title={
+        <DocumentsStatesLegendstyles__TitleWrapper>
+          test
+          <DocumentsStatesLegendstyles__TitleValue>
+            123
+          </DocumentsStatesLegendstyles__TitleValue>
+        </DocumentsStatesLegendstyles__TitleWrapper>
+      }
+    />
+  </DocumentsStatesLegendstyles__ListItem>
+</List>
+`;

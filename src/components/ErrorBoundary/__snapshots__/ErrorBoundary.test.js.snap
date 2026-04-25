@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ErrorBoundary should render default Something went wrong 1`] = `
+<h1>
+  Something went wrong.
+</h1>
+`;
+
+exports[`Component: ErrorBoundary should render default local boundary from props 1`] = `
+<div>
+  Local boundary
+</div>
+`;

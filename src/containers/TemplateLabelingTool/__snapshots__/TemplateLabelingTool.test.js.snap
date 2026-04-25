@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: TemplateLabelingTool ConnectedComponent should render CreateOrChangeTypeFieldDrawerButton when call getAddFieldForm method 1`] = `
+<div>
+  <CreateOrChangeTypeFieldDrawerButton
+    allowedFieldTypes={
+      Array [
+        "string",
+        "checkmark",
+        "date",
+      ]
+    }
+    onSave={[MockFunction]}
+  >
+    Test
+  </CreateOrChangeTypeFieldDrawerButton>
+</div>
+`;
+
+exports[`Container: TemplateLabelingTool ConnectedComponent should render correct layout 1`] = `
+<Fragment>
+  <LabelingTool
+    config={
+      Object {
+        "api": Object {
+          "addFieldForm": [Function],
+          "close": [Function],
+          "getImage": [Function],
+          "notify": Object {
+            "error": [MockFunction],
+          },
+          "saveMarkup": [Function],
+        },
+        "document": Object {
+          "extraName": "MarketingContract",
+          "name": "versionName",
+          "pages": Array [
+            "http://mockUrl.com/v5/file/testBlob",
+          ],
+        },
+        "events": Object {
+          "onClose": [Function],
+        },
+        "fields": Array [
+          Field {
+            "code": "firstCode",
+            "fieldType": "string",
+            "name": "firstField",
+            "required": false,
+          },
+          Field {
+            "code": "secondCode",
+            "fieldType": "string",
+            "name": "secondField",
+            "required": false,
+          },
+        ],
+        "markup": Object {
+          "1": Object {},
+        },
+        "settings": Object {
+          "features": Array [
+            "paging",
+            "export",
+            "import",
+            "manageFields",
+            "multiAssignLabels",
+          ],
+          "mode": "markup",
+          "panels": Array [
+            "TOOLBAR",
+            "MARKUP_SIDEBAR",
+            "LEFT_SIDEBAR",
+          ],
+          "tools": Array [
+            "label",
+            "pointer",
+            "grabbing",
+          ],
+        },
+      }
+    }
+  />
+  <LocationChange
+    onDeactivate={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`Container: TemplateLabelingTool ConnectedComponent should render spinner 1`] = `
+<CenteredSpin
+  spinning={true}
+/>
+`;

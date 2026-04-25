@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ResizableCanvas should render correct layout 1`] = `
+<SizeMe(Component)
+  onSize={[Function]}
+>
+  <ImageViewerstyles__CanvasViewerContainer>
+    <Canvas
+      imageUrl="http://sample.jpeg"
+    />
+  </ImageViewerstyles__CanvasViewerContainer>
+</SizeMe(Component)>
+`;

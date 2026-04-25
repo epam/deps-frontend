@@ -1,0 +1,1029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: KeyValuePairEdField should render correct layout 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="kv0"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="KV"
+        required={false}
+      />
+      <KeyValuePairEdFieldstyles__InfoWrapperCell>
+        <Flags
+          comments={null}
+        />
+        <PromptPreviewButton />
+      </KeyValuePairEdFieldstyles__InfoWrapperCell>
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={false}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              id="kv0"
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label key verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={60}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.6,
+                "coordinates": FieldCoordinates {
+                  "h": 3,
+                  "page": 1,
+                  "w": 3,
+                  "x": 3,
+                  "y": 3,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={false}
+          hasWarnings={true}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label value verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={30}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.3,
+                "coordinates": FieldCoordinates {
+                  "h": 4,
+                  "page": 1,
+                  "w": 4,
+                  "x": 4,
+                  "y": 4,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "kv",
+            "documentTypeCode": "whole",
+            "fieldMeta": DictFieldMeta {
+              "keyMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "keyType": "string",
+              "valueMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "valueType": "string",
+            },
+            "fieldType": "dict",
+            "name": "KV",
+            "order": 0,
+            "pk": 726,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": DictFieldData {
+              "key": FieldData {
+                "confidence": 0.6,
+                "coordinates": FieldCoordinates {
+                  "h": 3,
+                  "page": 1,
+                  "w": 3,
+                  "x": 3,
+                  "y": 3,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "value": FieldData {
+                "confidence": 0.3,
+                "coordinates": FieldCoordinates {
+                  "h": 4,
+                  "page": 1,
+                  "w": 4,
+                  "x": 4,
+                  "y": 4,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+            },
+            "fieldPk": 10,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        Object {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "key",
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "value",
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;
+
+exports[`Container: KeyValuePairEdField should render correct layout if field has multiple coordinates 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="kv0"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="KV"
+        required={false}
+      />
+      <KeyValuePairEdFieldstyles__InfoWrapperCell>
+        <Flags
+          comments={null}
+        />
+        <PromptPreviewButton />
+      </KeyValuePairEdFieldstyles__InfoWrapperCell>
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={false}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              id="kv0"
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label key verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={60}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.6,
+                "coordinates": Array [
+                  FieldCoordinates {
+                    "h": 3,
+                    "page": 1,
+                    "w": 3,
+                    "x": 3,
+                    "y": 3,
+                  },
+                  FieldCoordinates {
+                    "h": 3,
+                    "page": 1,
+                    "w": 3,
+                    "x": 3,
+                    "y": 3,
+                  },
+                ],
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={false}
+          hasWarnings={true}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label value verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={30}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.3,
+                "coordinates": FieldCoordinates {
+                  "h": 4,
+                  "page": 1,
+                  "w": 4,
+                  "x": 4,
+                  "y": 4,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "kv",
+            "documentTypeCode": "whole",
+            "fieldMeta": DictFieldMeta {
+              "keyMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "keyType": "string",
+              "valueMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "valueType": "string",
+            },
+            "fieldType": "dict",
+            "name": "KV",
+            "order": 0,
+            "pk": 726,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": DictFieldData {
+              "key": FieldData {
+                "confidence": 0.6,
+                "coordinates": Array [
+                  FieldCoordinates {
+                    "h": 3,
+                    "page": 1,
+                    "w": 3,
+                    "x": 3,
+                    "y": 3,
+                  },
+                  FieldCoordinates {
+                    "h": 3,
+                    "page": 1,
+                    "w": 3,
+                    "x": 3,
+                    "y": 3,
+                  },
+                ],
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "value": FieldData {
+                "confidence": 0.3,
+                "coordinates": FieldCoordinates {
+                  "h": 4,
+                  "page": 1,
+                  "w": 4,
+                  "x": 4,
+                  "y": 4,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+            },
+            "fieldPk": 10,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        Object {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "key",
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "value",
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;
+
+exports[`Container: KeyValuePairEdField should render correct layout if field has multiple tableCoordinates 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="kv0"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="KV"
+        required={false}
+      />
+      <KeyValuePairEdFieldstyles__InfoWrapperCell>
+        <Flags
+          comments={null}
+        />
+        <PromptPreviewButton />
+      </KeyValuePairEdFieldstyles__InfoWrapperCell>
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={false}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              id="kv0"
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label key verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={60}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.6,
+                "coordinates": null,
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={false}
+          hasWarnings={true}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label value verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={30}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.3,
+                "coordinates": null,
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                      Array [
+                        2,
+                        3,
+                        4,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                      Array [
+                        2,
+                        3,
+                        4,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "kv",
+            "documentTypeCode": "whole",
+            "fieldMeta": DictFieldMeta {
+              "keyMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "keyType": "string",
+              "valueMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "valueType": "string",
+            },
+            "fieldType": "dict",
+            "name": "KV",
+            "order": 0,
+            "pk": 726,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": DictFieldData {
+              "key": FieldData {
+                "confidence": 0.6,
+                "coordinates": null,
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "value": FieldData {
+                "confidence": 0.3,
+                "coordinates": null,
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                      Array [
+                        2,
+                        3,
+                        4,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                      Array [
+                        2,
+                        3,
+                        4,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+            },
+            "fieldPk": 10,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        Object {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "key",
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "value",
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;
+
+exports[`Container: KeyValuePairEdField should render correct layout if key or value has validation errors and warnings 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="kv0"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="KV"
+        required={false}
+      />
+      <KeyValuePairEdFieldstyles__InfoWrapperCell>
+        <Flags
+          comments={null}
+        />
+        <PromptPreviewButton />
+      </KeyValuePairEdFieldstyles__InfoWrapperCell>
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={false}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              id="kv0"
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label key verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={60}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.6,
+                "coordinates": FieldCoordinates {
+                  "h": 3,
+                  "page": 1,
+                  "w": 3,
+                  "x": 3,
+                  "y": 3,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldstyles__Element>
+        <KeyValuePairEdFieldstyles__StyledFieldInputWrapper
+          disabled={false}
+          hasErrors={false}
+          hasWarnings={true}
+        >
+          <ExpandableContainer>
+            <DocumentFieldstyles__StyledTextAreaField
+              disabled={false}
+              onChange={[MockFunction]}
+              onFocus={[MockFunction]}
+              value="label value verticalReference content"
+            />
+          </ExpandableContainer>
+          <DocumentFieldstyles__TextAreaIconsWrapper>
+            <Flags
+              confidence={30}
+            />
+            <ToggleExpandIcon />
+          </DocumentFieldstyles__TextAreaIconsWrapper>
+        </KeyValuePairEdFieldstyles__StyledFieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.3,
+                "coordinates": FieldCoordinates {
+                  "h": 4,
+                  "page": 1,
+                  "w": 4,
+                  "x": 4,
+                  "y": 4,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+              "fieldPk": 726,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </KeyValuePairEdFieldstyles__Element>
+      <KeyValuePairEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "kv",
+            "documentTypeCode": "whole",
+            "fieldMeta": DictFieldMeta {
+              "keyMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "keyType": "string",
+              "valueMeta": DocumentTypeFieldMeta {
+                "charBlacklist": null,
+                "charWhitelist": null,
+              },
+              "valueType": "string",
+            },
+            "fieldType": "dict",
+            "name": "KV",
+            "order": 0,
+            "pk": 726,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": DictFieldData {
+              "key": FieldData {
+                "confidence": 0.6,
+                "coordinates": FieldCoordinates {
+                  "h": 3,
+                  "page": 1,
+                  "w": 3,
+                  "x": 3,
+                  "y": 3,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label key verticalReference content",
+              },
+              "value": FieldData {
+                "confidence": 0.3,
+                "coordinates": FieldCoordinates {
+                  "h": 4,
+                  "page": 1,
+                  "w": 4,
+                  "x": 4,
+                  "y": 4,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "label value verticalReference content",
+              },
+            },
+            "fieldPk": 10,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        Object {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "key",
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": "value",
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;

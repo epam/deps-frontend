@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Drawer should render correct layout based on the props 1`] = `
+<Drawerstyles__StyledDrawer
+  closable={false}
+  data-testid="drawer"
+  destroyOnClose={false}
+  getContainer={false}
+  onClose={[MockFunction]}
+  open={true}
+  placement="right"
+  title="Test Drawer"
+  width="40rem"
+>
+  <div
+    key="command1"
+  >
+    Drawer
+  </div>
+</Drawerstyles__StyledDrawer>
+`;

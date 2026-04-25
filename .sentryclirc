@@ -1,0 +1,3 @@
+[http]
+check_ssl_revoke=false
+verify_ssl=false

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Tooltip should render layout correctly according to props 1`] = `
+<div
+  class="tooltip"
+>
+  <ul>
+    <li>
+      • message1
+    </li>
+    <li>
+      • message2
+    </li>
+    <li>
+      • message3
+    </li>
+  </ul>
+</div>
+`;

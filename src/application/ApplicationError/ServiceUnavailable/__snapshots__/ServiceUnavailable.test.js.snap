@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ServiceUnavailable should render the correct layout 1`] = `
+<Layout>
+  <ErrorLayout
+    heading="Service Unavailable"
+    info="We are working to resolve this issue and should be back up and running soon."
+    statusCode={503}
+  />
+</Layout>
+`;

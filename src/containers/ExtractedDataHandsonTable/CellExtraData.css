@@ -1,0 +1,7 @@
+.cell_extraData {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: end;
+  justify-items: end;
+  justify-content: end;
+}

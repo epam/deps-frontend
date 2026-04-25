@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: OutputProfile should render correct layout 1`] = `
+<OutputProfileByExtractorstyles__Wrapper>
+  <OutputProfileByExtractorstyles__Header>
+    <OutputProfileByExtractorstyles__Title>
+      All fields
+    </OutputProfileByExtractorstyles__Title>
+    <ProfileFieldsSearch
+      fields={
+        Array [
+          Object {
+            "field": DocumentTypeField {
+              "code": "code",
+              "documentTypeCode": "code",
+              "fieldMeta": Object {},
+              "fieldType": "enum",
+              "name": "name",
+              "order": 1,
+              "pk": "pk",
+              "required": false,
+            },
+            "isInProfile": false,
+          },
+        ]
+      }
+      isEditMode={false}
+      onFieldToggle={[Function]}
+    />
+  </OutputProfileByExtractorstyles__Header>
+  <BatchFieldsSelection
+    excludeFields={[Function]}
+    fields={
+      Array [
+        Object {
+          "field": DocumentTypeField {
+            "code": "code",
+            "documentTypeCode": "code",
+            "fieldMeta": Object {},
+            "fieldType": "enum",
+            "name": "name",
+            "order": 1,
+            "pk": "pk",
+            "required": false,
+          },
+          "isInProfile": false,
+        },
+      ]
+    }
+    includeFields={[Function]}
+    isEditMode={false}
+  />
+  <FieldsList
+    fields={
+      Array [
+        Object {
+          "field": DocumentTypeField {
+            "code": "code",
+            "documentTypeCode": "code",
+            "fieldMeta": Object {},
+            "fieldType": "enum",
+            "name": "name",
+            "order": 1,
+            "pk": "pk",
+            "required": false,
+          },
+          "isInProfile": false,
+        },
+      ]
+    }
+    isEditMode={false}
+    onFieldToggle={[Function]}
+    profileFields={Array []}
+    setProfileFields={[MockFunction]}
+  />
+</OutputProfileByExtractorstyles__Wrapper>
+`;

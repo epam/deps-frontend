@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: RegionAreaPicker should render layout correctly 1`] = `
+<Modal
+  maskClosable={false}
+  okText="Select"
+  onCancel={[MockFunction]}
+  onOk={[Function]}
+  open={true}
+  title="MOCK_TITLE"
+  width="90vw"
+>
+  <h3>
+    MOCK_MESSAGE
+  </h3>
+  <ImageViewer
+    fetching={false}
+    imageUrl="mock/imgpath"
+    isFixedSize={true}
+    onRotate={[Function]}
+    renderOverlay={[Function]}
+    renderPageSwitcher={[MockFunction]}
+  />
+</Modal>
+`;

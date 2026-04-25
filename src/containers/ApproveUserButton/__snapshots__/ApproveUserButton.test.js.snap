@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ApproveUserButton ConnectedComponent should render correct layout 1`] = `
+<TableActionIcon
+  icon={<UserCheckIcon />}
+  onClick={[Function]}
+  tooltip={
+    Object {
+      "title": "Approve User",
+    }
+  }
+/>
+`;

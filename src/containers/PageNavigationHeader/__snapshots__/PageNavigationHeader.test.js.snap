@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: PageNavigationHeader should render the correct layout 1`] = `
+<PageNavigationHeaderstyles__Wrapper>
+  <PageNavigationHeaderstyles__Column>
+    <BackToSourceButton
+      sourcePath="mockPath"
+    />
+    <PageNavigationHeaderstyles__Title
+      ellipsis={
+        Object {
+          "tooltip": "mockTitle",
+        }
+      }
+      level={2}
+    >
+      mockTitle
+    </PageNavigationHeaderstyles__Title>
+  </PageNavigationHeaderstyles__Column>
+  <div>
+    extra
+  </div>
+</PageNavigationHeaderstyles__Wrapper>
+`;

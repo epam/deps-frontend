@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ToggleButton should render correct layout 1`] = `
+<ToggleButtonstyles__ButtonWrapper>
+  <ToggleButtonstyles__StyledButton
+    onClick={[MockFunction]}
+    type="ghost"
+  >
+    Collapse
+  </ToggleButtonstyles__StyledButton>
+</ToggleButtonstyles__ButtonWrapper>
+`;

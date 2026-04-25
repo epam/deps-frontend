@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: NoData should render correct layout with expected image prop value 1`] = `
+<NoDatastyles__NoDataWrapper
+  data-testid="no-data"
+>
+  <ForwardRef />
+</NoDatastyles__NoDataWrapper>
+`;

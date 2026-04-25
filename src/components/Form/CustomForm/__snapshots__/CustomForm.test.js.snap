@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Form should render correct layout based on the props 1`] = `
+.c0 .ant-form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0;
+}
+
+.c0 .ant-form-item > .ant-form-item-label {
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.c0 .ant-form-item-label > label {
+  font-size: 1.6rem;
+}
+
+.c0 .ant-form-item {
+  margin: 0;
+}
+
+.c0 .ant-form-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+<div
+  className="c0"
+>
+  <ForwardRef(InternalForm)
+    form={
+      Object {
+        "__INTERNAL__": Object {
+          "itemRef": [Function],
+        },
+        "_init": true,
+        "getFieldError": [Function],
+        "getFieldInstance": [Function],
+        "getFieldValue": [Function],
+        "getFieldWarning": [Function],
+        "getFieldsError": [Function],
+        "getFieldsValue": [Function],
+        "getInternalHooks": [Function],
+        "isFieldTouched": [Function],
+        "isFieldValidating": [Function],
+        "isFieldsTouched": [Function],
+        "isFieldsValidating": [Function],
+        "resetFields": [Function],
+        "scrollToField": [Function],
+        "setFieldValue": [Function],
+        "setFields": [Function],
+        "setFieldsValue": [Function],
+        "submit": [Function],
+        "validateFields": [Function],
+      }
+    }
+    initialValues={
+      Object {
+        "inputB": "field b value",
+      }
+    }
+    layout="vertical"
+    onFieldsChange={[Function]}
+  >
+    <InternalFormItem
+      help=""
+      key="inputA"
+      label="input a label"
+      name="inputA"
+      validateFirst={true}
+      validateStatus=""
+    >
+      <ForwardRef />
+    </InternalFormItem>
+    <InternalFormItem
+      help=""
+      key="inputB"
+      label="input b label"
+      name="inputB"
+      validateFirst={true}
+      validateStatus=""
+    >
+      <ForwardRef />
+    </InternalFormItem>
+  </ForwardRef(InternalForm)>
+</div>
+`;

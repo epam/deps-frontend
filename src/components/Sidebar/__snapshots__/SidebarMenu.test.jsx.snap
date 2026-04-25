@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Sidebar should render correct layout 1`] = `
+<SidebarMenustyles__StyledMenu
+  mode="inline"
+  onClick={[Function]}
+  selectedKeys={Array []}
+>
+  <SidebarMenustyles__SidebarMenuItem
+    icon={
+      <SidebarMenustyles__StyledIconWrapper>
+        <div />
+      </SidebarMenustyles__StyledIconWrapper>
+    }
+    key="/mock/path-1"
+    path="/mock/path-1"
+  >
+    mock Title 1
+  </SidebarMenustyles__SidebarMenuItem>
+  <SidebarMenustyles__SidebarMenuItem
+    icon={
+      <SidebarMenustyles__StyledIconWrapper>
+        <div />
+      </SidebarMenustyles__StyledIconWrapper>
+    }
+    key="/mock/path-2"
+    path="/mock/path-2"
+  >
+    mock Title 2
+  </SidebarMenustyles__SidebarMenuItem>
+</SidebarMenustyles__StyledMenu>
+`;

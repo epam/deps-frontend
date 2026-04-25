@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: GenAiChat should render correct layout 1`] = `
+<GenAiChatstyles__StyledSpin
+  spinning={false}
+>
+  <GenAiChatstyles__Wrapper>
+    <GenAiChatstyles__Notification>
+      Please note, this option is paid.
+    </GenAiChatstyles__Notification>
+    <GenAiChatstyles__Conversation>
+      <UserPrompt
+        messageId="dialogId"
+        prompt={
+          GenAiChatMessage {
+            "message": "prompt",
+            "time": "11:12",
+          }
+        }
+      />
+      <AiAnswer
+        answer={
+          GenAiChatMessage {
+            "message": "answer",
+            "time": "11:13",
+          }
+        }
+        prompt={
+          GenAiChatMessage {
+            "message": "prompt",
+            "time": "11:12",
+          }
+        }
+      />
+    </GenAiChatstyles__Conversation>
+    <GenAiChatstyles__ChatFooter>
+      <ChatInput
+        disabled={false}
+        prompt=""
+        saveDialog={[Function]}
+        setPrompt={[Function]}
+      />
+      <ChatCommandBar
+        dialogs={
+          Array [
+            GenAiChatDialog {
+              "answer": GenAiChatMessage {
+                "message": "answer",
+                "time": "11:13",
+              },
+              "documentId": "mockId",
+              "id": "dialogId",
+              "model": "dial-turbo",
+              "prompt": GenAiChatMessage {
+                "message": "prompt",
+                "time": "11:12",
+              },
+              "provider": "dial",
+            },
+          ]
+        }
+        document={
+          Document {
+            "_id": "id",
+            "communication": Object {
+              "comments": Array [],
+              "flagged": false,
+            },
+            "containerMetadata": null,
+            "containerType": null,
+            "date": undefined,
+            "documentLayout": undefined,
+            "documentType": DocumentType {
+              "code": "code",
+              "engine": undefined,
+              "extractionType": "ml",
+              "fields": Array [],
+              "id": undefined,
+              "language": "eng",
+              "name": "name",
+            },
+            "engine": undefined,
+            "error": undefined,
+            "extractedData": undefined,
+            "files": Array [],
+            "groupInfo": undefined,
+            "initialDocumentData": undefined,
+            "labels": Array [],
+            "language": null,
+            "previewDocuments": Object {},
+            "processingDocuments": Object {},
+            "reviewer": null,
+            "state": "",
+            "title": "",
+            "unifiedData": undefined,
+            "validation": undefined,
+          }
+        }
+        isSendPromptDisabled={true}
+        saveDialog={[Function]}
+      />
+    </GenAiChatstyles__ChatFooter>
+  </GenAiChatstyles__Wrapper>
+</GenAiChatstyles__StyledSpin>
+`;

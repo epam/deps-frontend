@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentReviewControls should render document view controls component with correct props 1`] = `
+<DocumentReviewControlsstyles__Controls>
+  <ValidationResults />
+  <Wrapper
+    containerType={null}
+    documentId="mockId"
+    documentTitle="Mock Title.pdf"
+    documentType={
+      DocumentType {
+        "code": "mockDocTypeCode",
+        "engine": "mockEngineCode",
+        "extractionType": "ml",
+        "fields": Array [
+          DocumentTypeField {
+            "code": "verticalReference",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": DocumentTypeFieldMeta {
+              "charBlacklist": "BC",
+              "charWhitelist": "A",
+            },
+            "fieldType": "string",
+            "name": "Vertical Reference",
+            "order": 1,
+            "pk": 1,
+            "required": false,
+          },
+          DocumentTypeField {
+            "code": "glElevation",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": DocumentTypeFieldMeta {
+              "charBlacklist": "BC",
+              "charWhitelist": "A",
+            },
+            "fieldType": "string",
+            "name": "GL Elevation",
+            "order": 2,
+            "pk": 2,
+            "required": false,
+          },
+          DocumentTypeField {
+            "code": "table",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": TableFieldMeta {
+              "columns": Array [],
+            },
+            "fieldType": "table",
+            "name": "Table",
+            "order": 3,
+            "pk": 3,
+            "required": false,
+          },
+          DocumentTypeField {
+            "code": "listOfTables",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": ListFieldMeta {
+              "baseType": "table",
+              "baseTypeMeta": undefined,
+            },
+            "fieldType": "list",
+            "name": "List Of Tables",
+            "order": 4,
+            "pk": 4,
+            "required": false,
+          },
+          DocumentTypeField {
+            "code": "fieldCode",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": DocumentTypeFieldMeta {
+              "charBlacklist": "C",
+              "charWhitelist": "A",
+            },
+            "fieldType": "string",
+            "name": "Field Name",
+            "order": 5,
+            "pk": 5,
+            "required": false,
+          },
+          DocumentTypeField {
+            "code": "listOfCheckboxes",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": ListFieldMeta {
+              "baseType": "checkmark",
+              "baseTypeMeta": undefined,
+            },
+            "fieldType": "list",
+            "name": "List Of Checkboxes",
+            "order": 6,
+            "pk": 6,
+            "required": false,
+          },
+        ],
+        "id": undefined,
+        "language": "mockLanguageCode",
+        "name": "mockDocTypeName",
+      }
+    }
+    error={null}
+    files={
+      Array [
+        Object {
+          "blobName": "0.jpg",
+          "url": "http://localhost:8003/api/v1/storage/file/0.jpg",
+        },
+        Object {
+          "blobName": "1.jpg",
+          "url": "http://localhost:8003/api/v1/storage/file/1.jpg",
+        },
+      ]
+    }
+    icon={<DownloadIcon />}
+    state="inReview"
+  />
+  <CompleteReviewButton />
+  <MoreActions />
+</DocumentReviewControlsstyles__Controls>
+`;

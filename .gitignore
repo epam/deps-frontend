@@ -1,0 +1,16 @@
+dist
+node_modules
+npm-debug
+coverage
+
+.env
+.idea
+.vscode
+**/.DS_Store
+.cursor/*
+!.cursor/rules/
+!.cursor/skills/
+
+.claude/*
+!.claude/rules/
+!.claude/skills/

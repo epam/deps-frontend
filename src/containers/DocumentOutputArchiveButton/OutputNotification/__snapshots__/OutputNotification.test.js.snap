@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: OutputNotification should render correct layout 1`] = `
+<OutputNotificationstyles__WarningMessage>
+  <OutputNotificationstyles__InfoWrapper
+    profileStatus="deleted"
+  >
+    <WarningTriangleIcon />
+    <OutputNotificationstyles__WarningText>
+      The profile for this output has been deleted
+    </OutputNotificationstyles__WarningText>
+    <Tooltip
+      getPopupContainer={[Function]}
+      placement="topLeft"
+      title="The profile associated with this output has been deleted. However, you may still download the existing version of the output"
+    >
+      <CircleInfoIcon />
+    </Tooltip>
+  </OutputNotificationstyles__InfoWrapper>
+</OutputNotificationstyles__WarningMessage>
+`;

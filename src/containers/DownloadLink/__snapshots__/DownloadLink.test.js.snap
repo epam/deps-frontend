@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DownloadLink should render correct layout 1`] = `
+<DownloadLinkstyles__Link
+  disabled={false}
+  download="mockFileName"
+  onClick={[Function]}
+>
+  <div />
+</DownloadLinkstyles__Link>
+`;

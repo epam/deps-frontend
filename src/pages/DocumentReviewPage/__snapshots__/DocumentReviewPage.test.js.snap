@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: documentRoot react component should render correct layout according to props 1`] = `
+<DocumentReview
+  activePage={1}
+  pagesQuantity={1}
+  setUi={[MockFunction]}
+/>
+`;

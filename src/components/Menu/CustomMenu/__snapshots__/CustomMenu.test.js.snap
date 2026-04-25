@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Menu should render Dropdown and pass correct props 1`] = `
+<Dropdown
+  disabled={false}
+  dropdownRender={[Function]}
+  getPopupContainer={[Function]}
+  onOpenChange={[Function]}
+  open={false}
+  trigger={
+    Array [
+      "click",
+    ]
+  }
+>
+  <div />
+</Dropdown>
+`;
+
+exports[`Component: Menu should render Dropdown menu correctly 1`] = `
+<div>
+  <CustomMenustyles__StyledMenu
+    data-automation="custom-menu"
+    getPopupContainer={[Function]}
+  >
+    <MenuItem
+      data-automation="custom-menu-item"
+      disabled={false}
+      key="0"
+      onClick={[Function]}
+    >
+      <div
+        key="option1"
+      >
+        Option 1
+      </div>
+    </MenuItem>
+    <MenuItem
+      data-automation="custom-menu-item"
+      disabled={true}
+      key="1"
+      onClick={[Function]}
+    >
+      <div
+        key="option2"
+      >
+        Option 2
+      </div>
+    </MenuItem>
+  </CustomMenustyles__StyledMenu>
+</div>
+`;
+
+exports[`Component: Menu should render Dropdown menu correctly if item is SubMenu 1`] = `
+<div>
+  <CustomMenustyles__StyledMenu
+    data-automation="custom-menu"
+    getPopupContainer={[Function]}
+  >
+    <SubMenu
+      key="subMenuKey"
+      title="Sub Menu Title"
+    >
+      <MenuItem
+        data-automation="custom-menu-item"
+        disabled={false}
+        key="subMenuKey-0"
+        onClick={[Function]}
+      >
+        <div
+          key="option1"
+        >
+          Option 1
+        </div>
+      </MenuItem>
+      <MenuItem
+        data-automation="custom-menu-item"
+        disabled={true}
+        key="subMenuKey-1"
+        onClick={[Function]}
+      >
+        <div
+          key="option2"
+        >
+          Option 2
+        </div>
+      </MenuItem>
+    </SubMenu>
+  </CustomMenustyles__StyledMenu>
+</div>
+`;
+
+exports[`Component: Menu should render Dropdown menu correctly if item is subContent 1`] = `
+<div>
+  <CustomMenustyles__StyledMenu
+    data-automation="custom-menu"
+    getPopupContainer={[Function]}
+  >
+    <MenuItem
+      data-automation="custom-menu-item"
+      disabled={false}
+      key="0"
+      onClick={[Function]}
+    >
+      <div
+        key="option1"
+      >
+        Option 1
+      </div>
+    </MenuItem>
+    <div
+      key="optional"
+    >
+      SubMenu
+    </div>
+  </CustomMenustyles__StyledMenu>
+</div>
+`;

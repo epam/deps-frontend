@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentImagePageSwitcher should render "D" flags if there are sourceBboxCoordinates 1`] = `
+<div>
+  <Option
+    key="1"
+    value={1}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      1
+      <Flag
+        symbol="D"
+        title="Page contains Table Data"
+        tooltipPlacement="top"
+        type="tableData"
+      />
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="2"
+    value={2}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      2
+      <Flag
+        symbol="D"
+        title="Page contains Table Data"
+        tooltipPlacement="top"
+        type="tableData"
+      />
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="3"
+    value={3}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      3
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+</div>
+`;
+
+exports[`Container: DocumentImagePageSwitcher should render "D" flags if there are sourceTableCoordinates 1`] = `
+<div>
+  <Option
+    key="1"
+    value={1}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      1
+      <Flag
+        symbol="D"
+        title="Page contains Table Data"
+        tooltipPlacement="top"
+        type="tableData"
+      />
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="2"
+    value={2}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      2
+      <Flag
+        symbol="D"
+        title="Page contains Table Data"
+        tooltipPlacement="top"
+        type="tableData"
+      />
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="3"
+    value={3}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      3
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+</div>
+`;
+
+exports[`Container: DocumentImagePageSwitcher should render "D" flags if there are tableCoordinates 1`] = `
+<div>
+  <Option
+    key="1"
+    value={1}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      1
+      <Flag
+        symbol="D"
+        title="Page contains Table Data"
+        tooltipPlacement="top"
+        type="tableData"
+      />
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="2"
+    value={2}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      2
+      <Flag
+        symbol="D"
+        title="Page contains Table Data"
+        tooltipPlacement="top"
+        type="tableData"
+      />
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="3"
+    value={3}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      3
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+</div>
+`;
+
+exports[`Container: DocumentImagePageSwitcher should render correct layout 1`] = `
+<DocumentImagePageSwitcherstyles__CenteredPageSwitcher
+  activePage={1}
+  changeActivePage={[MockFunction]}
+  className="HiMan"
+  disabled={false}
+  pageOptions={
+    Array [
+      <Option
+        value={1}
+      >
+        <DocumentImagePageSwitcherstyles__OptionContent>
+          1
+          <Flag
+            symbol="D"
+            title="Page contains Table Data"
+            tooltipPlacement="top"
+            type="tableData"
+          />
+        </DocumentImagePageSwitcherstyles__OptionContent>
+      </Option>,
+      <Option
+        value={2}
+      >
+        <DocumentImagePageSwitcherstyles__OptionContent>
+          2
+          <Flag
+            symbol="D"
+            title="Page contains Table Data"
+            tooltipPlacement="top"
+            type="tableData"
+          />
+        </DocumentImagePageSwitcherstyles__OptionContent>
+      </Option>,
+      <Option
+        value={3}
+      >
+        <DocumentImagePageSwitcherstyles__OptionContent>
+          3
+        </DocumentImagePageSwitcherstyles__OptionContent>
+      </Option>,
+    ]
+  }
+  pagesQuantity={3}
+/>
+`;
+
+exports[`Container: DocumentImagePageSwitcher should render correct options if there are no coordinates 1`] = `
+<div>
+  <Option
+    key="1"
+    value={1}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      1
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="2"
+    value={2}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      2
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+  <Option
+    key="3"
+    value={3}
+  >
+    <DocumentImagePageSwitcherstyles__OptionContent>
+      3
+    </DocumentImagePageSwitcherstyles__OptionContent>
+  </Option>
+</div>
+`;

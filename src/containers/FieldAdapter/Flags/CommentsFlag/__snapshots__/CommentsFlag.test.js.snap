@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: CommentsFlag should render correct layout 1`] = `
+<Flag
+  symbol="C"
+  title="textMock1. textMock2. "
+  tooltipPlacement="top"
+  type="info"
+/>
+`;

@@ -1,0 +1,57 @@
+---
+alwaysApply: true
+---
+
+- use rems in favor than px: 1rem === 10px 
+- always use styled-components for React component styling; define styles in the related `Component.styles.ts` / `Component.styles.js` file
+- if you need to add localisation strings that are visible to the user use `import { localize, Localization } from '@/localization/i18n'` and add related strings to the `src/localization/translations/en-US.js` and `src/localization/translations/es-ES.js` files.
+- always use colors from theme as:  `${({ theme }) => theme.color.primary1};` to add any color in styled-components
+- do not add comments if it was not asked directly
+- use ESLint to check code quality (configured in the project with StandardJS conventions)
+- in index.ts/index.js files, use re-export with asterisk: `export * from './ComponentName'`
+- always use named exports, default exports should be avoided
+  - components: `export const ComponentName = () => { ... }`
+  - functions: `export const functionName = () => { ... }`
+  - constants: `export const CONSTANT_NAME = 'value'`
+- always use PropTypes to validate props
+- always use TypeScript (.ts/.tsx) for new code with proper type definitions
+- for TypeScript components, define prop types using TypeScript interfaces/types instead of PropTypes:
+  ```typescript
+  interface MyComponentProps {
+    name: string
+    onSubmit: (value: string) => void
+  }
+  
+  export const MyComponent = ({ name, onSubmit }: MyComponentProps) => { ... }
+  ```
+- run `yarn typecheck` to verify TypeScript compilation before committing
+- **Key clarifications:**
+  - New code = TypeScript (`.ts`/`.tsx`)
+  - Legacy code = JavaScript (`.js`/`.jsx`) - don't force migration
+  - PropTypes - Still used in JS files, but TS files should use TypeScript types
+  - Gradual migration - The codebase is set up for incremental adoption
+- always use yarn to install dependencies and run scripts
+- do not add any tests for the code that you were asked to write, write tests if you are asked to do so
+- to run specific test file use: `node --trace-warnings --unhandled-rejections=strict ./node_modules/jest/bin/jest.js --colors --expand --errorOnDeprecated --config ./config/jest.config.js {fileName}` with `required_permissions: ["all"]`
+- use the `@/` alias for imports from `src` instead of long relative paths
+- keep component folders structured as `Component.tsx` (or `.jsx` for legacy), `Component.styles.ts` (or `.js`), `Component.test.ts` (or `.js`), and `index.ts` (or `.js`)
+- expose styled components from `.styles` files using descriptive names (e.g. `export { StyledInput as Input }`)
+- when wrapping Ant Design components, import from `antd/es/<component>` and include the matching `antd/lib/<component>/style/index.less` before styling
+- reuse shared PropTypes shapes from `@/models` and `@/utils/propTypes`, adding new shapes there when modeling complex data
+- export connected or HOC-wrapped components via a named constant (e.g. `const ConnectedComponent = withRouter(...); export { ConnectedComponent as ComponentName }`)
+- read feature toggles from the `ENV` proxy (`import { ENV } from '@/utils/env'`) instead of accessing `process.env` directly
+- pull automation and testing identifiers from constants modules (such as `@/constants/automation`) rather than hardcoding strings in components
+- use Redux Actions pattern: define `FEATURE_NAME` constant and use it in action type strings (e.g., `${FEATURE_NAME}/STORE_USER`)
+- use Redux Reducers pattern: use `handleActions` from `redux-actions` with `Map` for action handling and export with descriptive names
+- use Redux Selectors pattern: use `createSelector` from `reselect` for memoized selectors with proper base selector naming (e.g., `featureNameSelector`)
+- structure Redux-connected containers: use `connect(mapStateToProps)` and export as `ConnectedComponent` with named export (e.g., `const ConnectedComponent = connect(...); export { ConnectedComponent as ComponentName }`)
+- use API layer organization: separate traditional API calls (`src/api/`) from RTK Query endpoints (`src/apiRTK/`)
+- structure model classes:
+  - TypeScript: use ES6 classes with static methods, define TypeScript interfaces for type validation, export both class and interface
+  - JavaScript: use ES6 classes with static methods, define `PropTypes.shape` for validation, export both class and shape
+- organize imports: group imports by external libraries, then internal modules (actions, components, utils, etc.), separate each group with empty line
+- use enums with resource mappings: define enum objects and corresponding resource objects for localized values (e.g., `RESOURCE_ENUM_NAME`)
+- use forwardRef pattern: wrap components with `forwardRef` when they need to expose DOM refs to parent components
+- use theme provider: access theme colors via `styled-components` theme prop, define color variables in `theme.default.js` with consistent naming
+- implement lazy loading: use `React.lazy()` and `Suspense` for code splitting, especially for large components or routes
+- if you asked to write tests always use the unit-tests skill ('.cursor/skills/unit-tests/SKILL.md')

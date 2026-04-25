@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: PrototypeDetailsPage should render NoData component if useFetchPrototypeQuery request is rejected with error 1`] = `<NoData />`;
+
+exports[`Page: PrototypeDetailsPage should render the correct layout 1`] = `
+<Content>
+  <PrototypeHeader
+    isEditMode={false}
+    isSavingDisabled={true}
+    onCancel={[MockFunction]}
+    onEdit={[MockFunction]}
+    onSave={[Function]}
+    prototypeId="prototypeId"
+    prototypeName="Prototype Name"
+  />
+  <PrototypeInfo
+    fieldsViewType="fields"
+    isEditMode={false}
+    onValueChange={[MockFunction]}
+    setFieldsViewType={[MockFunction]}
+  />
+  <PrototypeData
+    addField={[MockFunction]}
+    fieldsViewType="fields"
+    isEditMode={false}
+    prototypeId="prototypeId"
+    regularFields={
+      Array [
+        PrototypeField {
+          "confidential": false,
+          "fieldType": PrototypeFieldType {
+            "description": Object {},
+            "typeCode": "string",
+          },
+          "id": "fieldId",
+          "mapping": PrototypeFieldMapping {
+            "keys": Array [
+              "mappingKey1",
+              "mappingKey2",
+            ],
+            "mappingDataType": "string",
+            "mappingType": "one_to_one",
+          },
+          "name": "Test Field",
+          "order": 0,
+          "prototypeId": "prototypeId",
+          "readOnly": false,
+          "required": true,
+        },
+      ]
+    }
+    removeField={[MockFunction]}
+    tableFields={Array []}
+    toggleEditMode={[MockFunction]}
+    updateField={[MockFunction]}
+  />
+</Content>
+`;

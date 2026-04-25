@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ExtractedDataHandsonTable ConnectedComponent should render correct layout for extracted data table with coordinates 1`] = `
+<SizeMe(Component)
+  cellRenderer={[Function]}
+  colHeaders={
+    Array [
+      "a",
+      "b",
+    ]
+  }
+  columns={
+    Array [
+      HTColumn {
+        "data": "0.value",
+      },
+      HTColumn {
+        "data": "1.value",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "0": HTCell {
+          "meta": Object {
+            "confidence": 0.01,
+          },
+          "value": "0 0",
+        },
+        "1": HTCell {
+          "meta": Object {
+            "confidence": 0.02,
+          },
+          "value": "0 1",
+        },
+      },
+    ]
+  }
+  extraCtxMenuConfig={
+    Array [
+      Object {
+        "callback": [Function],
+        "disabled": [Function],
+        "name": "Extract value",
+      },
+    ]
+  }
+  forceRerenderProps={
+    Array [
+      Object {
+        "high": false,
+        "low": true,
+      },
+      FieldValidation {
+        "crossFieldErrors": undefined,
+        "crossFieldWarnings": undefined,
+        "errors": Array [
+          Object {
+            "column": 1,
+            "index": null,
+            "kvId": null,
+            "message": "MockError",
+            "row": 1,
+          },
+        ],
+        "warnings": Array [
+          Object {
+            "column": 0,
+            "index": null,
+            "kvId": null,
+            "message": "MockWarning",
+            "row": 0,
+          },
+        ],
+      },
+    ]
+  }
+  mergeCells={Array []}
+  onSelectRange={[Function]}
+  propsForUpdate={
+    Array [
+      "readOnly",
+      "forceRerenderProps",
+      "data",
+      "width",
+    ]
+  }
+  readOnly={false}
+  rowHeaders={[Function]}
+  saveData={[Function]}
+  selectedRanges={
+    Array [
+      Array [
+        0,
+        0,
+      ],
+      Array [
+        0,
+        1,
+        1,
+        0,
+      ],
+    ]
+  }
+/>
+`;
+
+exports[`Container: ExtractedDataHandsonTable ConnectedComponent should render correct layout for extracted data table without coordinates 1`] = `
+<SizeMe(Component)
+  cellRenderer={[Function]}
+  colHeaders={
+    Array [
+      "a",
+      "b",
+    ]
+  }
+  data={
+    Array [
+      "0 0",
+      "0 1",
+    ]
+  }
+  defaultContextMenuItems={
+    Array [
+      "row_above",
+      "row_below",
+      "remove_row",
+      Object {
+        "name": "---------",
+      },
+      "col_left",
+      "col_right",
+      "remove_col",
+      Object {
+        "name": "---------",
+      },
+    ]
+  }
+  extraCtxMenuConfig={
+    Array [
+      Object {
+        "callback": [Function],
+        "name": "Insert multiple rows",
+      },
+    ]
+  }
+  forceRerenderProps={
+    Array [
+      Object {
+        "high": false,
+        "low": true,
+      },
+    ]
+  }
+  mergeCells={Array []}
+  propsForUpdate={
+    Array [
+      "readOnly",
+      "forceRerenderProps",
+      "data",
+      "width",
+    ]
+  }
+  readOnly={false}
+  rowHeaders={[Function]}
+  saveData={[Function]}
+  selectedRanges={
+    Array [
+      Array [
+        0,
+        0,
+      ],
+      Array [
+        0,
+        1,
+        1,
+        0,
+      ],
+    ]
+  }
+/>
+`;

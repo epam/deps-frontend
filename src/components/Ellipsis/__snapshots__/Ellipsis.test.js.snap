@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Ellipsis should be rendered correctly 1`] = `
+<ForwardRef
+  ellipsis={
+    Object {
+      "onEllipsis": [Function],
+      "rows": 2,
+      "tooltip": true,
+    }
+  }
+>
+  ellipsisContent
+</ForwardRef>
+`;

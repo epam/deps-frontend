@@ -1,0 +1,283 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "commonjs": false,
+    "node": false
+  },
+  "plugins": [
+    "react",
+    "react-ext",
+    "testing-library"
+  ],
+  "overrides": [
+    {
+      "files": ["**/?(*.)+(spec|test).[jt]s?(x)"],
+      "extends": "plugin:testing-library/react",
+      "rules": {
+        "testing-library/await-async-query": "error",
+        "testing-library/no-await-sync-query": "error",
+        "testing-library/no-debugging-utils": "warn",
+        "testing-library/no-dom-import": "off",
+        "testing-library/no-node-access": "warn",
+        "testing-library/render-result-naming-convention": "off",
+        "react/prop-types": "off"
+      }
+    },
+    {
+      "files": ["**/*.d.ts"],
+      "rules": {
+        "no-restricted-syntax": "off"
+      }
+    },
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        },
+        "project": true,
+        "tsconfigRootDir": ".."
+      },
+      "extends": [
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "plugins": [
+        "@typescript-eslint"
+      ],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "vars": "all",
+            "args": "after-used",
+            "ignoreRestSiblings": true
+          }
+        ],
+        "no-unused-vars": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-explicit-any": "warn",
+        "react/prop-types": "off",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"]
+      }
+    }
+  ],
+  "extends": [
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "import/internal-regex": "^@(actions|application|assets|components|constants|containers|enums|hocs|models|pages|reducers|selectors|services|theme|vendors|utils)\/.+$",
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "strict": [
+      "error",
+      "safe"
+    ],
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "camelcase": "error",
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "react/prefer-es6-class": "warn",
+    "react/display-name": "off",
+    "react/prop-types": "error",
+    "react/no-unused-prop-types": "error",
+    "react/no-deprecated": "error",
+    "react/no-typos": "error",
+    "react-ext/no-unused-class-property": "error",
+    "react/jsx-curly-spacing": [
+      "error",
+      {
+        "when": "never",
+        "allowMultiline": true,
+        "objectLiterals": "never"
+      }
+    ],
+    "react/jsx-tag-spacing": [
+      "error",
+      {
+        "closingSlash": "never",
+        "beforeSelfClosing": "always",
+        "afterOpening": "never",
+        "beforeClosing": "never"
+      }
+    ],
+    "react/jsx-curly-newline": [
+      "error",
+      {
+        "multiline": "require"
+      }
+    ],
+    "react/jsx-first-prop-new-line": [
+      "error",
+      "multiline-multiprop"
+    ],
+    "react/jsx-max-props-per-line": "error",
+    "react/jsx-one-expression-per-line": [
+      "error",
+      {
+        "allow": "single-child"
+      }
+    ],
+    "react/jsx-props-no-multi-spaces": "error",
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        "declaration": "parens-new-line",
+        "assignment": "parens-new-line",
+        "return": "parens-new-line",
+        "arrow": "parens-new-line",
+        "condition": "parens-new-line",
+        "logical": "parens-new-line",
+        "prop": "parens-new-line"
+      }
+    ],
+    "react/jsx-closing-bracket-location": [
+      "error",
+      {
+        "nonEmpty": "tag-aligned",
+        "selfClosing": "tag-aligned"
+      }
+    ],
+    "react/jsx-equals-spacing": [
+      2,
+      "never"
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".test.js",
+          ".jsx",
+          ".tsx"
+        ]
+      }
+    ],
+    "react/jsx-indent": [
+      "error",
+      2
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      "first"
+    ],
+    "react/jsx-key": [
+      "error",
+      {
+        "checkKeyMustBeforeSpread": true
+      }
+    ],
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-sort-default-props": "error",
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "reservedFirst": true
+      }
+    ],
+    "react/no-unknown-property": "error",
+    "react/self-closing-comp": "error",
+    "react/forbid-prop-types": [
+      "error",
+      {
+        "forbid": [
+          "any",
+          "array",
+          "object"
+        ]
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "name": "lodash",
+        "message": "Please import individual methods from the Lodash module"
+      },
+      {
+        "name": "antd",
+        "message": "Please import individual parts from 'antd/es/...'"
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "@/mocks/mockReact",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "@/mocks/*",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "@/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "constants/**",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": [
+          "react"
+        ],
+        "newlines-between": "never",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "no-restricted-syntax": ["error", {
+      "selector": "ExportDefaultDeclaration",
+      "message": "Prefer named exports"
+    }],
+    "react/react-in-jsx-scope": "off",
+    "object-property-newline": [
+      "error",
+      {
+        "allowMultiplePropertiesPerLine": false
+      }
+    ]
+  },
+  "globals": {
+    "FEATURES": "readonly",
+    "process": "readonly",
+    "staticEnv": "readonly"
+  }
+}

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Root should render component correctly 1`] = `
+<Suspense
+  fallback={
+    <CenteredSpin
+      spinning={true}
+    />
+  }
+>
+  <Switch>
+    <ErrorBoundRoute
+      path="/error/service-unavailable"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/view/:documentId/labeling-tool"
+    >
+      <GlobalStylesLoader>
+        <lazy />
+      </GlobalStylesLoader>
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/templates/:id/version/:versionId"
+    >
+      <GlobalStylesLoader>
+        <lazy />
+      </GlobalStylesLoader>
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/versions"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/join/:orgPk"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/waiting-approval"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/error/root-not-found"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      render={[Function]}
+    />
+  </Switch>
+</Suspense>
+`;

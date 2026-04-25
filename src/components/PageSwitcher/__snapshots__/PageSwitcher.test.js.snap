@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: PageSwitcher should render correct layout 1`] = `
+<PageSwitcherstyles__Switcher
+  className="test"
+>
+  <PageSwitcherstyles__PaginationButton
+    disabled={true}
+    icon={<LeftIcon />}
+    onClick={[Function]}
+    shape="circle"
+  />
+  <PageSwitcherstyles__SelectStyled
+    dropdownStyle={
+      Object {
+        "minWidth": "fit-content",
+      }
+    }
+    getPopupContainer={[Function]}
+    onChange={[Function]}
+    optionFilterProp="children"
+    value={1}
+    virtual={false}
+  >
+    <Option
+      key="1"
+    >
+      1
+    </Option>
+    <Option
+      key="1"
+    >
+      2
+    </Option>
+  </PageSwitcherstyles__SelectStyled>
+  <PageSwitcherstyles__Splitter
+    disabled={false}
+  >
+    /
+  </PageSwitcherstyles__Splitter>
+  <PageSwitcherstyles__PagesQuantity
+    disabled={false}
+  >
+    3
+  </PageSwitcherstyles__PagesQuantity>
+  <PageSwitcherstyles__PaginationButton
+    disabled={false}
+    icon={<RightIcon />}
+    onClick={[Function]}
+    shape="circle"
+  />
+</PageSwitcherstyles__Switcher>
+`;

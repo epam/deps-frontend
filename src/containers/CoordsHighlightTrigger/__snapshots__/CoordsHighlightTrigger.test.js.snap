@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should correctly render Menu Option 1`] = `
+<div>
+  <CoordsHighlightTriggerstyles__StyledOption
+    key="2"
+    onClick={[Function]}
+  >
+    Page 2
+  </CoordsHighlightTriggerstyles__StyledOption>
+</div>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout based on the props 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={0}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={Array []}
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with array of coordinates 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with no coordinates and tableCoordinates 1`] = `""`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with one cell in Table 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={0}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={Array []}
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with one tableCoordinate 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={0}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={Array []}
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with several cells with different pages in Table 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with several cells with sourceBboxCoordinates in Table 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with several cells with sourceTableCoordinates in Table 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with sourceBboxCoordinates 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with sourceTableCoordinates 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={3}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: CoordsHighlightTrigger ConnectedComponent should render correct layout with tableCoordinates 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;

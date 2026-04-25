@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: GlobalStylesLoader should render correctly 1`] = `
+<ErrorBoundary
+  localBoundary={[Function]}
+>
+  <ModuleLoader
+    url="mockUrl"
+  >
+    <Component />
+  </ModuleLoader>
+</ErrorBoundary>
+`;
+
+exports[`Component: GlobalStylesLoader should render correctly in case there is no customization 1`] = `<Test />`;

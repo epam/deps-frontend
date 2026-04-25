@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: WaitingForApprovalTableCommands should render the correct layout if user prop is not passed 1`] = `
+<WaitingForApprovalTableCommandsstyles__Wrapper>
+  <Connect(RemoveWaitingUserButton) />
+  <Connect(ApproveSelectedUsersButton) />
+</WaitingForApprovalTableCommandsstyles__Wrapper>
+`;
+
+exports[`Component: WaitingForApprovalTableCommands should render the correct layout if user prop is passed 1`] = `
+<WaitingForApprovalTableCommandsstyles__Wrapper>
+  <Connect(RemoveWaitingUserButton)
+    waitingUser={
+      WaitingForApprovalUser {
+        "creationDate": "date",
+        "email": "email",
+        "firstName": "name",
+        "lastName": "",
+        "organisation": "org",
+        "pk": "pk",
+        "username": "",
+      }
+    }
+  />
+  <Connect(ApproveUserButton)
+    waitingUser={
+      WaitingForApprovalUser {
+        "creationDate": "date",
+        "email": "email",
+        "firstName": "name",
+        "lastName": "",
+        "organisation": "org",
+        "pk": "pk",
+        "username": "",
+      }
+    }
+  />
+</WaitingForApprovalTableCommandsstyles__Wrapper>
+`;

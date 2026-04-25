@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentData should correctly render Tab with extracted data 1`] = `
+<div>
+  <DocumentConsolidatedData />
+</div>
+`;
+
+exports[`Container: DocumentData should render Empty in case document type fields are empty 1`] = `
+<DocumentDatastyles__StyledTabs
+  activeKey="OVERVIEW"
+  animated={false}
+  extra={
+    <GenAIModalButton
+      isModalVisible={false}
+      toggleModal={[Function]}
+    />
+  }
+  onChange={[MockFunction]}
+  tabs={
+    Array [
+      Tab {
+        "children": <DocumentConsolidatedData />,
+        "hiddenPane": false,
+        "key": "OVERVIEW",
+        "label": "Overview",
+      },
+      Tab {
+        "children": <DocumentParsedData />,
+        "hiddenPane": false,
+        "key": "DOCUMENT_LAYOUT",
+        "label": "Document Layout",
+      },
+      Tab {
+        "children": <DocumentEnrichment
+          documentId="mockId"
+          documentState="inReview"
+        />,
+        "hiddenPane": false,
+        "key": "EXTRA_FIELDS",
+        "label": "Extra Fields",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Container: DocumentData should render correct layout 1`] = `
+<DocumentDatastyles__StyledTabs
+  activeKey="OVERVIEW"
+  animated={false}
+  extra={
+    <GenAIModalButton
+      isModalVisible={false}
+      toggleModal={[Function]}
+    />
+  }
+  onChange={[MockFunction]}
+  tabs={
+    Array [
+      Tab {
+        "children": <DocumentConsolidatedData />,
+        "hiddenPane": false,
+        "key": "OVERVIEW",
+        "label": "Overview",
+      },
+      Tab {
+        "children": <DocumentExtractedData />,
+        "hiddenPane": false,
+        "key": "EXTRACTED_DATA",
+        "label": "Extracted Data",
+      },
+      Tab {
+        "children": <DocumentParsedData />,
+        "hiddenPane": false,
+        "key": "DOCUMENT_LAYOUT",
+        "label": "Document Layout",
+      },
+      Tab {
+        "children": <DocumentEnrichment
+          documentId="mockId"
+          documentState="inReview"
+          documentTypeCode="mockDocTypeCode"
+        />,
+        "hiddenPane": false,
+        "key": "EXTRA_FIELDS",
+        "label": "Extra Fields",
+      },
+    ]
+  }
+/>
+`;

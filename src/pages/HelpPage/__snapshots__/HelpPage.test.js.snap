@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: HelpPage should correctly render tabs content 1`] = `
+<div>
+  <FrequentlyAskedQuestions />
+</div>
+`;
+
+exports[`Component: HelpPage should render the correct layout 1`] = `
+<HelpPagestyles__HelpWrapper>
+  <HelpPagestyles__StyledTabs
+    activeKey="FREQUENTLY_ASKED_QUESTIONS"
+    animated={false}
+    onChange={[Function]}
+    tabs={
+      Array [
+        Tab {
+          "children": <FrequentlyAskedQuestions />,
+          "hiddenPane": false,
+          "key": "FREQUENTLY_ASKED_QUESTIONS",
+          "label": "Frequently Asked Questions",
+        },
+      ]
+    }
+  />
+</HelpPagestyles__HelpWrapper>
+`;

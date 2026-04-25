@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Draggable should correct render default state of Draggable component 1`] = `
+<Draggablestyles__DraggableContainer
+  className="className"
+  isDragging={false}
+>
+  <span>
+    Mock element
+  </span>
+</Draggablestyles__DraggableContainer>
+`;
+
+exports[`Component: Draggable should correct render downward state if Draggable component is over 1`] = `
+<Draggablestyles__DraggableContainer
+  className="className"
+  isDragging={false}
+>
+  <span>
+    Mock element
+  </span>
+</Draggablestyles__DraggableContainer>
+`;
+
+exports[`Component: Draggable should correct render drag state of Draggable component 1`] = `
+<Draggablestyles__DraggableContainer
+  className="className"
+  isDragging={true}
+>
+  <span>
+    Mock element
+  </span>
+</Draggablestyles__DraggableContainer>
+`;
+
+exports[`Component: Draggable should correct render upward state of Draggable component is not over 1`] = `
+<Draggablestyles__DraggableContainer
+  className="className"
+  isDragging={false}
+>
+  <span>
+    Mock element
+  </span>
+</Draggablestyles__DraggableContainer>
+`;

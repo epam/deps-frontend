@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EmptyDashboard should render correct layout 1`] = `
+<EmptyDashboardstyles__Wrapper>
+  <EmptyDashboardstyles__Image />
+  <EmptyDashboardstyles__ContentWrapper>
+    <EmptyDashboardstyles__Title>
+      There is no information about the charts yet
+    </EmptyDashboardstyles__Title>
+    <div>
+      Currently, there are no documents available to display statistics.
+    </div>
+    <div>
+      Please start processing a document to view its corresponding statistics
+    </div>
+  </EmptyDashboardstyles__ContentWrapper>
+</EmptyDashboardstyles__Wrapper>
+`;

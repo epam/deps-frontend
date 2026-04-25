@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: CustomApplicationPage should render correct layout 1`] = `
+<MockComponent
+  api={
+    Object {
+      "createSession": [MockFunction],
+      "runPipeline": [MockFunction],
+      "uploadDocument": [MockFunction],
+    }
+  }
+  goTo={
+    Object {
+      "documentsPage": [Function],
+    }
+  }
+  notifications={
+    Object {
+      "error": [MockFunction],
+      "progress": [MockFunction],
+      "success": [MockFunction],
+      "warning": [MockFunction],
+    }
+  }
+  onLogOut={[Function]}
+  renderApplicationLogo={[Function]}
+  user={
+    User {
+      "creationDate": "12-08-2022",
+      "defaultCustomizationUrl": undefined,
+      "email": "system_user@system.com",
+      "firstName": "System",
+      "lastName": "User",
+      "organisation": Organisation {
+        "customizationUrl": "https://host/customisation.js",
+        "name": "TestOrganisation",
+        "pk": "1111",
+      },
+      "pk": "111-111-111",
+      "username": "systemUser",
+    }
+  }
+/>
+`;

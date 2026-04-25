@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UserFeedback should render layout correctly 1`] = `
+<ErrorBoundary
+  localBoundary={[Function]}
+>
+  <UserFeedbackstyles__Wrapper
+    isVisible={true}
+  >
+    <ModuleLoader
+      url="./mockUrl"
+    >
+      <Component />
+    </ModuleLoader>
+  </UserFeedbackstyles__Wrapper>
+</ErrorBoundary>
+`;
+
+exports[`Component: UserFeedback should render nothing in case there is no UserFeedback in customization 1`] = `""`;

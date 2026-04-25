@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: GoogleDriveUpload should render correctly 1`] = `
+<GoogleDrivePicker
+  disabled={true}
+  files={
+    Array [
+      StorageFile {
+        "id": "id",
+        "mimeType": "application/pdf",
+        "name": "name.pdf",
+        "sizeBytes": 123,
+      },
+    ]
+  }
+  onFileValidationFailed={[MockFunction]}
+  onSizeValidationFailed={[MockFunction]}
+  setFiles={[MockFunction]}
+  updateUploadStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "GoogleDrive",
+          "PENDING",
+        ],
+        Array [
+          "GoogleDrive",
+          "SUCCESS",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+/>
+`;

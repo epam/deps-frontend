@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ChangeOrganisationForm Connected Component should render correctly 1`] = `
+<Form>
+  <FormItem
+    field={
+      Object {
+        "code": "prevName",
+        "defaultValue": "TestOrganisation",
+        "disabled": true,
+        "type": "string",
+      }
+    }
+    key="prevName"
+    label={
+      <ChangeOrgNameFormButtonstyles__StyledLabel>
+        CURRENT NAME
+      </ChangeOrgNameFormButtonstyles__StyledLabel>
+    }
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "newName",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "Maximum length for organisation name is 50 symbols",
+            "value": 50,
+          },
+          "required": Object {
+            "message": "New Organization name can't be empty",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="newName"
+    label={
+      <ChangeOrgNameFormButtonstyles__StyledLabel>
+        UPDATED NAME
+      </ChangeOrgNameFormButtonstyles__StyledLabel>
+    }
+  />
+</Form>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentOutputArchiveButton should render DocumentOutputArchiveButton 1`] = `
+<Fragment>
+  <TextButtonstyles__TextButton
+    onClick={[Function]}
+  >
+    Output Archive
+  </TextButtonstyles__TextButton>
+  <DocumentOutputArchiveButtonstyles__StyledDrawer
+    closeIcon={false}
+    getContainer={[Function]}
+    onClose={[Function]}
+    open={true}
+    placement="right"
+    title={
+      <DocumentOutputArchiveButtonstyles__DrawerHeaderWrapper>
+        Generated outputs
+      </DocumentOutputArchiveButtonstyles__DrawerHeaderWrapper>
+    }
+    width="36rem"
+  >
+    <Spin
+      spinning={false}
+    >
+      <OutputCard
+        documentId="mockId"
+        documentTitle="Mock Title.pdf"
+        documentTypeId="mockDocTypeCode"
+        key="id"
+        output={
+          Output {
+            "creationDate": "12-12-2012",
+            "documentId": "documentId",
+            "filePath": "filepath.json",
+            "id": "id",
+            "profileInfo": Object {
+              "id": "id",
+              "version": "1.0.0",
+            },
+            "state": "pending",
+            "tenantId": "tenantId",
+          }
+        }
+        profile={
+          OutputProfile {
+            "creationDate": "12-12-2000",
+            "exportingType": "builtin",
+            "format": "json",
+            "id": "id",
+            "name": "name",
+            "schema": ExtractedDataSchema {
+              "fields": Array [],
+              "needsValidationResults": false,
+            },
+            "version": "1.0.0",
+          }
+        }
+        reloadData={[Function]}
+      />
+    </Spin>
+  </DocumentOutputArchiveButtonstyles__StyledDrawer>
+</Fragment>
+`;

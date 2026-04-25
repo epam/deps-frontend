@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DownloadMenu should render correct items 1`] = `
+<div>
+  <TextButtonstyles__TextButton
+    disabled={false}
+  >
+    <DownloadLink
+      apiUrl="http://mockUrl.com/v5/documents/1/files"
+      fileName="mockTitle.pdf"
+      key="original"
+    >
+      Original Document
+    </DownloadLink>
+  </TextButtonstyles__TextButton>
+</div>
+`;
+
+exports[`Container: DownloadMenu should render correct items 2`] = `
+<div>
+  <Spin
+    spinning={false}
+  >
+    <TextButtonstyles__TextButton
+      disabled={true}
+      onClick={[Function]}
+    >
+      Export by Profile
+    </TextButtonstyles__TextButton>
+  </Spin>
+</div>
+`;
+
+exports[`Container: DownloadMenu should render correct items 3`] = `
+<div>
+  <ExportByProfilePluginsMenu
+    documentType={
+      DocumentType {
+        "code": "code",
+        "engine": "TESSERACT",
+        "extractionType": "ml",
+        "fields": Array [],
+        "id": undefined,
+        "language": "eng",
+        "name": "name",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Container: DownloadMenu should render correct items 4`] = `
+<div>
+  <TextButtonstyles__TextButton
+    disabled={true}
+  >
+    <DownloadLink
+      apiUrl="http://mockUrl.com/v5/documents/1/preprocessed-files"
+      fileName="mockTitle.zip"
+      key="preprocessed"
+    >
+      Preprocessed Document
+    </DownloadLink>
+  </TextButtonstyles__TextButton>
+</div>
+`;
+
+exports[`Container: DownloadMenu should render correct items 5`] = `
+<div>
+  <DownloadDropdownButton
+    documentId="1"
+    documentName="mockTitle.json"
+    documentTypeCode="code"
+  />
+</div>
+`;
+
+exports[`Container: DownloadMenu should render correct layout 1`] = `
+<Fragment>
+  <CustomMenu
+    disabled={false}
+    getPopupContainer={[Function]}
+    items={
+      Array [
+        Object {
+          "content": [Function],
+        },
+        Object {
+          "content": [Function],
+        },
+        Object {
+          "subContent": <ExportByProfilePluginsMenu
+            documentType={
+              DocumentType {
+                "code": "code",
+                "engine": "TESSERACT",
+                "extractionType": "ml",
+                "fields": Array [],
+                "id": undefined,
+                "language": "eng",
+                "name": "name",
+              }
+            }
+          />,
+        },
+        Object {
+          "content": [Function],
+          "disabled": true,
+        },
+        Object {
+          "content": [Function],
+        },
+      ]
+    }
+    placement="bottomRight"
+  >
+    <ForwardRef>
+      Download
+    </ForwardRef>
+  </CustomMenu>
+  <OutputProfileExportDrawer
+    documentId="1"
+    documentTitle="mockTitle"
+    documentType={
+      DocumentType {
+        "code": "code",
+        "engine": "TESSERACT",
+        "extractionType": "ml",
+        "fields": Array [],
+        "id": undefined,
+        "language": "eng",
+        "name": "name",
+      }
+    }
+    isVisible={false}
+    onClose={[Function]}
+  />
+</Fragment>
+`;

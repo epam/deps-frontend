@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ServiceVersionInfo should render component correctly 1`] = `
+<ServiceVersionInfostyles__ServiceVersionInfoWrapper>
+  <ServiceVersionInfostyles__ServiceVersionInfoHeader>
+    MockService
+  </ServiceVersionInfostyles__ServiceVersionInfoHeader>
+  <ServiceVersionInfostyles__ServiceVersionInfoContent
+    key="buildTag0"
+  >
+    buildTag: latest
+  </ServiceVersionInfostyles__ServiceVersionInfoContent>
+  <ServiceVersionInfostyles__ServiceVersionInfoContent
+    key="buildDate1"
+  >
+    buildDate: now
+  </ServiceVersionInfostyles__ServiceVersionInfoContent>
+</ServiceVersionInfostyles__ServiceVersionInfoWrapper>
+`;

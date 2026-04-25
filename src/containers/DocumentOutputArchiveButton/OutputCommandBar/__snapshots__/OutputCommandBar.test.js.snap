@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: OutputCommandBar should render commands correctly 1`] = `
+<div>
+  <OutputCommandBarstyles__StyledIconButton
+    icon={<TrashIcon />}
+    onClick={[Function]}
+    tooltip={
+      Object {
+        "placement": "topRight",
+        "title": "Delete Output",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Container: OutputCommandBar should render commands correctly 2`] = `
+<div>
+  <OutputCommandBarstyles__DownloadButton
+    disabled={false}
+    icon={<ArrowDownSolidIcon />}
+    onClick={[Function]}
+    tooltip={
+      Object {
+        "placement": "topRight",
+        "title": "Download Output",
+      }
+    }
+    type="primary"
+  />
+</div>
+`;
+
+exports[`Container: OutputCommandBar should render the correct layout 1`] = `
+<OutputCommandBarstyles__StyledCommandBar
+  commands={
+    Array [
+      Object {
+        "renderComponent": [Function],
+      },
+      Object {
+        "renderComponent": [Function],
+      },
+    ]
+  }
+/>
+`;

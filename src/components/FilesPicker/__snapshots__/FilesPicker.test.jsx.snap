@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FilesPicker should render dragger and pass correct props 1`] = `
+<Dragger
+  accept=".jpg, .jpeg, .png, .pdf, .msg, .eml, .xlsx, .xls, .xlsm, .xltx, .xltm, .docx, .csv, .tiff, .tif"
+  beforeUpload={[Function]}
+  className="css class"
+  disabled={false}
+  multiple={true}
+  onDrop={[Function]}
+  showUploadList={false}
+>
+  <p
+    className="ant-upload-drag-icon"
+  />
+  <p
+    className="ant-upload-text"
+  >
+    Click or drag and drop to select documents
+  </p>
+  <p
+    className="ant-upload-hint"
+  >
+    Supported formats: .jpg,.jpeg,.png,.pdf
+  </p>
+</Dragger>
+`;
+
+exports[`Component: FilesPicker should render upload button and pass correct props 1`] = `
+<div
+  onDrop={[Function]}
+>
+  <Upload
+    accept=".jpg, .jpeg, .png, .pdf, .msg, .eml, .xlsx, .xls, .xlsm, .xltx, .xltm, .docx, .csv, .tiff, .tif"
+    beforeUpload={[Function]}
+    className="css class"
+    directory={false}
+    multiple={true}
+    showUploadList={false}
+  >
+    <ForwardRef
+      disabled={false}
+      title="Supported formats: .jpg,.jpeg,.png,.pdf"
+      type="ghost"
+    >
+      <UploadIcon />
+      Click or drag and drop to select documents
+    </ForwardRef>
+  </Upload>
+</div>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: PrototypeReferenceLayout should render the correct layout when no prototype layout is uploaded 1`] = `
+<PrototypeReferenceLayoutstyles__Wrapper>
+  <ReferenceLayoutHeader
+    addLayout={[Function]}
+    isEditMode={true}
+    layout={
+      ReferenceLayout {
+        "blobName": "mockBlobName",
+        "documentLayoutData": Object {
+          "documentLayoutId": "mockId",
+        },
+        "id": "mockLayoutId",
+        "prototypeId": "mockPrototypeId",
+        "state": "Ready",
+        "title": "mockTitle",
+        "unifiedData": undefined,
+      }
+    }
+    layoutsList={
+      Array [
+        ReferenceLayout {
+          "blobName": "mockBlobName",
+          "documentLayoutData": Object {
+            "documentLayoutId": "mockId",
+          },
+          "id": "mockLayoutId",
+          "prototypeId": "mockPrototypeId",
+          "state": "Ready",
+          "title": "mockTitle",
+          "unifiedData": undefined,
+        },
+      ]
+    }
+    onViewChange={[Function]}
+    removeLayout={[Function]}
+    viewType="document"
+  />
+  <ReferenceLayoutGuard
+    addLayout={[Function]}
+    isFetching={false}
+    prototypeId="prototypeId"
+    referenceLayout={
+      ReferenceLayout {
+        "blobName": "mockBlobName",
+        "documentLayoutData": Object {
+          "documentLayoutId": "mockId",
+        },
+        "id": "mockLayoutId",
+        "prototypeId": "mockPrototypeId",
+        "state": "Ready",
+        "title": "mockTitle",
+        "unifiedData": undefined,
+      }
+    }
+    restartLayout={[Function]}
+  >
+    <ReferenceLayoutDocumentView
+      fieldsViewType="fields"
+      isEditMode={true}
+      prototypeMappingKeys={
+        Array [
+          "mappingKey1",
+          "mappingKey2",
+        ]
+      }
+      referenceLayout={
+        ReferenceLayout {
+          "blobName": "mockBlobName",
+          "documentLayoutData": Object {
+            "documentLayoutId": "mockId",
+          },
+          "id": "mockLayoutId",
+          "prototypeId": "mockPrototypeId",
+          "state": "Ready",
+          "title": "mockTitle",
+          "unifiedData": undefined,
+        }
+      }
+    />
+    <CreatePrototypeTableField
+      addField={[MockFunction]}
+    />
+  </ReferenceLayoutGuard>
+</PrototypeReferenceLayoutstyles__Wrapper>
+`;

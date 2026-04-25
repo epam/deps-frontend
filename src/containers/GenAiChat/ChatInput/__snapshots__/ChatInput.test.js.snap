@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ChatInput should render correct layout 1`] = `
+<ChatInputstyles__TextArea
+  autoSize={
+    Object {
+      "maxRows": 5,
+    }
+  }
+  disabled={false}
+  maxLength={1000}
+  onChange={[Function]}
+  onPressEnter={[Function]}
+  placeholder="Type a Message"
+  showCount={true}
+  value=""
+/>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Word ConnectedComponent should render correct layout 1`] = `
+<span>
+  <div
+    parent={
+      Object {
+        "id": "mockId",
+      }
+    }
+  >
+    Word content
+  </div>
+</span>
+`;

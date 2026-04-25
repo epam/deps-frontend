@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentsPage should render correct layout 1`] = `
+<Fragment>
+  <DocumentsPagestyles__Content
+    data-automation="documents-page"
+  >
+    <Switch>
+      <ErrorBoundRoute
+        exact={true}
+        path="/documents/"
+        render={[Function]}
+      />
+      <ErrorBoundRoute
+        path="/documents/:filterId"
+        render={[Function]}
+      />
+    </Switch>
+  </DocumentsPagestyles__Content>
+</Fragment>
+`;

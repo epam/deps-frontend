@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: JoiningPage ConnectedComponent should render correctly with spinning 1`] = `
+<CenteredSpin
+  spinning={true}
+/>
+`;

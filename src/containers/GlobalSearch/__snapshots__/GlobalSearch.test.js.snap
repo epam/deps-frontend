@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: GlobalSearch should render correct layout 1`] = `
+<GlobalSearchstyles__Wrapper>
+  <SearchInput
+    filter=""
+    onChange={[Function]}
+  />
+</GlobalSearchstyles__Wrapper>
+`;

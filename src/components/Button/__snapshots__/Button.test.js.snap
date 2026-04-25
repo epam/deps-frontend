@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Button should render correct Button layout according to props 1`] = `
+<Buttonstyles__StyledButton>
+  MockChild
+</Buttonstyles__StyledButton>
+`;
+
+exports[`Component: Button should render correct GradientButton layout according to props 1`] = `
+<GradientButtonstyles__PrimaryGradientButton
+  type="primary"
+>
+  MockChild
+</GradientButtonstyles__PrimaryGradientButton>
+`;
+
+exports[`Component: Button should render correct IconButton layout according to props 1`] = `
+<IconButtonstyles__IconButton>
+  <TagIcon />
+</IconButtonstyles__IconButton>
+`;
+
+exports[`Component: Button should render correct LinkButton layout according to props 1`] = `
+.c0 {
+  height: auto;
+  background: none;
+  border: none;
+  color: #3980E8;
+  box-shadow: none;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.c0.c0.c0:active {
+  color: #1962CD;
+}
+
+.c0.c0.c0:focus {
+  background-color: transparent;
+  color: #3980E8;
+}
+
+.c0.c0.c0:disabled,
+.c0.c0.c0:hover {
+  background-color: transparent;
+  box-shadow: none;
+  color: #3980E8;
+}
+
+.c0.c0.c0:after {
+  -webkit-animation: 0s;
+  animation: 0s;
+}
+
+<ForwardRef
+  className="c0"
+>
+  MockChild
+</ForwardRef>
+`;

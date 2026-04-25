@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: OrganisationUsersTable ConnectedComponent should render correct layout 1`] = `
+<SizeMe(Component)
+  columns={
+    Array [
+      Object {
+        "dataIndex": "user",
+        "disableResize": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={false}
+          icon={<SearchIcon />}
+        />,
+        "filteredValue": Array [],
+        "render": [Function],
+        "sortOrder": "",
+        "sorter": true,
+        "title": "User",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "user": User {
+          "creationDate": "12-08-2022",
+          "defaultCustomizationUrl": undefined,
+          "email": "system_user@system.com",
+          "firstName": "System",
+          "lastName": "User",
+          "organisation": Organisation {
+            "customizationUrl": "https://host/customisation.js",
+            "name": "TestOrganisation",
+            "pk": "1111",
+          },
+          "pk": "111-111-111",
+          "username": "systemUser",
+        },
+      },
+    ]
+  }
+  onFilter={[Function]}
+  pagination={
+    Object {
+      "current": 1,
+      "onChange": [Function],
+      "onShowSizeChange": [Function],
+      "pageSize": 20,
+      "showSizeChanger": false,
+      "showTotal": [Function],
+      "total": 0,
+    }
+  }
+  rowKey={[Function]}
+  rowSelection={
+    Object {
+      "onChange": [MockFunction],
+      "selectedRowKeys": Array [
+        "1",
+      ],
+    }
+  }
+/>
+`;

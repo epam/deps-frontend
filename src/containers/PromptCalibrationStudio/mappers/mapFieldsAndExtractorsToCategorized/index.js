@@ -1,0 +1,2 @@
+
+export { mapFieldsAndExtractorsToCategorized } from './mapFieldsAndExtractorsToCategorized'

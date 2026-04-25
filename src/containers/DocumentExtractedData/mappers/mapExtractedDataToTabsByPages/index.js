@@ -1,0 +1,2 @@
+
+export { mapExtractedDataToTabsByPages } from './mapExtractedDataToTabsByPages'

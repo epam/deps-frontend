@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ProfilesTabs should render correct layout 1`] = `
+<ProfilesTabsstyles__StyledTabs
+  activeKey="firstId"
+  animated={false}
+  onChange={[Function]}
+  tabs={
+    Array [
+      Tab {
+        "children": <ProfilesTabsstyles__TabWrapper>
+          <ProfileHeader
+            profile={
+              OutputProfile {
+                "creationDate": "12-12-2000",
+                "exportingType": "builtin",
+                "format": "json",
+                "id": "firstId",
+                "name": "firstName",
+                "schema": ExtractedDataSchema {
+                  "fields": Array [],
+                  "needsValidationResults": false,
+                },
+                "version": "1.0.0",
+              }
+            }
+          />
+          <OutputProfileByExtractor
+            fields={Array []}
+            profileFields={Array []}
+          />
+        </ProfilesTabsstyles__TabWrapper>,
+        "hiddenPane": false,
+        "key": "firstId",
+        "label": "firstName",
+      },
+      Tab {
+        "children": <ProfilesTabsstyles__TabWrapper>
+          <ProfileHeader
+            profile={
+              OutputProfile {
+                "creationDate": "12-12-2000",
+                "exportingType": "builtin",
+                "format": "json",
+                "id": "secondId",
+                "name": "secondName",
+                "schema": ExtractedDataSchema {
+                  "fields": Array [],
+                  "needsValidationResults": false,
+                },
+                "version": "2.0.0",
+              }
+            }
+          />
+          <OutputProfileByExtractor
+            fields={Array []}
+            profileFields={Array []}
+          />
+        </ProfilesTabsstyles__TabWrapper>,
+        "hiddenPane": false,
+        "key": "secondId",
+        "label": "secondName",
+      },
+    ]
+  }
+/>
+`;

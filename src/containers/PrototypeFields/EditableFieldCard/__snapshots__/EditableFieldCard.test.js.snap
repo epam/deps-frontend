@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EditableFieldCard should render the correct layout 1`] = `
+<EditableFieldCardstyles__Wrapper
+  $isActive={true}
+  onClick={[Function]}
+>
+  <EditableFieldCardstyles__Header>
+    <EditableFieldCardstyles__NameInput
+      maxLength={50}
+      onChange={[Function]}
+      placeholder="Enter Field Name"
+      value="Test Field"
+    />
+    <FieldMappingTypeSelect
+      disabled={true}
+      setValue={[Function]}
+      value="one_to_one"
+    />
+    <EditableFieldCardstyles__Separator />
+    <FieldTypeSelect
+      disabled={true}
+      setValue={[Function]}
+      value="string"
+    />
+    <EditableFieldCardstyles__Separator />
+    <ManageFieldDisplayModeButton
+      field={
+        PrototypeField {
+          "confidential": false,
+          "fieldType": PrototypeFieldType {
+            "description": Object {},
+            "typeCode": "string",
+          },
+          "id": "fieldId",
+          "mapping": PrototypeFieldMapping {
+            "keys": Array [
+              "mappingKey1",
+              "mappingKey2",
+            ],
+            "mappingDataType": "string",
+            "mappingType": "one_to_one",
+          },
+          "name": "Test Field",
+          "order": 0,
+          "prototypeId": "prototypeId",
+          "readOnly": false,
+          "required": true,
+        }
+      }
+      updateDisplayMode={[Function]}
+    />
+    <EditableFieldCardstyles__DeleteIconButton
+      icon={<XMarkIcon />}
+      onClick={[Function]}
+    />
+  </EditableFieldCardstyles__Header>
+  <EditableFieldCardstyles__KeysWrapper>
+    <MappingKeys
+      isEditMode={true}
+      keys={
+        Array [
+          "mappingKey1",
+          "mappingKey2",
+        ]
+      }
+      updateMappingKeys={[Function]}
+    />
+  </EditableFieldCardstyles__KeysWrapper>
+</EditableFieldCardstyles__Wrapper>
+`;

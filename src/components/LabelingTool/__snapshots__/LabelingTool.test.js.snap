@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: LabelingTool should render correct layout 1`] = `
+<LabelingTool
+  config={
+    Object {
+      "api": Object {
+        "close": [MockFunction],
+        "recognize": [MockFunction],
+        "save": [MockFunction],
+        "saveMarkup": [MockFunction],
+      },
+      "document": Object {
+        "pages": Array [
+          "test",
+        ],
+      },
+      "fields": Array [
+        Field {
+          "code": "verticalReference",
+          "fieldType": "string",
+          "name": "Vertical Reference",
+          "required": false,
+        },
+        Field {
+          "code": "glElevation",
+          "fieldType": "string",
+          "name": "GL Elevation",
+          "required": false,
+        },
+      ],
+      "markup": null,
+      "ocrEngines": Array [
+        Engine {
+          "code": "mock engine code",
+          "name": "mock engine title",
+        },
+      ],
+      "settings": Object {
+        "features": Array [
+          "autoSave",
+          "export",
+          "import",
+          "paging",
+          "language",
+          "rotation",
+          "specialSymbols",
+          "manageFields",
+          "multiAssignLabels",
+          "multiAssignTables",
+        ],
+        "mode": "markup",
+        "panels": Array [
+          "TOOLBAR",
+          "MARKUP_SIDEBAR",
+          "LEFT_SIDEBAR",
+        ],
+        "tools": Array [
+          "detectTables",
+          "label",
+          "table",
+          "merge",
+          "split",
+          "pointer",
+          "grabbing",
+        ],
+      },
+    }
+  }
+/>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: OrganisationSettingsFailure should render the correct layout 1`] = `
+<Layout>
+  <ErrorLayout
+    heading="Oops"
+    info="We are sorry, the organization settings couldn't be applied.
+  Please try to reload the page or contact http:&#x2F;&#x2F;mockUrl.com"
+  />
+</Layout>
+`;

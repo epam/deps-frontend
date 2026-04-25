@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: OutputCard should render correct layout 1`] = `
+<OutputCardstyles__Card
+  profileStatus="upToDate"
+>
+  <OutputCardstyles__Header>
+    <OutputCardstyles__HeaderTitle>
+      <LongText
+        text="Profile name"
+      />
+      <OutputCardstyles__HeaderCreatedInfo>
+        Created date:
+         
+        <OutputCardstyles__DateText>
+          12/12/2012, 12:00 AM
+        </OutputCardstyles__DateText>
+      </OutputCardstyles__HeaderCreatedInfo>
+    </OutputCardstyles__HeaderTitle>
+    <OutputCommandBar
+      documentId="id"
+      filePath="filepath.json"
+      isPending={true}
+      name="Document Title(Profile name)"
+      outputId="id"
+      reloadData={[MockFunction]}
+    />
+  </OutputCardstyles__Header>
+  <OutputCardstyles__Content>
+    <OutputCardstyles__InfoRow>
+      <OutputCardstyles__InfoColl>
+        json
+      </OutputCardstyles__InfoColl>
+      <OutputCardstyles__InfoColl>
+        <OutputCardstyles__ValidationSwitch>
+          <OutputCardstyles__Label>
+            Validation errors
+          </OutputCardstyles__Label>
+          <Switch
+            checked={false}
+            disabled={true}
+          />
+        </OutputCardstyles__ValidationSwitch>
+      </OutputCardstyles__InfoColl>
+    </OutputCardstyles__InfoRow>
+    <OutputNotification
+      onClick={[Function]}
+      profileStatus="upToDate"
+      state="pending"
+    />
+  </OutputCardstyles__Content>
+</OutputCardstyles__Card>
+`;

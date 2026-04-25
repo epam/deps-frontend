@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EmptyData should render correct layout 1`] = `
+<EmptyDatastyles__Wrapper>
+  <EmptyDatastyles__Image />
+  <EmptyDatastyles__ContentWrapper>
+    <EmptyDatastyles__Title>
+      This section doesn't have any items
+    </EmptyDatastyles__Title>
+    <EmptyDatastyles__StyledButton
+      onClick={[MockFunction]}
+      type="primary"
+    >
+      <MessageIcon />
+      Open Chat
+    </EmptyDatastyles__StyledButton>
+  </EmptyDatastyles__ContentWrapper>
+</EmptyDatastyles__Wrapper>
+`;

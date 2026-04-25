@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ConfidenceLevelRangeHint should render correctly 1`] = `
+<ConfidenceLevelRangeHintstyles__HintItem>
+  <ConfidenceLevelRangeHintstyles__Round
+    type="low"
+  />
+  <ConfidenceLevelRangeHintstyles__TextValue>
+    Low
+  </ConfidenceLevelRangeHintstyles__TextValue>
+  <ConfidenceLevelRangeHintstyles__PercentageRatio>
+    (0 - 80%)
+  </ConfidenceLevelRangeHintstyles__PercentageRatio>
+</ConfidenceLevelRangeHintstyles__HintItem>
+`;
+
+exports[`Component: ConfidenceLevelRangeHint should render correctly if confidence level view is displayed as icons 1`] = `
+<ConfidenceLevelRangeHintstyles__HintItem>
+  <ConfidenceLevelRangeHintstyles__Round
+    type="low"
+  />
+  <ConfidenceLevelRangeHintstyles__TextValue>
+    Low
+  </ConfidenceLevelRangeHintstyles__TextValue>
+</ConfidenceLevelRangeHintstyles__HintItem>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentUploadSettingsForm should render DocumentUploadSettingsForm with correct props 1`] = `
+<Form>
+  <FormItem
+    field={
+      Object {
+        "code": "parsingFeatures",
+        "defaultValue": Array [
+          "text",
+        ],
+        "placeholder": "Select Parsing Feature",
+        "render": [Function],
+      }
+    }
+    key="parsingFeatures"
+    label="Parsing Features"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "engine",
+        "placeholder": "Select Engine",
+        "render": [Function],
+      }
+    }
+    key="engine"
+    label="Engine"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "llmType",
+        "placeholder": "Select LLM Type",
+        "render": [Function],
+      }
+    }
+    key="llmType"
+    label="LLM Type"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "labels",
+        "render": [Function],
+      }
+    }
+    key="labels"
+    label="Labels"
+  />
+  <DocumentUploadSettingsstyles__CheckboxWrapper
+    key="shouldExtractData"
+  >
+    <FormItem
+      field={
+        Object {
+          "code": "shouldExtractData",
+          "defaultValue": true,
+          "type": "checkmark",
+        }
+      }
+      key="shouldExtractData"
+      label="Send to Extraction"
+    />
+  </DocumentUploadSettingsstyles__CheckboxWrapper>
+</Form>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ReadOnlyFieldCard should render the correct layout 1`] = `
+<ReadOnlyFieldCardstyles__Wrapper>
+  <ReadOnlyFieldCardstyles__Header>
+    <ReadOnlyFieldCardstyles__FieldName>
+      Test Field
+    </ReadOnlyFieldCardstyles__FieldName>
+    <ReadOnlyFieldCardstyles__TypeWrapper>
+      1 to 1
+    </ReadOnlyFieldCardstyles__TypeWrapper>
+    <ReadOnlyFieldCardstyles__Separator />
+    <ReadOnlyFieldCardstyles__TypeWrapper>
+      <StringFieldIcon />
+    </ReadOnlyFieldCardstyles__TypeWrapper>
+    <ReadOnlyFieldCardstyles__Separator />
+    <ManageFieldDisplayModeButton
+      field={
+        PrototypeField {
+          "confidential": false,
+          "fieldType": PrototypeFieldType {
+            "description": Object {},
+            "typeCode": "string",
+          },
+          "id": "fieldId",
+          "mapping": PrototypeFieldMapping {
+            "keys": Array [
+              "mappingKey1",
+              "mappingKey2",
+            ],
+            "mappingDataType": "string",
+            "mappingType": "one_to_one",
+          },
+          "name": "Test Field",
+          "order": 0,
+          "prototypeId": "prototypeId",
+          "readOnly": false,
+          "required": true,
+        }
+      }
+    />
+  </ReadOnlyFieldCardstyles__Header>
+  <ReadOnlyFieldCardstyles__KeysWrapper>
+    <MappingKeys
+      keys={
+        Array [
+          "mappingKey1",
+          "mappingKey2",
+        ]
+      }
+    />
+  </ReadOnlyFieldCardstyles__KeysWrapper>
+</ReadOnlyFieldCardstyles__Wrapper>
+`;

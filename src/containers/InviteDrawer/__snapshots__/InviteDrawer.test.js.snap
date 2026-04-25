@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: InviteDrawer should render correctly 1`] = `
+<Drawer
+  getContainer={false}
+  hasCloseIcon={false}
+  onClose={[MockFunction]}
+  open={true}
+  placement="right"
+  push={
+    Object {
+      "distance": 50,
+    }
+  }
+  title={
+    <styled.span>
+      Invite to the organization
+    </styled.span>
+  }
+>
+  <Connect(InviteByEmail)
+    onClose={[MockFunction]}
+    refetchUsers={[MockFunction]}
+  />
+  <styled.span>
+    OR
+  </styled.span>
+  <Connect(CopyInviteToClipboard)
+    onClose={[MockFunction]}
+  />
+</Drawer>
+`;

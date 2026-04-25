@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ListFieldTypeFormSection should render component correctly based on props 1`] = `
+<Fragment>
+  <DictionaryFieldTypeFormSection
+    field={
+      DocumentTypeField {
+        "code": "listCode",
+        "documentTypeCode": "whole",
+        "fieldMeta": ListFieldMeta {
+          "baseType": "dict",
+          "baseTypeMeta": DictFieldMeta {
+            "keyMeta": DocumentTypeFieldMeta {
+              "charBlacklist": null,
+              "charWhitelist": null,
+            },
+            "keyType": "string",
+            "valueMeta": DocumentTypeFieldMeta {
+              "charBlacklist": null,
+              "charWhitelist": null,
+            },
+            "valueType": "string",
+          },
+        },
+        "fieldType": "list",
+        "name": "listName",
+        "order": 0,
+        "pk": 4,
+        "required": false,
+      }
+    }
+  />
+</Fragment>
+`;

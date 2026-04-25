@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: OrganisationSettings should render layout correctly according to props 1`] = `
+<div>
+  Application
+</div>
+`;
+
+exports[`Component: OrganisationSettings should render layout correctly in case initCustomization module was not loaded yet 1`] = `
+<CenteredSpin
+  spinning={true}
+/>
+`;
+
+exports[`Component: OrganisationSettings should render layout correctly in case of error during customization loading 1`] = `<OrganisationSettingsFailure />`;

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "b1",
+    "type": "LINE",
+    "coordinates": {
+      "y": 0.1,
+      "x": 0.1,
+      "h": 0.02,
+      "w": 0.2
+    },
+    "text": "a",
+    "confidence": 1,
+    "childBlockIds": [],
+    "words": []
+  },
+  {
+    "id": "b2",
+    "type": "LINE",
+    "coordinates": {
+      "y": 0.15,
+      "x": 0.1,
+      "h": 0.02,
+      "w": 0.2
+    },
+    "text": "b",
+    "confidence": 1,
+    "childBlockIds": [],
+    "words": []
+  },
+  {
+    "id": "b3",
+    "type": "LINE",
+    "coordinates": {
+      "y": 0.2,
+      "x": 0.1,
+      "h": 0.02,
+      "w": 0.2
+    },
+    "text": "c",
+    "confidence": 1,
+    "childBlockIds": [],
+    "words": []
+  }
+]

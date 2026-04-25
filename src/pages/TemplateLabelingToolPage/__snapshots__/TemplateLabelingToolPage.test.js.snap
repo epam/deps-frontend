@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TemplateLabelingToolPage  should render correct layout 1`] = `
+<Layout>
+  <Connect(TemplateLabelingTool)
+    versionId="mockVersionId"
+  />
+  <ApplicationFooter />
+</Layout>
+`;

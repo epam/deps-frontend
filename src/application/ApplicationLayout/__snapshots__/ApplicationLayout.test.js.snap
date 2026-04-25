@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ApplicationLayout for specified route should render correct layout with header and sidebar 1`] = `
+<Layout>
+  <ApplicationHeader />
+  <Layout
+    hasSider={true}
+  >
+    <withRouter(Connect(ApplicationNavigation)) />
+    <div />
+  </Layout>
+  <ApplicationFooter />
+</Layout>
+`;
+
+exports[`Component: ApplicationLayout for specified route should render correct layout without header and sidebar 1`] = `
+<Layout>
+  <ApplicationHeader />
+  <Layout
+    hasSider={true}
+  >
+    <withRouter(Connect(ApplicationNavigation)) />
+    <div />
+  </Layout>
+  <ApplicationFooter />
+</Layout>
+`;

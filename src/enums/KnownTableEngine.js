@@ -1,0 +1,10 @@
+
+const KnownTableEngine = {
+  AWS_TEXTRACT: 'AWS_TEXTRACT',
+  AZURE_FORM_RECOGNIZER: 'AZURE_FORM_RECOGNIZER',
+  DEPS_DETECTOR: 'DEPS_DETECTOR',
+}
+
+export {
+  KnownTableEngine,
+}

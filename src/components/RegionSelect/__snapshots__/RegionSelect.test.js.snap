@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: RegionSelect should render layout correctly 1`] = `
+<div>
+  <WindowListener
+    onMouseDown={[Function]}
+    onMouseMove={[Function]}
+    onMouseUp={[Function]}
+  />
+  <RegionSelect
+    constraint={false}
+    debug={false}
+    maxRegions={1}
+    onChange={[Function]}
+    regionRenderer={[Function]}
+    regionStyle={
+      Object {
+        "background": undefined,
+        "borderColor": "#ff0000",
+        "zIndex": 5,
+      }
+    }
+    regions={
+      Array [
+        Object {
+          "x": 10,
+          "y": 15,
+        },
+      ]
+    }
+  />
+</div>
+`;

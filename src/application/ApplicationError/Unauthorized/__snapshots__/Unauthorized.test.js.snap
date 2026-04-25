@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: Unauthorized should render correct layout 1`] = `
+<Layout>
+  <ErrorLayout
+    heading="Unauthorized user"
+    info="We're sorry, but it looks like you don't have access to this app."
+    statusCode={401}
+  >
+    <ForwardRef
+      onClick={[Function]}
+      type="ghost"
+    >
+      Go to Login Page
+    </ForwardRef>
+  </ErrorLayout>
+</Layout>
+`;

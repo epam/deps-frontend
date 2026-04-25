@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: OutputProfileFormatInfo should render correct layout 1`] = `
+<Fragment>
+  <OutputProfileFormatInfostyles__Label>
+    Profile output format:
+  </OutputProfileFormatInfostyles__Label>
+  <OutputProfileFormatInfostyles__FormatBadge>
+    json
+  </OutputProfileFormatInfostyles__FormatBadge>
+</Fragment>
+`;

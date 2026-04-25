@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: GenAiData should render correct layout 1`] = `
+Array [
+  <Memo(GenAiField)
+    field={
+      GenAiField {
+        "id": "mock id1",
+        "key": "mock key1",
+        "value": "mock value1",
+      }
+    }
+    key="mock id1"
+  />,
+  <Memo(GenAiField)
+    field={
+      GenAiField {
+        "id": "mock id2",
+        "key": "mock key2",
+        "value": "mock value2",
+      }
+    }
+    key="mock id2"
+  />,
+]
+`;

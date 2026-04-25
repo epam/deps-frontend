@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FieldLabel should render correct layout 1`] = `
+<FieldLabelstyles__Label
+  $active={false}
+  $clickable={true}
+>
+  <Tooltip
+    placement="left"
+    title="Required Field"
+  >
+    <FieldLabelstyles__Wrapper
+      onClick={[MockFunction]}
+    >
+      <FieldLabelstyles__RequiredLabel>
+        *
+      </FieldLabelstyles__RequiredLabel>
+      <LongText />
+    </FieldLabelstyles__Wrapper>
+  </Tooltip>
+</FieldLabelstyles__Label>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: Flags should render correct layout in case there is no customValidationFlags property 1`] = `
+<Flagsstyles__FlagWrapper>
+  <CommentsFlag
+    comments={
+      Array [
+        Object {
+          "createdAt": "createdAtMock1",
+          "createdBy": "createdByMock1",
+          "text": "textMock1",
+        },
+        Object {
+          "createdAt": "createdAtMock2",
+          "createdBy": "createdByMock2",
+          "text": "textMock2",
+        },
+      ]
+    }
+  />
+  <Connect(Confidence)
+    confidence={81}
+  />
+  <ModifiedByFlag
+    modifiedBy="modifiedByMock"
+  />
+</Flagsstyles__FlagWrapper>
+`;

@@ -1,0 +1,2 @@
+
+export { useExtractorModel } from './useExtractorModel'

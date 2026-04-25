@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Flag should render correct layout 1`] = `
+<Tooltip
+  placement="top"
+  title="A symbol title"
+>
+  <Flagstyles__FlagComponent
+    type="info"
+  >
+    A
+  </Flagstyles__FlagComponent>
+</Tooltip>
+`;

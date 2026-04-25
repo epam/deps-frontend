@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ErrorLayout should render correct layout 1`] = `
+<Content>
+  <ErrorLayoutstyles__Wrapper>
+    <ErrorLayoutstyles__Status>
+      404
+    </ErrorLayoutstyles__Status>
+    <ErrorLayoutstyles__Heading>
+      Heading
+    </ErrorLayoutstyles__Heading>
+    <ErrorLayoutstyles__InfoText
+      data-automation="error-layout-info-text"
+    >
+      infoText
+    </ErrorLayoutstyles__InfoText>
+  </ErrorLayoutstyles__Wrapper>
+</Content>
+`;

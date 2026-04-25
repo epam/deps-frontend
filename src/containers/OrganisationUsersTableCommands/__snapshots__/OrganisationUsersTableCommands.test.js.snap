@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: OrganisationUsersTableCommands should render the correct layout 1`] = `
+<OrganisationUsersTableCommandsstyles__Wrapper>
+  <AddUserButton />
+  <Connect(DeleteUsersButton) />
+</OrganisationUsersTableCommandsstyles__Wrapper>
+`;

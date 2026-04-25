@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DateEdField should render correct FieldActionsMenu 1`] = `null`;
+
+exports[`Container: DateEdField should render correct FieldActionsMenu if renderActions was passed 1`] = `null`;
+
+exports[`Container: DateEdField should render correct layout 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="mockId"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="Vertical Reference"
+        required={false}
+      />
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <DocumentFieldstyles__PrimitiveFieldContent>
+        <DocumentFieldstyles__FieldInputWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={true}
+        >
+          <DateEdFieldstyles__StyledTextAreaField
+            disabled={false}
+            onChange={[MockFunction]}
+            onFocus={[MockFunction]}
+            value="10/10/2023"
+          />
+          <DatePicker
+            allowClear={false}
+            disabled={false}
+            getPopupContainer={[Function]}
+            onChange={[Function]}
+            onFocus={[MockFunction]}
+            suffixIcon={<CalendarIcon />}
+            value={
+              Object {
+                "add": [Function],
+                "diff": [Function],
+                "endOf": [Function],
+                "format": [Function],
+                "isValid": [Function],
+                "localeData": [Function],
+                "longDateFormat": [Function],
+                "startOf": [Function],
+                "subtract": [Function],
+                "toISOString": [Function],
+                "valueOf": [Function],
+              }
+            }
+          />
+          <Flags
+            confidence={69}
+          />
+        </DocumentFieldstyles__FieldInputWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.69,
+                "coordinates": FieldCoordinates {
+                  "h": 0.5,
+                  "page": 2,
+                  "w": 0.8,
+                  "x": 0.19,
+                  "y": 0.26,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": null,
+                "value": "10/10/2023",
+              },
+              "fieldPk": 1,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </DocumentFieldstyles__PrimitiveFieldContent>
+      <PrimitiveEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "verticalReference",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": DocumentTypeFieldMeta {
+              "charBlacklist": "BC",
+              "charWhitelist": "A",
+            },
+            "fieldType": "date",
+            "name": "Vertical Reference",
+            "order": 1,
+            "pk": 1,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": FieldData {
+              "confidence": 0.69,
+              "coordinates": FieldCoordinates {
+                "h": 0.5,
+                "page": 2,
+                "w": 0.8,
+                "x": 0.19,
+                "y": 0.26,
+              },
+              "setIndex": null,
+              "sourceBboxCoordinates": null,
+              "sourceTableCoordinates": null,
+              "sourceTextCoordinates": null,
+              "tableCoordinates": null,
+              "value": "10/10/2023",
+            },
+            "fieldPk": 1,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        FieldValidation {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;

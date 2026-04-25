@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: OpenLabelingToolButton should render correct layout based on props 1`] = `
+<TextButtonstyles__TextButton
+  disabled={false}
+  onClick={[Function]}
+>
+  children
+</TextButtonstyles__TextButton>
+`;

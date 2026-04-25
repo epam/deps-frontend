@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DeleteDocumentButton connected Component should render correct layout 1`] = `
+<TextButtonstyles__TextButton
+  onClick={[Function]}
+>
+  Delete
+</TextButtonstyles__TextButton>
+`;

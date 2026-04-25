@@ -1,0 +1,11 @@
+
+export * as mockDataWithFieldCoordinates from './mockDataWithFieldCoordinates'
+export * as mockDataWithFieldSourceBboxCoordinates from './mockDataWithFieldSourceBboxCoordinates'
+export * as mockDataWithFieldSourceTableCoordinates from './mockDataWithFieldSourceTableCoordinates'
+export * as mockDataWithFieldTableCoordinates from './mockDataWithFieldTableCoordinates'
+export * as mockDataWithKeyValuePairsFieldCoordinates from './mockDataWithKeyValuePairsFieldCoordinates'
+export * as mockDataWithKeyValuePairsFieldSetIndex from './mockDataWithKeyValuePairsFieldSetIndex'
+export * as mockDataWithKeyValuePairsListFieldSetIndex from './mockDataWithKeyValuePairsListFieldSetIndex'
+export * as mockDataWithListFieldCoordinates from './mockDataWithListFieldCoordinates'
+export * as mockDataWithListFieldSetIndex from './mockDataWithListFieldSetIndex'
+export * as mockDataWithStringFieldSetIndex from './mockDataWithStringFieldSetIndex'

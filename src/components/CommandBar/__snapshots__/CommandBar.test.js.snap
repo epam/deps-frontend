@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: CommandBar should render correct layout according to props 1`] = `
+<CommandBarstyles__CommandBar
+  data-automation="command-bar"
+>
+  <CommandBarstyles__Command
+    key="0"
+    onClick={[MockFunction]}
+  >
+    <div />
+  </CommandBarstyles__Command>
+</CommandBarstyles__CommandBar>
+`;

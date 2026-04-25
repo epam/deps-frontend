@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentUploadItem should render DocumentUploadCard 1`] = `
+<DocumentUploadItemstyles__DocumentUploadCard
+  size="small"
+>
+  <Card
+    bodyStyle={
+      Object {
+        "position": "relative",
+      }
+    }
+    size="small"
+    title={
+      <React.Fragment>
+        <DocumentUploadItemstyles__DocumentTitle>
+          mockName.pdf
+        </DocumentUploadItemstyles__DocumentTitle>
+      </React.Fragment>
+    }
+  >
+    <DocumentFileUploadList
+      deleteFile={[MockFunction]}
+      document={
+        DocumentToUpload {
+          "documentType": undefined,
+          "engine": undefined,
+          "files": Array [
+            Object {
+              "name": "mockName.pdf",
+              "uid": "mockUID1",
+            },
+          ],
+          "name": "mockName.pdf",
+          "uid": "mockUID1",
+        }
+      }
+      documentUploadState={
+        Object {
+          "files": Object {
+            "mockUID1": 100,
+          },
+          "status": "SUCCESS",
+        }
+      }
+      files={
+        Array [
+          Object {
+            "name": "mockName.pdf",
+            "uid": "mockUID1",
+          },
+        ]
+      }
+      size="small"
+      uploading={false}
+    />
+  </Card>
+</DocumentUploadItemstyles__DocumentUploadCard>
+`;
+
+exports[`Component: DocumentUploadItem should render DocumentUploadCard with warning banner 1`] = `
+<DocumentUploadItemstyles__WarningBanner>
+  <WarningIcon />
+  The specified configuration will be applied to the email attachments only
+</DocumentUploadItemstyles__WarningBanner>
+`;
+
+exports[`Component: DocumentUploadItem should render OverrideDocumentOption in case of proper props.document.documentTypes 1`] = `
+<React.Fragment>
+  <DocumentUploadItemstyles__DocumentTitle>
+    mockName.pdf
+  </DocumentUploadItemstyles__DocumentTitle>
+  <DocumentUploadItemstyles__OverrideDocumentOption>
+    Document type: mockOptionText
+  </DocumentUploadItemstyles__OverrideDocumentOption>
+</React.Fragment>
+`;
+
+exports[`Component: DocumentUploadItem should render OverrideDocumentOption in case of proper props.document.engine 1`] = `
+<React.Fragment>
+  <DocumentUploadItemstyles__DocumentTitle>
+    mockName.pdf
+  </DocumentUploadItemstyles__DocumentTitle>
+  <DocumentUploadItemstyles__OverrideDocumentOption>
+    Document OCR engine: mockOptionText
+  </DocumentUploadItemstyles__OverrideDocumentOption>
+</React.Fragment>
+`;

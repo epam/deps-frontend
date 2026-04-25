@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ImagePageSwitcher should render correct layout 1`] = `
+<ImagePageSwitcherstyles__CenteredPageSwitcher
+  activePage={1}
+  changeActivePage={[MockFunction]}
+  className="HiMan"
+  disabled={false}
+  pageOptions={
+    Array [
+      <Option
+        value={1}
+      >
+        <ImagePageSwitcherstyles__OptionContent>
+          1
+        </ImagePageSwitcherstyles__OptionContent>
+      </Option>,
+      <Option
+        value={2}
+      >
+        <ImagePageSwitcherstyles__OptionContent>
+          2
+        </ImagePageSwitcherstyles__OptionContent>
+      </Option>,
+      <Option
+        value={3}
+      >
+        <ImagePageSwitcherstyles__OptionContent>
+          3
+        </ImagePageSwitcherstyles__OptionContent>
+      </Option>,
+    ]
+  }
+  pagesQuantity={3}
+/>
+`;

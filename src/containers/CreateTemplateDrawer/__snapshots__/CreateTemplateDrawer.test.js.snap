@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: CreateTemplateButton should render CreateTemplateButton with correct props 1`] = `
+<Fragment>
+  <div
+    onClick={[Function]}
+  >
+    MockedButtonText
+  </div>
+  <CreateTemplateDrawerstyles__StyledDrawer
+    destroyOnClose={true}
+    footer={
+      <CreateTemplateDrawerstyles__DrawerFooterWrapper>
+        <CreateTemplateDrawerstyles__CancelButton
+          disabled={false}
+          onClick={[Function]}
+        >
+          Cancel
+        </CreateTemplateDrawerstyles__CancelButton>
+        <ForwardRef
+          disabled={true}
+          loading={false}
+          onClick={[Function]}
+          type="primary"
+        >
+          Create
+        </ForwardRef>
+      </CreateTemplateDrawerstyles__DrawerFooterWrapper>
+    }
+    getContainer={[Function]}
+    hasCloseIcon={false}
+    onClose={[Function]}
+    open={false}
+    title="Add Template"
+    width="36rem"
+  >
+    <Component
+      formState={Object {}}
+      getValues={[MockFunction]}
+    >
+      <CreateTemplateForm />
+    </Component>
+    <TemplatePicker
+      file={null}
+      setUploadedFile={[Function]}
+    />
+  </CreateTemplateDrawerstyles__StyledDrawer>
+</Fragment>
+`;

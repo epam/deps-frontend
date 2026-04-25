@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FieldSearchInput should render correct layout 1`] = `
+<FieldsSearchInputstyles__StyledInput
+  onChange={[Function]}
+  placeholder="Search"
+  prefix={<SearchIcon />}
+  value=""
+/>
+`;

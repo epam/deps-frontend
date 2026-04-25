@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FieldTypeSelect should render correct layout 1`] = `
+<FieldTypeSelectstyles__Wrapper>
+  <FieldTypeSelectstyles__StyledSelect
+    defaultValue="string"
+    disabled={false}
+    getPopupContainer={[Function]}
+    onChange={[MockFunction]}
+  >
+    <Option
+      key="string"
+      value="string"
+    >
+      <StringFieldIcon />
+      <span>
+        String
+      </span>
+    </Option>
+    <Option
+      key="enum"
+      value="enum"
+    >
+      <EnumFieldIcon />
+      <span>
+        Enumeration
+      </span>
+    </Option>
+    <Option
+      key="date"
+      value="date"
+    >
+      <DateFieldIcon />
+      <span>
+        Date
+      </span>
+    </Option>
+    <Option
+      key="checkmark"
+      value="checkmark"
+    >
+      <CheckboxFieldIcon />
+      <span>
+        Checkbox
+      </span>
+    </Option>
+  </FieldTypeSelectstyles__StyledSelect>
+</FieldTypeSelectstyles__Wrapper>
+`;

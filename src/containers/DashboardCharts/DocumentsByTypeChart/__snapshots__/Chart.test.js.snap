@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Chart should render correct layout 1`] = `
+<Chartstyle__Wrapper>
+  <ResponsiveBar
+    animate={false}
+    axisBottom={
+      Object {
+        "renderTick": [Function],
+        "tickPadding": 4,
+        "tickRotation": 0,
+        "tickSize": 6,
+      }
+    }
+    axisLeft={
+      Object {
+        "tickPadding": 5,
+        "tickRotation": 0,
+        "tickSize": 6,
+        "tickValues": Array [
+          5,
+          10,
+        ],
+      }
+    }
+    borderRadius={5}
+    colorBy="indexValue"
+    colors={
+      Array [
+        "#9FACBC",
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "code": "testCode",
+          "count": 5,
+          "documentType": "Test Name 1",
+          "id": "testId1",
+        },
+        Object {
+          "count": 10,
+          "documentType": "Test Name 2",
+          "id": "testId2",
+        },
+      ]
+    }
+    enableGridX={false}
+    enableGridY={false}
+    enableLabel={false}
+    indexBy="id"
+    indexScale={
+      Object {
+        "round": true,
+        "type": "band",
+      }
+    }
+    isInteractive={true}
+    keys={
+      Array [
+        "count",
+      ]
+    }
+    layers={
+      Array [
+        "grid",
+        "axes",
+        "bars",
+        "legends",
+        "annotations",
+      ]
+    }
+    margin={
+      Object {
+        "bottom": 32,
+        "left": 30,
+        "right": 0,
+        "top": 15,
+      }
+    }
+    onClick={[MockFunction]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    padding={0.6}
+    theme={
+      Object {
+        "axis": Object {
+          "domain": Object {
+            "line": Object {
+              "stroke": "#657990",
+              "strokeWidth": 1,
+            },
+          },
+          "legend": Object {
+            "text": Object {
+              "fill": "#657990",
+              "fontSize": 10,
+              "outlineColor": "transparent",
+              "outlineWidth": 0,
+            },
+          },
+          "ticks": Object {
+            "line": Object {
+              "stroke": "#657990",
+              "strokeWidth": 1,
+            },
+            "text": Object {
+              "fill": "#657990",
+              "fontSize": 10,
+              "outlineColor": "transparent",
+              "outlineWidth": 0,
+            },
+          },
+        },
+        "background": "transparent",
+        "grid": Object {
+          "line": Object {
+            "stroke": "#657990",
+            "strokeWidth": 1,
+          },
+        },
+        "text": Object {
+          "fill": "#657990",
+          "fontSize": 10,
+          "outlineColor": "transparent",
+          "outlineWidth": 0,
+        },
+        "tooltip": Object {
+          "base": Object {
+            "background": "#ffffff",
+            "borderRadius": "2px",
+            "boxShadow": "rgba(48, 48, 48, 0.2) 0px 1px 2px",
+            "padding": "5px 9px",
+          },
+        },
+      }
+    }
+    tooltip={[Function]}
+    valueScale={
+      Object {
+        "type": "symlog",
+      }
+    }
+  />
+</Chartstyle__Wrapper>
+`;

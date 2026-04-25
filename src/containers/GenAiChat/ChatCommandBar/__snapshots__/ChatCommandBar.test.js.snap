@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ChatCommandBar should render commands correctly 1`] = `
+<div>
+  <ChatCommandBarstyles__StyledIconButton
+    disabled={false}
+    icon={<PaperPlaneIcon />}
+    onClick={[MockFunction]}
+    tooltip={
+      Object {
+        "title": "Send a Message",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Container: ChatCommandBar should render commands correctly 2`] = `
+<div>
+  <MoreOptionsCommandMenu
+    dialogs={
+      Array [
+        GenAiChatDialog {
+          "answer": GenAiChatMessage {
+            "message": "answerItem",
+            "time": "11:12",
+          },
+          "documentId": "id",
+          "id": "dialogId",
+          "model": "model",
+          "prompt": GenAiChatMessage {
+            "message": "prompt",
+            "time": "11:12",
+          },
+          "provider": "provider",
+        },
+      ]
+    }
+    disabled={false}
+    document={
+      Document {
+        "_id": "id",
+        "communication": Object {
+          "comments": Array [],
+          "flagged": false,
+        },
+        "containerMetadata": null,
+        "containerType": null,
+        "date": undefined,
+        "documentLayout": undefined,
+        "documentType": DocumentType {
+          "code": "code",
+          "engine": undefined,
+          "extractionType": "ml",
+          "fields": Array [],
+          "id": undefined,
+          "language": "eng",
+          "name": "name",
+        },
+        "engine": undefined,
+        "error": undefined,
+        "extractedData": undefined,
+        "files": Array [],
+        "groupInfo": undefined,
+        "initialDocumentData": undefined,
+        "labels": Array [],
+        "language": null,
+        "previewDocuments": Object {},
+        "processingDocuments": Object {},
+        "reviewer": null,
+        "state": "",
+        "title": "title",
+        "unifiedData": undefined,
+        "validation": undefined,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Container: ChatCommandBar should render the correct layout 1`] = `
+<CommandBar
+  commands={
+    Array [
+      Object {
+        "renderComponent": [Function],
+      },
+      Object {
+        "renderComponent": [Function],
+      },
+    ]
+  }
+/>
+`;

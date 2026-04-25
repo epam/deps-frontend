@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading component should render correct layout according to props 1`] = `
+<Headingstyles__StyledHeading
+  level={2}
+>
+  Text
+</Headingstyles__StyledHeading>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TrialLimitationCard should render correctly 1`] = `
+<StatisticCard
+  currentValue={5000}
+  renderExtra={[Function]}
+  title="TEMPLATES (PER ORGANIZATION)"
+  totalValue={10000}
+/>
+`;

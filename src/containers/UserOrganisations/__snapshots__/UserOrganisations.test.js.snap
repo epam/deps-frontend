@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UserOrganisations Component:  should render the correct layout with many organisations 1`] = `
+<UserOrganisationsstyles__StyledSubMenu
+  title="Change Organization"
+>
+  <MenuItem
+    key="1111"
+    onClick={[Function]}
+  >
+    <UserOrganisationsstyles__StyledTypographyText
+      content="TestOrganisation"
+      ellipsis={
+        Object {
+          "tooltip": "TestOrganisation",
+        }
+      }
+    />
+  </MenuItem>
+  <MenuItem
+    key="1112"
+    onClick={[Function]}
+  >
+    <UserOrganisationsstyles__StyledTypographyText
+      content="TestOrganisation2"
+      ellipsis={
+        Object {
+          "tooltip": "TestOrganisation2",
+        }
+      }
+    />
+  </MenuItem>
+  <MenuItem
+    key="1113"
+    onClick={[Function]}
+  >
+    <UserOrganisationsstyles__StyledTypographyText
+      content="TestOrganisation3"
+      ellipsis={
+        Object {
+          "tooltip": "TestOrganisation3",
+        }
+      }
+    />
+  </MenuItem>
+</UserOrganisationsstyles__StyledSubMenu>
+`;
+
+exports[`Component: UserOrganisations Component:  should render the correct layout with one organisation 1`] = `
+<MenuItem
+  disabled={true}
+>
+  <Tooltip
+    title="Current organization can't be changed as you aren't assigned to another organization."
+  >
+    <UserOrganisationsstyles__StyledText>
+      Change Organization
+    </UserOrganisationsstyles__StyledText>
+  </Tooltip>
+</MenuItem>
+`;

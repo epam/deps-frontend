@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: LabelDocument should render the correct layout 1`] = `
+<Fragment>
+  <div>
+    <p>
+      <b>
+        Data labeling 
+      </b>
+      is the act of adding keywords to unstructured data, like text, images, so that machines
+  can learn to automatically recognize the concepts that these keywords describe.
+    </p>
+    <p>
+      Data labeling is the first step in the Artificial Intelligence lifecycle.
+  It is the basis for developing accurate predictive models that yield a wide variety of results.
+  The labeled data is used to train AI models and create document templates.
+    </p>
+    <p>
+      <b>
+        Labeling tool 
+      </b>
+      is used for editing table layout and labeling in the document.
+  The user applies a labeling tool to label the data in the documents for proper extraction.
+    </p>
+    <p>
+      The applying of the data labeling tool will improve the process of extracting data from documents and preserve
+  the data structure of the text, tables, images, as well as highlight only the necessary parts when extracting data.
+    </p>
+    <p>
+      User can open Labeling tool via 'Open in Labeling Tool' action available in the upper-right corner of right pane
+  (the document opens in a separate window for labeling).
+    </p>
+    <p>
+      This action is available only in 'In Review' state.
+    </p>
+  </div>
+  <LabelDocumentstyles__StyledOpenLtImage />
+  <div>
+    <p>
+      <b>
+        How to make labels
+      </b>
+    </p>
+    <p>
+      <b>
+        Step 1. 
+      </b>
+      Open the document in the Labeling Tool and choose the 'Label' action to draw  labels in the document.
+  The user can designate as one word or number, and several words, numbers and lines in one label.
+    </p>
+  </div>
+  <LabelDocumentstyles__StyledLabelImage />
+  <div>
+    <p>
+      <b>
+        Step 2. 
+      </b>
+      To draw a label, the user applies the cursor and the left mouse button.
+  By holding down the left mouse button, the user selects an area to create a new label.
+  When the label area is highlighted, the system shows it in red with a red outline.
+    </p>
+  </div>
+  <LabelDocumentstyles__StyledPointerImage />
+  <div>
+    <p>
+      <b>
+        How to assign labels
+      </b>
+    </p>
+    <p>
+      <b>
+        Step 3. 
+      </b>
+      After a new label is drawn, the user selects the 'Pointer' action and left-clicks on the label area.
+  Then the label is highlighted in green at the top and bottom. This means that the label is ready for assignment.
+    </p>
+  </div>
+  <FrequentlyAskedQuestionsstyles__WrapperImg>
+    <LabelDocumentstyles__StyledLabelSelectionImage />
+    <LabelDocumentstyles__StyledSelectedLabelImage />
+  </FrequentlyAskedQuestionsstyles__WrapperImg>
+  <div>
+    <p>
+      <b>
+        Step 4. 
+      </b>
+      Now when the label is selected by the 'Pointer', the list of fields available in this document type appears in the right side.
+  The user assigns the selected label to one of the fields on the right by left-clicking on the word 'Value' opposite the field name.
+    </p>
+  </div>
+  <LabelDocumentstyles__StyledAssignLabelImage />
+  <div>
+    <p>
+      <b>
+        Labels are assigned
+      </b>
+    </p>
+    <p>
+      <b>
+        Step 5. 
+      </b>
+      The label now belongs to a specific field.
+  The system assigns the field name to the label and displays it at the bottom of the label (red font).
+  Immediately after assigning a field to a label, the label name is displayed in the right pane.
+    </p>
+    <p>
+      Similarly, the user assigns labels to other fields.
+    </p>
+    <p>
+      After finishing drawing labels, the user saves the markup by clicking the 'Save' button on the top bar.
+  The user has several options for saving: just save, save and extract, or save, extract and close the Labeling Tool.
+    </p>
+  </div>
+  <LabelDocumentstyles__StyledSaveImage />
+  <div>
+    <p>
+      <b>
+        Step 6. 
+      </b>
+      After closing the Labeling Tool the user checks the extracted data and clicks the 'Complete Review' button.
+  Further actions of the user may be to save or load the processed document in various formats.
+    </p>
+    <p>
+      If necessary, the user can re-label the data in the document by repeating the labeling process and saving the results.
+  The system allows making changes to the markup.
+    </p>
+  </div>
+  <LabelDocumentstyles__StyledMarkupUpdateImage />
+</Fragment>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentComments as connected component should render correct layout 1`] = `
+<DocumentCommentsstyles__CommentsContent>
+  <DocumentCommentsstyles__CommentsInput>
+    <DocumentCommentsstyles__CommentsHeader>
+      Add Comment:
+    </DocumentCommentsstyles__CommentsHeader>
+    <TextArea
+      autoSize={
+        Object {
+          "maxRows": 10,
+          "minRows": 5,
+        }
+      }
+      onChange={[Function]}
+      placeholder="Your Comment..."
+      value=""
+    />
+    <DocumentCommentsstyles__CommentsBtnGroup>
+      <ForwardRef
+        disabled={true}
+        onClick={[Function]}
+        type="primary"
+      >
+        Add
+      </ForwardRef>
+    </DocumentCommentsstyles__CommentsBtnGroup>
+  </DocumentCommentsstyles__CommentsInput>
+  <DocumentCommentsstyles__CommentItem
+    key="0"
+  >
+    10.10.2020
+    <DocumentCommentsstyles__CommentUser>
+      Unknown User:
+    </DocumentCommentsstyles__CommentUser>
+    "hello comment text"
+  </DocumentCommentsstyles__CommentItem>
+</DocumentCommentsstyles__CommentsContent>
+`;

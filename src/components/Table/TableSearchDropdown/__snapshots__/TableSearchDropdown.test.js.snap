@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TableSearchDropdown should render correct layout 1`] = `
+<TableSearchDropdownstyles__Wrapper>
+  <SearchInput
+    autoFocus={true}
+    filter=""
+    onChange={[Function]}
+  />
+</TableSearchDropdownstyles__Wrapper>
+`;

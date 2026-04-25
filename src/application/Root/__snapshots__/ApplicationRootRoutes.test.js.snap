@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ApplicationRootRoutes should render correct layout 1`] = `
+<Suspense
+  fallback={
+    <CenteredSpin
+      spinning={true}
+    />
+  }
+>
+  <Switch>
+    <ErrorBoundRoute
+      key="mockPath"
+      path="mockPath"
+    >
+      <GlobalStylesLoader>
+        <lazy
+          renderChild={[Function]}
+        />
+      </GlobalStylesLoader>
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      render={[Function]}
+    />
+  </Switch>
+</Suspense>
+`;
+
+exports[`Component: ApplicationRootRoutes should render correct layout without custom routes 1`] = `
+<Suspense
+  fallback={
+    <CenteredSpin
+      spinning={true}
+    />
+  }
+>
+  <Switch>
+    <ErrorBoundRoute
+      render={[Function]}
+    />
+  </Switch>
+</Suspense>
+`;

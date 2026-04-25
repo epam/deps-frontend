@@ -1,0 +1,242 @@
+/* eslint-disable no-undef */
+
+import { mockEnv } from '@/mocks/mockEnv'
+import { waitFor } from '@testing-library/dom'
+import { renderHook } from '@testing-library/react-hooks'
+import { RequestMethod } from '@/enums/RequestMethod'
+import { apiMap } from '@/utils/apiMap'
+import {
+  useFetchFilesQuery,
+  useFetchFileQuery,
+  useUploadRawFileMutation,
+  useClassifyFileMutation,
+  useDeleteFilesMutation,
+  useCreateDocumentFromFileMutation,
+  useFetchFileUnifiedDataQuery,
+  useFetchFileUnifiedDataTableCellsQuery,
+  useRestartFileMutation,
+} from './filesApi'
+
+jest.mock('@/utils/env', () => mockEnv)
+
+jest.mock('@/apiRTK/rootApi', () => ({
+  rootApi: {
+    injectEndpoints: (args) => {
+      const res = args.endpoints({
+        query: (arg) => arg.query,
+        mutation: (arg) => arg.query,
+      })
+
+      return {
+        useFetchFilesQuery: jest.fn(() => (args) => res.fetchFiles(args)),
+        useFetchFileQuery: jest.fn(() => (args) => res.fetchFile(args)),
+        useUploadRawFileMutation: jest.fn(() => (args) => res.uploadRawFile(args)),
+        useClassifyFileMutation: jest.fn(() => (args) => res.classifyFile(args)),
+        useDeleteFilesMutation: jest.fn(() => (args) => res.deleteFiles(args)),
+        useCreateDocumentFromFileMutation: jest.fn(() => (args) => res.createDocumentFromFile(args)),
+        useFetchFileUnifiedDataQuery: jest.fn(() => (args) => res.fetchFileUnifiedData(args)),
+        useFetchFileUnifiedDataTableCellsQuery: jest.fn(() => (args) => res.fetchFileUnifiedDataTableCells(args)),
+        useRestartFileMutation: jest.fn(() => (args) => res.restartFile(args)),
+      }
+    },
+  },
+}))
+
+describe('filesApi: useFetchFilesQuery', () => {
+  test('calls correct endpoint with correct args', async () => {
+    const id = 'mockId'
+
+    const { result } = renderHook(() => useFetchFilesQuery())
+
+    await waitFor(() => {
+      expect(result.current(id)).toEqual(
+        apiMap.apiGatewayV2.v5.files(id),
+      )
+    })
+  })
+})
+
+describe('filesApi: useFetchFileQuery', () => {
+  test('calls correct endpoint with correct args', async () => {
+    const fileId = 'mockFileId'
+
+    const { result } = renderHook(() => useFetchFileQuery())
+
+    await waitFor(() => {
+      expect(result.current(fileId)).toEqual(
+        apiMap.apiGatewayV2.v5.files.file(fileId),
+      )
+    })
+  })
+})
+
+describe('filesApi: useUploadRawFileMutation', () => {
+  test('calls correct endpoint with correct args', async () => {
+    const file = {}
+
+    const mockData = {
+      labels: [],
+      engine: 'engine',
+      parsingFeatures: 'parsingFeatures',
+      file: file,
+    }
+
+    const mockFormData = {
+      append: jest.fn((key, value) => {
+        mockFormData[key] = value
+      }),
+    }
+
+    global.FormData = jest.fn(() => mockFormData)
+
+    const { result } = renderHook(() => useUploadRawFileMutation())
+
+    await waitFor(() => {
+      expect(result.current(mockData)).toEqual(
+        {
+          method: RequestMethod.POST,
+          url: apiMap.apiGatewayV2.v5.files.process(),
+          body: mockFormData,
+        },
+      )
+    })
+  })
+})
+
+describe('filesApi: useClassifyFileMutation', () => {
+  test('calls correct endpoint with correct args', async () => {
+    const file = {}
+
+    const mockData = {
+      labels: [],
+      engine: 'engine',
+      parsingFeatures: 'parsingFeatures',
+      file: file,
+    }
+
+    const mockFormData = {
+      append: jest.fn((key, value) => {
+        mockFormData[key] = value
+      }),
+    }
+
+    global.FormData = jest.fn(() => mockFormData)
+
+    const { result } = renderHook(() => useClassifyFileMutation())
+
+    await waitFor(() => {
+      expect(result.current(mockData)).toEqual(
+        {
+          method: 'post',
+          url: apiMap.apiGatewayV2.v5.files.classify(),
+          body: mockFormData,
+        },
+      )
+    })
+  })
+})
+
+describe('filesApi: useDeleteFilesMutation', () => {
+  test('calls return correct config', async () => {
+    const fileIds = ['mockFileId']
+
+    const { result } = renderHook(() => useDeleteFilesMutation())
+
+    await waitFor(() => {
+      expect(result.current(fileIds)).toEqual(
+        {
+          method: RequestMethod.DELETE,
+          url: apiMap.apiGatewayV2.v5.files({ ids: fileIds }),
+        },
+      )
+    })
+  })
+})
+
+describe('filesApi: useCreateDocumentFromFileMutation', () => {
+  test('calls return correct config', async () => {
+    const fileId = 'mockFileId'
+    const documentTypeId = 'invoice'
+
+    const mockData = {
+      fileId,
+      documentTypeId,
+    }
+
+    const { result } = renderHook(() => useCreateDocumentFromFileMutation())
+
+    await waitFor(() => {
+      expect(result.current(mockData)).toEqual(
+        {
+          method: RequestMethod.POST,
+          url: apiMap.apiGatewayV2.v5.files.file.createDocument(fileId),
+          body: {
+            documentTypeId,
+          },
+        },
+      )
+    })
+  })
+})
+
+describe('filesApi: useFetchFileUnifiedDataQuery', () => {
+  test('calls correct endpoint with correct args', async () => {
+    const fileId = 'mockFileId'
+
+    const { result } = renderHook(() => useFetchFileUnifiedDataQuery())
+
+    await waitFor(() => {
+      expect(result.current(fileId)).toEqual(
+        apiMap.apiGatewayV2.v5.files.file.unifiedData(fileId),
+      )
+    })
+  })
+})
+
+describe('filesApi: useFetchFileUnifiedDataTableCellsQuery', () => {
+  test('calls correct endpoint with correct args', async () => {
+    const fileId = 'mockFileId'
+    const tableId = 'mockTableId'
+    const maxRow = 10
+    const maxColumn = 5
+
+    const mockParams = {
+      fileId,
+      tableId,
+      maxRow,
+      maxColumn,
+    }
+
+    const expectedConfig = {
+      firstRow: 0,
+      firstColumn: 0,
+      lastRow: maxRow,
+      lastColumn: maxColumn,
+    }
+
+    const { result } = renderHook(() => useFetchFileUnifiedDataTableCellsQuery())
+
+    await waitFor(() => {
+      expect(result.current(mockParams)).toEqual(
+        apiMap.apiGatewayV2.v5.files.file.unifiedData.tables.table.cells(fileId, tableId, expectedConfig),
+      )
+    })
+  })
+})
+
+describe('filesApi: useRestartFileMutation', () => {
+  test('calls correct endpoint with correct method and fileId', async () => {
+    const fileId = 'mockFileId'
+
+    const { result } = renderHook(() => useRestartFileMutation())
+
+    await waitFor(() => {
+      expect(result.current(fileId)).toEqual(
+        {
+          method: RequestMethod.POST,
+          url: apiMap.apiGatewayV2.v5.files.file.restart(fileId),
+        },
+      )
+    })
+  })
+})

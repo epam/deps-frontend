@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentsStatesChart should render correct layout with correct props 1`] = `
+<Fragment>
+  <DocumentsStatesChartstyles__ChartWrapper>
+    <DocumentsStatesChartstyles__ChartTitle>
+      Documents by States
+    </DocumentsStatesChartstyles__ChartTitle>
+    <Spin
+      spinning={false}
+    >
+      <DocumentsStatesChartstyles__ContentWrapper>
+        <DocumentsStatesChartstyles__DiagramWrapper>
+          <ResponsivePie
+            activeInnerRadiusOffset={5}
+            activeOuterRadiusOffset={5}
+            borderColor={
+              Object {
+                "theme": "background",
+              }
+            }
+            borderWidth={1}
+            colors={
+              Object {
+                "datum": "data.color",
+              }
+            }
+            cornerRadius={0}
+            data={Array []}
+            enableArcLabels={false}
+            enableArcLinkLabels={false}
+            innerRadius={0.6}
+            margin={
+              Object {
+                "bottom": 10,
+                "left": 16,
+                "right": 16,
+                "top": 10,
+              }
+            }
+            onClick={[Function]}
+            padAngle={2}
+          />
+        </DocumentsStatesChartstyles__DiagramWrapper>
+        <DocumentsStatesLegend
+          config={Array []}
+        />
+      </DocumentsStatesChartstyles__ContentWrapper>
+    </Spin>
+  </DocumentsStatesChartstyles__ChartWrapper>
+  <DocumentTypesByStateDrawer
+    activeState={null}
+    closeDrawer={[Function]}
+  />
+</Fragment>
+`;

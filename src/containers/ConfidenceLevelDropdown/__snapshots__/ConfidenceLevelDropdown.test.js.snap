@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ConfidenceLevelDropdown component should render correct layout 1`] = `
+<Dropdown
+  dropdownRender={[Function]}
+  getPopupContainer={[Function]}
+  onOpenChange={[Function]}
+  open={false}
+  trigger="click"
+>
+  <ConfidenceLevelDropdownstyles__Trigger>
+    <Badge
+      color="#FF5645"
+      dot={false}
+      size="small"
+    >
+      <SecondaryButtonstyles__SecondaryButton>
+        Confidence Level
+      </SecondaryButtonstyles__SecondaryButton>
+    </Badge>
+  </ConfidenceLevelDropdownstyles__Trigger>
+</Dropdown>
+`;

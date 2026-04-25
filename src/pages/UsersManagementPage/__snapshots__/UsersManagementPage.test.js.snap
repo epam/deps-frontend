@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: UsersManagementPage Component: ConnectedComponent should render correct tab commands depends on pathname 1`] = `
+<UsersManagementPagestyles__Header>
+  <UsersManagementPagestyles__Title
+    level={2}
+  >
+    User Management
+  </UsersManagementPagestyles__Title>
+  <OrganisationUsersTableCommands />
+</UsersManagementPagestyles__Header>
+`;
+
+exports[`Container: UsersManagementPage Component: ConnectedComponent should render correct tab commands depends on pathname 2`] = `
+<UsersManagementPagestyles__Header>
+  <UsersManagementPagestyles__Title
+    level={2}
+  >
+    User Management
+  </UsersManagementPagestyles__Title>
+  <WaitingForApprovalTableCommands />
+</UsersManagementPagestyles__Header>
+`;
+
+exports[`Container: UsersManagementPage Component: ConnectedComponent should render correct tab commands depends on pathname 3`] = `
+<UsersManagementPagestyles__Header>
+  <UsersManagementPagestyles__Title
+    level={2}
+  >
+    User Management
+  </UsersManagementPagestyles__Title>
+  <RemoveInvitedUserButton />
+</UsersManagementPagestyles__Header>
+`;
+
+exports[`Container: UsersManagementPage Component: ConnectedComponent should render page correctly 1`] = `
+<Content>
+  <UsersManagementPagestyles__Header>
+    <UsersManagementPagestyles__Title
+      level={2}
+    >
+      User Management
+    </UsersManagementPagestyles__Title>
+  </UsersManagementPagestyles__Header>
+  <Switch>
+    <UsersManagementPagestyles__StyledTabs
+      activeKey="mockPath"
+      onChange={[Function]}
+      tabs={
+        Array [
+          Tab {
+            "children": <OrganisationUsersTable />,
+            "hiddenPane": false,
+            "key": "/management/organisationUsers",
+            "label": "0 Organization Users",
+          },
+          Tab {
+            "children": <InvitedUsers />,
+            "hiddenPane": false,
+            "key": "/management/invitees",
+            "label": <InviteesTabTitle />,
+          },
+          Tab {
+            "children": <WaitingForApproval />,
+            "hiddenPane": false,
+            "key": "/management/waitingForApproval",
+            "label": <WaitingForApprovalTabTitle />,
+          },
+        ]
+      }
+    />
+  </Switch>
+</Content>
+`;
+
+exports[`Container: UsersManagementPage Component: ConnectedComponent should render tabs correctly 1`] = `
+<div>
+  <OrganisationUsersTable />
+</div>
+`;
+
+exports[`Container: UsersManagementPage Component: ConnectedComponent should render tabs correctly 2`] = `
+<div>
+  <InvitedUsers />
+</div>
+`;
+
+exports[`Container: UsersManagementPage Component: ConnectedComponent should render tabs correctly 3`] = `
+<div>
+  <WaitingForApproval />
+</div>
+`;

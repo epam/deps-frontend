@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentTableViewer should render DocumentTableViewer with correct props 1`] = `
+<Fragment>
+  <DocumentTableViewerstyles__Controls>
+    <DocumentTableViewerstyles__LeftControls>
+      <DocumentTableViewerstyles__SheetNameStyled>
+        Current sheet: Sheet1
+      </DocumentTableViewerstyles__SheetNameStyled>
+    </DocumentTableViewerstyles__LeftControls>
+    <DocumentTableViewerstyles__RightControls />
+  </DocumentTableViewerstyles__Controls>
+  <DocumentTableViewerstyles__DocumentTableViewerContainer>
+    <Component
+      highlightedField={
+        Array [
+          Array [
+            0,
+            0,
+          ],
+          Array [
+            1,
+            1,
+          ],
+        ]
+      }
+    />
+  </DocumentTableViewerstyles__DocumentTableViewerContainer>
+</Fragment>
+`;

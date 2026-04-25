@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: StorageUploadFilesList should render StorageUploadFilesList correctly 1`] = `
+<StorageUploadFilesListstyles__DocumentsTable>
+  <StorageUploadFile
+    file={
+      StorageFile {
+        "id": "id",
+        "mimeType": "application/pdf",
+        "name": "name.pdf",
+        "sizeBytes": 123,
+      }
+    }
+    key="id"
+    removeFile={[MockFunction]}
+  />
+</StorageUploadFilesListstyles__DocumentsTable>
+`;

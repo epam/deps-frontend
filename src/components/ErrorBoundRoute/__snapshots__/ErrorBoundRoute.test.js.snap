@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ErrorBoundRoute should render correct layout based on the children props 1`] = `
+<ErrorBoundary>
+  <Route
+    exact={true}
+    path="/test"
+  >
+    <Test />
+  </Route>
+</ErrorBoundary>
+`;
+
+exports[`Component: ErrorBoundRoute should render correct layout based on the render props 1`] = `
+<ErrorBoundary>
+  <Route
+    exact={true}
+    path="/test"
+    render={[Function]}
+  />
+</ErrorBoundary>
+`;

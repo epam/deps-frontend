@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ChangeOrgNameFormButton Connected Component should render button correctly 1`] = `
+<ChangeOrgNameFormButtonstyles__StyledButton
+  onClick={Object {}}
+>
+  Change Organization Name
+</ChangeOrgNameFormButtonstyles__StyledButton>
+`;
+
+exports[`Container: ChangeOrgNameFormButton Connected Component should render container correctly 1`] = `
+<ModalButton
+  destroyOnClose={true}
+  okButtonProps={
+    Object {
+      "disabled": false,
+      "text": "Submit",
+    }
+  }
+  onOk={[Function]}
+  renderOpenTrigger={[Function]}
+  title={
+    <ChangeOrgNameFormButtonstyles__StyledLabel>
+      Change Organization Name
+    </ChangeOrgNameFormButtonstyles__StyledLabel>
+  }
+>
+  <Component
+    formState={
+      Object {
+        "isDirty": true,
+        "isValid": true,
+      }
+    }
+    getValues={[MockFunction]}
+  >
+    <ChangeOrganisationForm />
+  </Component>
+</ModalButton>
+`;

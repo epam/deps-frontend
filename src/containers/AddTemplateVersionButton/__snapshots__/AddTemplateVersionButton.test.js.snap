@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: AddTemplateVersionButton should render AddTemplateVersionButton 1`] = `
+<Fragment>
+  <AddTemplateVersionButtonstyles__StyledDrawer
+    destroyOnClose={true}
+    footer={
+      <AddTemplateVersionButtonstyles__DrawerFooterWrapper>
+        <AddTemplateVersionButtonstyles__CancelButton
+          disabled={false}
+          onClick={[Function]}
+        >
+          Cancel
+        </AddTemplateVersionButtonstyles__CancelButton>
+        <ForwardRef
+          disabled={true}
+          loading={false}
+          onClick={[Function]}
+          type="primary"
+        >
+          Upload
+        </ForwardRef>
+      </AddTemplateVersionButtonstyles__DrawerFooterWrapper>
+    }
+    getContainer={[Function]}
+    hasCloseIcon={false}
+    onClose={[Function]}
+    open={false}
+    title={
+      <AddTemplateVersionButtonstyles__DrawerHeaderWrapper>
+        <UploadIcon />
+        Add New Template Version
+      </AddTemplateVersionButtonstyles__DrawerHeaderWrapper>
+    }
+  >
+    <Component
+      getValues={[MockFunction]}
+    >
+      <AddTemplateVersionForm />
+    </Component>
+    <TemplatePicker
+      file={null}
+      setUploadedFile={[Function]}
+    />
+  </AddTemplateVersionButtonstyles__StyledDrawer>
+  <AddTemplateVersionButtonstyles__DrawerButton
+    onClick={[Function]}
+    type="primary"
+  >
+    <AddTemplateVersionButtonstyles__Icon />
+    Add New Template Version
+  </AddTemplateVersionButtonstyles__DrawerButton>
+</Fragment>
+`;

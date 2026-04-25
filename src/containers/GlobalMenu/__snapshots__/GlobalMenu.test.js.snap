@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: GlobalMenu should render correctly 1`] = `
+<ErrorBoundary
+  localBoundary={[Function]}
+>
+  <GlobaMenustyles__Wrapper>
+    <ModuleLoader
+      url="mockUrl"
+    >
+      <Component />
+    </ModuleLoader>
+  </GlobaMenustyles__Wrapper>
+</ErrorBoundary>
+`;

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Search should render the correct layout 1`] = `
+<Fragment>
+  <div>
+    <p>
+      <b>
+        Search section
+      </b>
+    </p>
+    <p>
+      There are two ways to use search:
+    </p>
+    <ul>
+      <li>
+        User can search all uploaded documents by entering keywords in the 'Search' field on the top bar.
+        <Searchstyles__StyledKeywordSearchImage />
+      </li>
+      <li>
+        User can also apply the Title field to search across all the titles of the documents uploaded.
+        <Searchstyles__StyledTitleSearchImage />
+      </li>
+    </ul>
+  </div>
+  <div>
+    <p>
+      <b>
+        Filtering and Searching
+      </b>
+    </p>
+    <p>
+      The top panel is used to sort the uploaded documents by title, date, type, state, engine, labels, language:
+    </p>
+    <ul>
+      <li>
+        Title - title of the document;
+      </li>
+      <li>
+        Date - date when the document was processed;
+      </li>
+      <li>
+        Type - document type;
+      </li>
+      <li>
+        State - document state (New, Preprocessing, Identification, Data Extraction, Validation, In Review, Ready, Postponed);
+      </li>
+      <li>
+        Engine - type of the engine that processed current document type;
+      </li>
+      <li>
+        Labels  - document label.
+      </li>
+    </ul>
+  </div>
+  <Searchstyles__StyledFiltersImage />
+  <div>
+    <p>
+      <b>
+        Additional functionality
+      </b>
+    </p>
+    <p>
+      <b>
+        Add labels
+      </b>
+    </p>
+    <p>
+      Adding labels is used to make it easier to find documents and to simplify work with them.
+  By opening the document, the user can add label (already existing in the system or new).
+    </p>
+    <p>
+      After successfully adding a label, the user sees a 'Label was Added' notification.
+  The user can add multiple labels to a document. When user reopens the document, the added labels appear at the top of the page.
+  And user can change / remove them.
+    </p>
+  </div>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <Searchstyles__StyledAddLabelImage />
+    <Searchstyles__StyledLabelAdditionImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+  <p>
+    After adding labels to the document, the User searches for the labelled documents by search tool or through 'Labels' state.
+  </p>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <Searchstyles__StyledLabelFilterImage />
+    <Searchstyles__StyledDocumentLabelImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+</Fragment>
+`;

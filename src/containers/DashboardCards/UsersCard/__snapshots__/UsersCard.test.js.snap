@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: UsersCard should render correct layout 1`] = `
+<Spin
+  spinning={false}
+>
+  <Card
+    count={2}
+    icon={<UserIcon />}
+    onClick={[Function]}
+    title="Users"
+  />
+</Spin>
+`;

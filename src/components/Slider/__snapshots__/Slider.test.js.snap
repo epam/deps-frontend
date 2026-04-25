@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Slider should render correct Slider layout according to props 1`] = `
+<Sliderstyles__SliderComponent
+  className="HolaAmigos"
+>
+  <Sliderstyles__IconWrapper>
+    <Sliderstyles__SliderButton
+      disabled={true}
+      icon={<MinusOutlinedIcon />}
+      onClick={[Function]}
+      shape="circle"
+    />
+    <Sliderstyles__StyledSlider
+      disabled={false}
+      max={3}
+      min={1}
+      onChange={[Function]}
+      tooltip={
+        Object {
+          "formatter": [Function],
+        }
+      }
+      value={1}
+    />
+    <Sliderstyles__SliderButton
+      disabled={false}
+      icon={<PlusIcon />}
+      onClick={[Function]}
+      shape="circle"
+    />
+  </Sliderstyles__IconWrapper>
+  <Sliderstyles__ScaleInputNumber
+    disabled={false}
+    formatter={[Function]}
+    max={3}
+    min={1}
+    onChange={[Function]}
+    step={1}
+    value={1}
+  />
+</Sliderstyles__SliderComponent>
+`;

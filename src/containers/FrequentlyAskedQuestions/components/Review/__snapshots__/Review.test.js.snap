@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Review should render the correct layout 1`] = `
+<Fragment>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <div>
+      <p>
+        At this stage DEPS understands the extracted data for enrichment and apply algorithms and
+  auto-correction to improve the quality.
+      </p>
+      <p>
+        After extraction stage data needs to be cleaned up, reviewed, and meet business requirements.
+  To improve accuracy, we apply validation and consolidation steps.
+      </p>
+      <p>
+        After data extraction the user can manually review the document.
+  During the validation process, errors are corrected, warnings are viewed, and additional data can be extracted.
+      </p>
+      <p>
+        <b>
+          Manual review
+        </b>
+      </p>
+      <p>
+        Review is a manual process, at this stage user compares parsed data with original document and corrects mistakes.
+  DEPS provide UI for data review and correction; highlight data with low confidence of extraction; display validation results.
+      </p>
+      <p>
+        After data extraction the user can manually review the document. During the validation process,
+  errors are corrected, warnings are viewed, and additional data can be extracted.
+      </p>
+    </div>
+    <Reviewstyles__StyledReviewProcessImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+  <div>
+    <p>
+      If the user corrects the data himself in manual mode, the system marks these fields as 'Modified by the user'.
+  After checking and correcting the data, the user clicks the 'Complete Review' button.
+    </p>
+    <p>
+      Review is complete, data is ready for export.
+    </p>
+    <p>
+      Low confidence data highlighted with 'CL' icon. Confidence Level is displayed in the range from 0 to 1,
+  for example, a value of 0.49 means 49%. If the level is low, then the user needs to double-check the field data.
+    </p>
+  </div>
+  <Reviewstyles__StyledModifiedByImage />
+  <Reviewstyles__StyledConfidenceLevelImage />
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <div>
+      <p>
+        <b>
+          Document Reviewing options
+        </b>
+      </p>
+      <p>
+        Document reviewing page contains Original document pane and Parsed data pane.
+      </p>
+      <p>
+        Original document pane is displayed in the left pane of the screen.
+      </p>
+      <ol>
+        <li>
+          User can navigate between pages using arrows or selecting needed pages in the dropdown list.
+        </li>
+        <li>
+          User can zoom in/out of the document by clicking the '+' and '–' buttons, clicking and dragging the scroll bar,
+  using mouse scroll, or typing in the zoom percentage.
+        </li>
+        <li>
+          User can rotate document by 90 degrees clockwise and counter-clockwise via arrows in the upper-left corner.
+        </li>
+      </ol>
+      <p>
+        Parsed data pane is displayed in the right pane of the screen.
+      </p>
+      <ol>
+        <li>
+          It contains fields from Model/Template of the document or extracted by user manually.
+        </li>
+        <li>
+          Upon finishing review, user should press 'Complete Review' button.
+        </li>
+      </ol>
+    </div>
+    <Reviewstyles__StyledDocumentReviewImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+</Fragment>
+`;

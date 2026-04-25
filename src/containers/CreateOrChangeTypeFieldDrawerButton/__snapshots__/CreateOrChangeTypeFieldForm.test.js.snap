@@ -1,0 +1,630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: CreateOrChangeTypeFieldForm should render layout correctly based on props 1`] = `
+<CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+  <FormItem
+    field={
+      Object {
+        "code": "name",
+        "defaultValue": "stringName",
+        "placeholder": "Enter Field Display Name",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "",
+            "value": 128,
+          },
+          "pattern": Object {
+            "message": "The value should not be empty.",
+            "value": /\\^\\(\\?!\\\\s\\*\\$\\)\\.\\+/,
+          },
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="name"
+    label="Name"
+    requiredMark={true}
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "required",
+        "defaultValue": true,
+        "type": "checkmark",
+      }
+    }
+    key="required"
+    label="Required Field"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "fieldType",
+        "defaultValue": "string",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "List",
+            "value": "list",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Date",
+            "value": "date",
+          },
+        ],
+        "placeholder": "Select field type",
+        "type": "enum",
+      }
+    }
+    key="fieldType"
+    label="Field Type"
+  />
+  <ManageDisplayModeFormSection
+    fieldType="string"
+    isConfidentialField={false}
+    isEditMode={true}
+    isReadOnlyField={false}
+  />
+</CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+`;
+
+exports[`Component: CreateOrChangeTypeFieldForm should render layout correctly for Dictionary fieldType 1`] = `
+<CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+  <FormItem
+    field={
+      Object {
+        "code": "name",
+        "defaultValue": "kvName",
+        "placeholder": "Enter Field Display Name",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "",
+            "value": 128,
+          },
+          "pattern": Object {
+            "message": "The value should not be empty.",
+            "value": /\\^\\(\\?!\\\\s\\*\\$\\)\\.\\+/,
+          },
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="name"
+    label="Name"
+    requiredMark={true}
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "required",
+        "defaultValue": false,
+        "type": "checkmark",
+      }
+    }
+    key="required"
+    label="Required Field"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "fieldType",
+        "defaultValue": "dict",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "List",
+            "value": "list",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Date",
+            "value": "date",
+          },
+        ],
+        "placeholder": "Select field type",
+        "type": "enum",
+      }
+    }
+    key="fieldType"
+    label="Field Type"
+  />
+  <ManageDisplayModeFormSection
+    fieldType="dict"
+    isEditMode={true}
+  />
+</CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+`;
+
+exports[`Component: CreateOrChangeTypeFieldForm should render layout correctly for Enum fieldType 1`] = `
+<CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+  <FormItem
+    field={
+      Object {
+        "code": "name",
+        "defaultValue": "enumName",
+        "placeholder": "Enter Field Display Name",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "",
+            "value": 128,
+          },
+          "pattern": Object {
+            "message": "The value should not be empty.",
+            "value": /\\^\\(\\?!\\\\s\\*\\$\\)\\.\\+/,
+          },
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="name"
+    label="Name"
+    requiredMark={true}
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "required",
+        "defaultValue": false,
+        "type": "checkmark",
+      }
+    }
+    key="required"
+    label="Required Field"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "fieldType",
+        "defaultValue": "enum",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "List",
+            "value": "list",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Date",
+            "value": "date",
+          },
+        ],
+        "placeholder": "Select field type",
+        "type": "enum",
+      }
+    }
+    key="fieldType"
+    label="Field Type"
+  />
+  <ManageDisplayModeFormSection
+    fieldType="enum"
+    isEditMode={true}
+  />
+</CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+`;
+
+exports[`Component: CreateOrChangeTypeFieldForm should render layout correctly for List fieldType 1`] = `
+<CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+  <FormItem
+    field={
+      Object {
+        "code": "name",
+        "defaultValue": "listName",
+        "placeholder": "Enter Field Display Name",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "",
+            "value": 128,
+          },
+          "pattern": Object {
+            "message": "The value should not be empty.",
+            "value": /\\^\\(\\?!\\\\s\\*\\$\\)\\.\\+/,
+          },
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="name"
+    label="Name"
+    requiredMark={true}
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "required",
+        "defaultValue": false,
+        "type": "checkmark",
+      }
+    }
+    key="required"
+    label="Required Field"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "fieldType",
+        "defaultValue": "list",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "List",
+            "value": "list",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Date",
+            "value": "date",
+          },
+        ],
+        "placeholder": "Select field type",
+        "type": "enum",
+      }
+    }
+    key="fieldType"
+    label="Field Type"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "baseType",
+        "defaultValue": "string",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+        ],
+        "placeholder": "Select field type for each element in list",
+        "type": "enum",
+      }
+    }
+    key="baseType"
+    label="Base Type Field"
+  />
+  <ManageDisplayModeFormSection
+    fieldType="list"
+    isEditMode={true}
+  />
+</CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+`;
+
+exports[`Component: CreateOrChangeTypeFieldForm should render layout correctly for Table fieldType 1`] = `
+<CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+  <FormItem
+    field={
+      Object {
+        "code": "name",
+        "defaultValue": "tableName",
+        "placeholder": "Enter Field Display Name",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "",
+            "value": 128,
+          },
+          "pattern": Object {
+            "message": "The value should not be empty.",
+            "value": /\\^\\(\\?!\\\\s\\*\\$\\)\\.\\+/,
+          },
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="name"
+    label="Name"
+    requiredMark={true}
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "required",
+        "defaultValue": true,
+        "type": "checkmark",
+      }
+    }
+    key="required"
+    label="Required Field"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "fieldType",
+        "defaultValue": "table",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "List",
+            "value": "list",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Date",
+            "value": "date",
+          },
+        ],
+        "placeholder": "Select field type",
+        "type": "enum",
+      }
+    }
+    key="fieldType"
+    label="Field Type"
+  />
+  <ManageDisplayModeFormSection
+    fieldType="table"
+    isEditMode={true}
+  />
+</CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+`;
+
+exports[`Component: CreateOrChangeTypeFieldForm should render layout correctly for list of enums 1`] = `
+<CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+  <FormItem
+    field={
+      Object {
+        "code": "name",
+        "defaultValue": "LIST ENUMERATIONS",
+        "placeholder": "Enter Field Display Name",
+        "rules": Object {
+          "maxLength": Object {
+            "message": "",
+            "value": 128,
+          },
+          "pattern": Object {
+            "message": "The value should not be empty.",
+            "value": /\\^\\(\\?!\\\\s\\*\\$\\)\\.\\+/,
+          },
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+        "type": "string",
+      }
+    }
+    key="name"
+    label="Name"
+    requiredMark={true}
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "required",
+        "defaultValue": false,
+        "type": "checkmark",
+      }
+    }
+    key="required"
+    label="Required Field"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "fieldType",
+        "defaultValue": "list",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "List",
+            "value": "list",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Date",
+            "value": "date",
+          },
+        ],
+        "placeholder": "Select field type",
+        "type": "enum",
+      }
+    }
+    key="fieldType"
+    label="Field Type"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "baseType",
+        "defaultValue": "enum",
+        "disabled": true,
+        "options": Array [
+          SelectOption {
+            "text": "Enumeration",
+            "value": "enum",
+          },
+          SelectOption {
+            "text": "Table",
+            "value": "table",
+          },
+          SelectOption {
+            "text": "String",
+            "value": "string",
+          },
+          SelectOption {
+            "text": "Key Value Pair",
+            "value": "dict",
+          },
+          SelectOption {
+            "text": "Checkbox",
+            "value": "checkmark",
+          },
+        ],
+        "placeholder": "Select field type for each element in list",
+        "type": "enum",
+      }
+    }
+    key="baseType"
+    label="Base Type Field"
+  />
+  <FormItem
+    field={
+      Object {
+        "code": "options",
+        "defaultValue": Array [
+          "firstOption",
+          "secondOption",
+        ],
+        "render": [Function],
+        "rules": RequiredValidator {
+          "required": Object {
+            "message": "The value is required.",
+            "value": true,
+          },
+        },
+      }
+    }
+    key="options"
+    label="Options"
+    requiredMark={true}
+  />
+</CreateOrChangeTypeFieldDrawerButtonstyles__StyledForm>
+`;

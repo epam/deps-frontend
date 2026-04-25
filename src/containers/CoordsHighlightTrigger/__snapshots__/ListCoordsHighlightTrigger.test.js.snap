@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ListCoordsHighlightTrigger should correctly render Menu Option 1`] = `
+<div>
+  <CoordsHighlightTriggerstyles__StyledOption
+    key="1"
+    onClick={[Function]}
+  >
+    Page 1
+  </CoordsHighlightTriggerstyles__StyledOption>
+</div>
+`;
+
+exports[`Component: ListCoordsHighlightTrigger should render correct layout 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;
+
+exports[`Component: ListCoordsHighlightTrigger should render correct layout with table coordinates 1`] = `
+<CoordsHighlightTriggerstyles__Wrapper>
+  <CoordsHighlightTriggerstyles__StyledBadge
+    count={2}
+  >
+    <CoordsHighlightTriggerstyles__StyledMenu
+      getPopupContainer={[Function]}
+      items={
+        Array [
+          Object {
+            "content": [Function],
+          },
+          Object {
+            "content": [Function],
+          },
+        ]
+      }
+    >
+      <ForwardRef
+        icon={<LabelingIcon />}
+        onClick={[Function]}
+      />
+    </CoordsHighlightTriggerstyles__StyledMenu>
+  </CoordsHighlightTriggerstyles__StyledBadge>
+</CoordsHighlightTriggerstyles__Wrapper>
+`;

@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentUpload ConnectedComponent should correct render Add Files Option 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+
+.c0 .ant-upload {
+  width: 100%;
+}
+
+.c0 button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+<FilesPicker
+  accept=".jpg, .jpeg, .png, .pdf, .msg, .eml, .xlsx, .xls, .xlsm, .xltx, .xltm, .docx, .csv, .tiff, .tif"
+  className="c0"
+  disabled={false}
+  multiple={true}
+  onFilesSelected={[Function]}
+  onFilesValidationFailed={[Function]}
+  renderUploadTrigger={[Function]}
+/>
+`;
+
+exports[`Component: DocumentUpload ConnectedComponent should correct render Change Document Type Option 1`] = `
+<ModalFormButton
+  areValuesChanged={[Function]}
+  fields={
+    Object {
+      "option": Object {
+        "render": [Function],
+      },
+    }
+  }
+  okButtonProps={
+    Object {
+      "text": "Confirm",
+    }
+  }
+  onOk={[Function]}
+  renderOpenTrigger={[Function]}
+  title="Change Document Type"
+/>
+`;
+
+exports[`Component: DocumentUpload ConnectedComponent should correct render Delete Document Option 1`] = `
+<button
+  onClick={[Function]}
+>
+  Remove Document
+</button>
+`;
+
+exports[`Component: DocumentUpload ConnectedComponent should correct render Document Controls 1`] = `
+<div>
+  <CommandBar
+    commands={
+      Array [
+        Object {
+          "hidden": true,
+          "renderComponent": [Function],
+        },
+        Object {
+          "hidden": true,
+          "renderComponent": [Function],
+        },
+        Object {
+          "hidden": true,
+          "renderComponent": [Function],
+        },
+        Object {
+          "hidden": true,
+          "renderComponent": [Function],
+        },
+      ]
+    }
+    customSize={
+      Object {
+        "height": "1.6rem",
+        "width": "1.6rem",
+      }
+    }
+    disabled={false}
+    getPopupContainer={[Function]}
+  />
+</div>
+`;
+
+exports[`Component: DocumentUpload ConnectedComponent should pass correct documents props to DocumentUploadList in case new files were added to the document 1`] = `
+Array [
+  Object {
+    "files": Array [
+      Object {
+        "name": "mockFileName1",
+        "uid": "mockUIDFile1",
+      },
+      Object {
+        "name": "mock Added",
+        "uid": "mockUIDFile2",
+      },
+    ],
+    "name": "date - mockDocumentName1.pdf",
+    "uid": "mockUIDFile1",
+  },
+  Object {
+    "files": Array [
+      Object {
+        "name": "mockFileName2",
+        "uid": "mockUIDFile2",
+      },
+    ],
+    "name": "date - mockDocumentName2.pdf",
+    "uid": "mockUIDFile2",
+  },
+]
+`;
+
+exports[`Component: DocumentUpload ConnectedComponent should render ConnectedComponent Upload with correct props 1`] = `
+<Fragment>
+  <DocumentUploadstyles__StyledDrawer
+    footer={
+      <DocumentUploadstyles__UploadFooter>
+        <Tooltip
+          title="Select Document Type or Document Types Group to continue"
+        >
+          <DocumentUploadstyles__UploadButton
+            disabled={true}
+            onClick={[Function]}
+            type="primary"
+          >
+            Upload Documents
+          </DocumentUploadstyles__UploadButton>
+        </Tooltip>
+      </DocumentUploadstyles__UploadFooter>
+    }
+    getContainer={[Function]}
+    hasCloseIcon={false}
+    mask={true}
+    onClose={[MockFunction]}
+    open={true}
+    placement="right"
+    push={false}
+    title={
+      <DocumentUploadstyles__TitleWrapper>
+        Upload Documents
+      </DocumentUploadstyles__TitleWrapper>
+    }
+    width="36rem"
+  >
+    <DocumentUploadstyles__UploadWrapper>
+      <DocumentUploadstyles__UploadContent>
+        <DocumentTypeSelection
+          documentTypes={
+            Array [
+              DocumentType {
+                "code": "testType1",
+                "engine": "Test Engine Code 1",
+                "extractionType": "ml",
+                "fields": Array [],
+                "id": "id1",
+                "language": "Test Language Code 1",
+                "name": "Test Type 1",
+              },
+              DocumentType {
+                "code": "testType2",
+                "engine": "Test Engine Code 2",
+                "extractionType": "template",
+                "fields": Array [],
+                "id": "id2",
+                "language": "Test Language Code 2",
+                "name": "Test Type 2",
+              },
+            ]
+          }
+          onDocumentTypeChange={[Function]}
+          onGroupChange={[Function]}
+        />
+        <DocumentUploadstyles__AdditionalSettingsButton
+          onClick={[Function]}
+          type="link"
+        >
+          Additional Settings
+        </DocumentUploadstyles__AdditionalSettingsButton>
+        <DocumentUploadstyles__StyledFilesPicker
+          accept=".jpg, .jpeg, .png, .pdf, .msg, .eml, .xlsx, .xls, .xlsm, .xltx, .xltm, .docx, .csv, .tiff, .tif"
+          description="Supported formats: .jpg, .jpeg, .png, .pdf, .msg, .eml, .xlsx, .xls, .xlsm, .xltx, .xltm, .docx, .csv, .tiff, .tif"
+          disabled={false}
+          getMime={[Function]}
+          maxFileSize={100}
+          onFileSizeValidationFailed={[Function]}
+          onFilesSelected={[Function]}
+          onFilesValidationFailed={[Function]}
+          renderUploadTrigger={[Function]}
+        />
+      </DocumentUploadstyles__UploadContent>
+      <DocumentUploadstyles__UploadFilesList>
+        <DocumentUploadList
+          disabled={false}
+          documentTypes={
+            Array [
+              Object {
+                "text": "Test Type 1",
+                "value": "testType1",
+              },
+              Object {
+                "text": "Test Type 2",
+                "value": "testType2",
+              },
+            ]
+          }
+          documents={Array []}
+          engines={
+            Array [
+              SelectOption {
+                "text": "GCP Document AI",
+                "value": "GCP_VISION",
+              },
+              SelectOption {
+                "text": "AWS Textract",
+                "value": "AWS_TEXTRACT",
+              },
+            ]
+          }
+          onDocumentsChange={[Function]}
+          renderDocumentControls={[Function]}
+          size="small"
+          uploadState={Object {}}
+          uploading={false}
+        />
+      </DocumentUploadstyles__UploadFilesList>
+      <DocumentUploadstyles__StoragesWrapper>
+        <GoogleDriveUpload
+          fileImportConfig={
+            FileImportConfig {
+              "assignedToMe": false,
+              "documentType": undefined,
+              "engine": undefined,
+              "invokeExtraction": true,
+              "language": undefined,
+              "llmType": undefined,
+              "parsingFeatures": Array [
+                "text",
+              ],
+              "paths": Array [],
+              "source": "GoogleDrive",
+            }
+          }
+          files={Array []}
+          onFileValidationFailed={[Function]}
+          onSizeValidationFailed={[Function]}
+          onUploadComplete={[Function]}
+          setFiles={[Function]}
+          updateUploadStatus={[Function]}
+          uploadStatus={null}
+          uploading={false}
+        />
+        <OneDriveUpload
+          fileImportConfig={
+            FileImportConfig {
+              "assignedToMe": false,
+              "documentType": undefined,
+              "engine": undefined,
+              "invokeExtraction": true,
+              "language": undefined,
+              "llmType": undefined,
+              "parsingFeatures": Array [
+                "text",
+              ],
+              "paths": Array [],
+              "source": "OneDrive",
+            }
+          }
+          files={Array []}
+          onFileValidationFailed={[Function]}
+          onSizeValidationFailed={[Function]}
+          onUploadComplete={[Function]}
+          setFiles={[Function]}
+          updateUploadStatus={[Function]}
+          uploadStatus={null}
+          uploading={false}
+        />
+      </DocumentUploadstyles__StoragesWrapper>
+    </DocumentUploadstyles__UploadWrapper>
+  </DocumentUploadstyles__StyledDrawer>
+  <DocumentUploadSettings
+    isVisible={false}
+    onClose={[Function]}
+    setSettings={[Function]}
+  />
+</Fragment>
+`;

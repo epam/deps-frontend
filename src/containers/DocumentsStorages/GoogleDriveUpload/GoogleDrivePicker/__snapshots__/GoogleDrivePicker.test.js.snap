@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: GoogleDrivePicker should render correctly 1`] = `
+<Fragment>
+  <StorageButton
+    disabled={false}
+    icon={<GoogleDriveIcon />}
+    isActive={true}
+    onClick={[Function]}
+    storageName="Google Drive"
+    title="Supported formats: .jpg, .jpeg, .png, .pdf, .xlsx, .xls, .docx, Google Sheets, Google Docs"
+  />
+  <StorageUploadFilesList
+    files={
+      Array [
+        StorageFile {
+          "id": "id",
+          "mimeType": "application/pdf",
+          "name": "name.pdf",
+          "sizeBytes": 123,
+        },
+      ]
+    }
+    removeFile={[Function]}
+  />
+</Fragment>
+`;

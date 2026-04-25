@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: UserCard should render the layout correctly 1`] = `
+<UserCardstyles__StyledUserCard>
+  <UserCardstyles__StyledAvatar>
+    fl
+  </UserCardstyles__StyledAvatar>
+  <UserCardstyles__UserHeadline>
+    <UserCardstyles__FullNameBlock>
+      firstName lastName
+    </UserCardstyles__FullNameBlock>
+    <UserCardstyles__OrganisationName>
+      TestOrganisation
+    </UserCardstyles__OrganisationName>
+  </UserCardstyles__UserHeadline>
+</UserCardstyles__StyledUserCard>
+`;
+
+exports[`Container: UserCard should render the layout correctly without organisation, firstName and lastName 1`] = `
+<UserCardstyles__StyledUserCard>
+  <UserCardstyles__StyledAvatar />
+  <UserCardstyles__UserHeadline>
+    <UserCardstyles__OrganisationName>
+      email
+    </UserCardstyles__OrganisationName>
+  </UserCardstyles__UserHeadline>
+</UserCardstyles__StyledUserCard>
+`;

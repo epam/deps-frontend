@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EmailBody should render email body correctly 1`] = `
+<Expander>
+  <Component />
+</Expander>
+`;
+
+exports[`Component: EmailBody should render email body correctly 2`] = `
+<div>
+  <TogglerButton
+    block={true}
+    collapsed={false}
+    onClick={[MockFunction]}
+    title="Email Body"
+    type="text"
+  />
+  <EmailBodystyles__EmailBodyWrapper>
+    <EmailBodystyles__EmailBodyContent
+      collapsed={false}
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>test</p>",
+        }
+      }
+    />
+  </EmailBodystyles__EmailBodyWrapper>
+</div>
+`;

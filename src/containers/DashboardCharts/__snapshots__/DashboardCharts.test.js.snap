@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DashboardCharts should render correct layout when fetching is finished 1`] = `
+<DashboardChartsstyles__ChartsWrapper>
+  <DocumentsByTypeChart
+    docTypesList={
+      Array [
+        Object {
+          "code": "P1",
+          "documentType": "Prototype type",
+          "extractionType": "prototype",
+          "id": "P1",
+          "name": "Prototype type",
+        },
+        Object {
+          "code": "T1",
+          "documentType": "Template type",
+          "extractionType": "template",
+          "id": "T1",
+          "name": "Template type",
+        },
+        Object {
+          "code": "M1",
+          "documentType": "Model type",
+          "extractionType": "plugin",
+          "id": "M1",
+          "name": "Model type",
+        },
+      ]
+    }
+    isFetching={false}
+  />
+  <DocumentsStatesChart />
+</DashboardChartsstyles__ChartsWrapper>
+`;

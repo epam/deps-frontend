@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: KeyField should render correct layout 1`] = `
+<GenAiFieldstyles__Element>
+  <DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__StyledFieldLabel
+      name="Key"
+    />
+  </DocumentFieldstyles__InfoWrapper>
+  <GenAiFieldstyles__StyledFieldInputWrapper>
+    <ExpandableContainer>
+      <DocumentFieldstyles__StyledTextAreaField
+        onChange={[MockFunction]}
+        value="mockValue"
+      />
+    </ExpandableContainer>
+    <DocumentFieldstyles__TextAreaIconsWrapper>
+      <ToggleExpandIcon />
+    </DocumentFieldstyles__TextAreaIconsWrapper>
+  </GenAiFieldstyles__StyledFieldInputWrapper>
+</GenAiFieldstyles__Element>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Authentication should render component correctly 1`] = `
+<Suspense
+  fallback={
+    <CenteredSpin
+      spinning={true}
+    />
+  }
+>
+  <Switch>
+    <ErrorBoundRoute
+      exact={true}
+      path="/authentication/silentRenew"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/authentication/signInCallback"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/authentication/signIn"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/error/service-unavailable"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/"
+    >
+      <AuthenticationGuard>
+        <Authorization />
+      </AuthenticationGuard>
+    </ErrorBoundRoute>
+  </Switch>
+</Suspense>
+`;

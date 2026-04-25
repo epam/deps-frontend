@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentUploadSettings should render DocumentUploadSettings 1`] = `
+<DocumentUploadSettingsstyles__StyledDrawer
+  closeIcon={<XMarkIcon />}
+  footer={
+    <DocumentUploadSettingsstyles__DrawerFooterWrapper>
+      <DocumentUploadSettingsstyles__ResetButton
+        onClick={[Function]}
+        type="link"
+      >
+        Reset All
+      </DocumentUploadSettingsstyles__ResetButton>
+    </DocumentUploadSettingsstyles__DrawerFooterWrapper>
+  }
+  getContainer={[Function]}
+  maskClosable={true}
+  onClose={[MockFunction]}
+  open={true}
+  placement="right"
+  title={
+    <DocumentUploadSettingsstyles__DrawerHeaderWrapper>
+      Additional Settings
+    </DocumentUploadSettingsstyles__DrawerHeaderWrapper>
+  }
+  width="64rem"
+>
+  <Component
+    getValues={[MockFunction]}
+    reset={[MockFunction]}
+    watch={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            [Function],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Object {
+              "unsubscribe": [MockFunction],
+            },
+          },
+        ],
+      }
+    }
+  >
+    <DocumentUploadSettingsForm />
+  </Component>
+</DocumentUploadSettingsstyles__StyledDrawer>
+`;

@@ -1,0 +1,4 @@
+
+export const MAX_CONVERSATION_TITLE_LENGTH = 100
+
+export const DOCUMENTS_LIST_PER_PAGE = 100

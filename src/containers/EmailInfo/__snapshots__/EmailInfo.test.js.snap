@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EmailInfo should render correct layout according to props 1`] = `
+<div>
+  <TogglerButton
+    block={true}
+    collapsed={false}
+    onClick={[MockFunction]}
+    title="Email Info"
+    type="text"
+  />
+  <EmailInfostyles__EmailInfoWrapper
+    collapsed={false}
+  >
+    <Column
+      key="0"
+    >
+      <EmailInfostyles__EmailInfoFieldWrapper
+        key="1"
+      >
+        <EmailInfostyles__EmailInfoFieldTitle>
+          To
+        </EmailInfostyles__EmailInfoFieldTitle>
+        <EmailInfostyles__EmailInfoFieldContent>
+          First_user@randomUser.com, Second_user@anyUser.com
+        </EmailInfostyles__EmailInfoFieldContent>
+      </EmailInfostyles__EmailInfoFieldWrapper>
+      <EmailInfostyles__EmailInfoFieldWrapper
+        key="2"
+      >
+        <EmailInfostyles__EmailInfoFieldTitle>
+          CC
+        </EmailInfostyles__EmailInfoFieldTitle>
+        <EmailInfostyles__EmailInfoFieldContent>
+          Some_Secondary_recipient@email.com
+        </EmailInfostyles__EmailInfoFieldContent>
+      </EmailInfostyles__EmailInfoFieldWrapper>
+      <EmailInfostyles__EmailInfoFieldWrapper
+        key="4"
+      >
+        <EmailInfostyles__EmailInfoFieldTitle>
+          From
+        </EmailInfostyles__EmailInfoFieldTitle>
+        <EmailInfostyles__EmailInfoFieldContent>
+          Sender@mail.com
+        </EmailInfostyles__EmailInfoFieldContent>
+      </EmailInfostyles__EmailInfoFieldWrapper>
+    </Column>
+    <Column
+      key="1"
+    >
+      <EmailInfostyles__EmailInfoFieldWrapper
+        key="3"
+      >
+        <EmailInfostyles__EmailInfoFieldTitle>
+          Date
+        </EmailInfostyles__EmailInfoFieldTitle>
+        <EmailInfostyles__EmailInfoFieldContent>
+          30 February 1999
+        </EmailInfostyles__EmailInfoFieldContent>
+      </EmailInfostyles__EmailInfoFieldWrapper>
+      <EmailInfostyles__EmailInfoFieldWrapper
+        key="5"
+      >
+        <EmailInfostyles__EmailInfoFieldTitle>
+          Subject
+        </EmailInfostyles__EmailInfoFieldTitle>
+        <EmailInfostyles__EmailInfoFieldContent>
+          Subject line matters
+        </EmailInfostyles__EmailInfoFieldContent>
+      </EmailInfostyles__EmailInfoFieldWrapper>
+    </Column>
+  </EmailInfostyles__EmailInfoWrapper>
+</div>
+`;
+
+exports[`Component: EmailInfo should render correct layout according to props 2`] = `
+<Expander>
+  <Component />
+</Expander>
+`;

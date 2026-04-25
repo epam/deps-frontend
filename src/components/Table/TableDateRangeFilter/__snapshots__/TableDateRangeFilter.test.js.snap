@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TableDateRangeFilter should render component correctly 1`] = `
+<TableDateRangeFilterstyles__Wrapper>
+  <ForwardRef
+    format={
+      Array [
+        "MM/DD/YYYY",
+        "YYYY-MM-DD",
+        "DD-MM-YYYY",
+        "YYYY/MM/DD",
+        "MM/DD/YYYY",
+        "DD/MM/YYYY",
+        "MM-DD-YYYY",
+      ]
+    }
+    onChange={[Function]}
+    value={
+      Array [
+        "2021-02-28T21:00:00.000Z",
+        "2021-03-04T20:59:59.999Z",
+      ]
+    }
+  />
+</TableDateRangeFilterstyles__Wrapper>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: TableEdFieldActionsMenu should render correct layout 1`] = `
+<ActionsMenu
+  disabled={false}
+  items={
+    Array [
+      Object {
+        "content": [Function],
+      },
+      Object {
+        "content": [Function],
+      },
+      Object {
+        "content": [Function],
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConnectedComponent should render DocumentInformation with correct props 1`] = `
+<DocumentInformationstyles__ListInfo>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Id:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      mockId
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Title:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      Mock Title.pdf
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Date:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      02/14/2017, 3:00 AM
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Language: 
+    </DocumentInformationstyles__Label>
+    <Spin
+      spinning={true}
+    >
+      <DocumentInformationstyles__Info>
+        English
+      </DocumentInformationstyles__Info>
+    </Spin>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      State:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      In Review
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Engine:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info />
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Validation:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      Passed
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Type Name:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      <LinkButtonstyles__LinkButton
+        onClick={[Function]}
+      >
+        Document Type Name
+      </LinkButtonstyles__LinkButton>
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Type
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      Custom Model
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Reviewer:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      test@example.com
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      LLM Type:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      <DocumentLLMType
+        llmType="provider@model"
+      />
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <Liststyles__StyledItem>
+    <DocumentInformationstyles__Label>
+      Labels:
+    </DocumentInformationstyles__Label>
+    <DocumentInformationstyles__Info>
+      <LabelTags
+        id="mockId"
+        labels={
+          Array [
+            Label {
+              "_id": "mockLabelId1",
+              "name": "mock Label Name 1",
+            },
+            Label {
+              "_id": "mockLabelId2",
+              "name": "mock Label Name 2",
+            },
+          ]
+        }
+      />
+      <DocumentInformationstyles__ManageLabelsModalButton
+        documentIds={
+          Array [
+            "mockId",
+          ]
+        }
+        title="+"
+      />
+    </DocumentInformationstyles__Info>
+  </Liststyles__StyledItem>
+  <span>
+    <Spin
+      spinning={true}
+    />
+  </span>
+</DocumentInformationstyles__ListInfo>
+`;

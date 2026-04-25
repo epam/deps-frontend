@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ProfileFieldsSearch should render correct layout 1`] = `
+<Dropdown
+  destroyPopupOnHide={true}
+  dropdownRender={[Function]}
+  onOpenChange={[Function]}
+  open={false}
+  trigger={
+    Array [
+      "click",
+    ]
+  }
+>
+  <FieldsSearchInput
+    onChange={[Function]}
+    shouldClear={true}
+  />
+</Dropdown>
+`;

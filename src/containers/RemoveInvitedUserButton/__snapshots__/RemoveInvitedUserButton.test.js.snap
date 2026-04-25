@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: RemoveInvitedUserButton ConnectedComponent should render correct layout 1`] = `
+<TableActionIcon
+  icon={<DeleteIconFilled />}
+  onClick={[Function]}
+  tooltip={
+    Object {
+      "title": "Remove User",
+    }
+  }
+/>
+`;

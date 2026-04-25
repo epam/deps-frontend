@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: TemplateNavHeader should render Header extra content correctly 1`] = `
+<React.Fragment>
+  <TemplateNavHeaderstyles__AdditionalInformation>
+    <TemplateNavHeaderstyles__InfoCellText
+      text="engine1"
+    />
+    <TemplateNavHeaderstyles__InfoCellText
+      text="eng"
+    />
+  </TemplateNavHeaderstyles__AdditionalInformation>
+  <TemplateNavHeaderstyles__RefreshTableButton
+    refreshTable={[MockFunction]}
+  />
+  <AddTemplateVersionButton />
+</React.Fragment>
+`;
+
+exports[`Container: TemplateNavHeader should render the correct layout 1`] = `
+<PageNavigationHeader
+  parentPath="/document-types/undefined"
+  renderExtra={[Function]}
+  title="Template name"
+/>
+`;

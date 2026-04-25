@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DataTabsSwitcher should render correct items 1`] = `
+<div>
+  <ForwardRef
+    allowClear={true}
+    onChange={[Function]}
+    onPressEnter={[Function]}
+    placeholder="Up to 1 Options"
+    value=""
+  />
+</div>
+`;
+
+exports[`Container: DataTabsSwitcher should render correct items 2`] = `
+<div>
+  <TextButtonstyles__TextButton
+    onClick={[Function]}
+  >
+    mock Title 1
+  </TextButtonstyles__TextButton>
+</div>
+`;
+
+exports[`Container: DataTabsSwitcher should render correct layout 1`] = `
+<CustomMenu
+  getPopupContainer={[Function]}
+  items={
+    Array [
+      Object {
+        "content": [Function],
+        "onClick": [Function],
+        "style": Object {
+          "backgroundColor": "unset",
+        },
+      },
+      Object {
+        "content": [Function],
+      },
+    ]
+  }
+  onVisibleChange={[Function]}
+>
+  <ForwardRef
+    icon={<MoreIcon />}
+  />
+</CustomMenu>
+`;

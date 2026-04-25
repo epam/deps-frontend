@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TableFilterIndicator should render correct layout 1`] = `
+<Badge
+  color="#FF5645"
+  dot={false}
+  size="small"
+>
+  <TableFilterIndicatorstyles__Wrapper
+    $active={false}
+  >
+    <FilterIcon />
+  </TableFilterIndicatorstyles__Wrapper>
+</Badge>
+`;
+
+exports[`Component: TableFilterIndicator should render passed icon node in case icon prop was passed 1`] = `
+<Badge
+  color="#FF5645"
+  dot={false}
+  size="small"
+>
+  <TableFilterIndicatorstyles__Wrapper
+    $active={false}
+  >
+    <span>
+      Mock Icon
+    </span>
+  </TableFilterIndicatorstyles__Wrapper>
+</Badge>
+`;

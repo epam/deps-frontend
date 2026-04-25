@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hook: usePrototypeEditMode should return expected API 1`] = `
+Object {
+  "addPrototypeField": [Function],
+  "checkIfFieldIsSaved": [Function],
+  "editModePrototype": Prototype {
+    "createdAt": "2023-12-22T07:25:56.466801",
+    "description": null,
+    "engine": "AWS_TEXTRACT",
+    "fields": Array [
+      Object {
+        "confidential": false,
+        "fieldType": PrototypeFieldType {
+          "description": Object {},
+          "typeCode": "string",
+        },
+        "id": "fieldId",
+        "mapping": PrototypeFieldMapping {
+          "keys": Array [
+            "modifiedKey",
+            "mappingKey2",
+          ],
+          "mappingDataType": undefined,
+          "mappingType": "one_to_one",
+        },
+        "name": "modifiedFieldName",
+        "order": 0,
+        "prototypeId": "prototypeId",
+        "readOnly": false,
+        "required": true,
+      },
+      Object {
+        "confidential": false,
+        "fieldType": PrototypeFieldType {
+          "description": Object {},
+          "typeCode": "string",
+        },
+        "id": "createdFieldId",
+        "mapping": PrototypeFieldMapping {
+          "keys": Array [
+            "mappingKey1",
+            "mappingKey2",
+          ],
+          "mappingDataType": "string",
+          "mappingType": "one_to_one",
+        },
+        "name": "Test Field1",
+        "order": 0,
+        "prototypeId": "prototypeId",
+        "readOnly": false,
+        "required": true,
+      },
+    ],
+    "id": "testId",
+    "language": "eng",
+    "name": "testName",
+    "referenceLayouts": undefined,
+    "tableFields": Array [
+      Object {
+        "confidential": false,
+        "fieldType": PrototypeFieldType {
+          "description": TableFieldMeta {
+            "columns": Array [
+              TableFieldColumn {
+                "columnMeta": undefined,
+                "columnType": "string",
+                "title": "Col name",
+              },
+            ],
+          },
+          "typeCode": "table",
+        },
+        "id": "tableFieldId",
+        "name": "modifiedTableFieldName",
+        "order": 0,
+        "prototypeId": "prototypeId",
+        "readOnly": false,
+        "required": false,
+        "tabularMapping": PrototypeTabularMapping {
+          "headerType": "columns",
+          "headers": Array [
+            PrototypeTableHeader {
+              "aliases": Array [
+                "Col alias",
+              ],
+              "name": "Col name",
+            },
+          ],
+          "occurrenceIndex": 2,
+        },
+      },
+      Object {
+        "confidential": false,
+        "fieldType": PrototypeFieldType {
+          "description": TableFieldMeta {
+            "columns": Array [
+              TableFieldColumn {
+                "columnMeta": undefined,
+                "columnType": "string",
+                "title": "Row name",
+              },
+            ],
+          },
+          "typeCode": "table",
+        },
+        "id": "createdTableFieldId",
+        "name": "Test Table Field",
+        "order": 0,
+        "prototypeId": "prototypeId",
+        "readOnly": false,
+        "required": false,
+        "tabularMapping": PrototypeTabularMapping {
+          "headerType": "rows",
+          "headers": Array [
+            PrototypeTableHeader {
+              "aliases": Array [
+                "Row alias",
+              ],
+              "name": "Row name",
+            },
+          ],
+          "occurrenceIndex": 1,
+        },
+      },
+    ],
+  },
+  "fieldsViewType": "fields",
+  "isEditMode": true,
+  "isPrototypeTouched": true,
+  "isSaving": false,
+  "onCancel": [Function],
+  "onPrototypeFieldChange": [Function],
+  "onPrototypeInfoDataChange": [Function],
+  "onSave": [Function],
+  "removePrototypeField": [Function],
+  "setFieldsViewType": [MockFunction],
+  "toggleEditMode": [Function],
+}
+`;

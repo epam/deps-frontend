@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: InView ConnectedComponent should render correct layout in case the observed component is in view 1`] = `
+<InViewstyles__StyledInView
+  id="ListOfTable0"
+>
+  <div />
+</InViewstyles__StyledInView>
+`;
+
+exports[`Container: InView ConnectedComponent should render correct layout in case the observed component is not in view 1`] = `
+<InViewstyles__StyledInView
+  id="ListOfTable0"
+>
+  <InViewstyles__Spinner
+    spinning={true}
+  />
+</InViewstyles__StyledInView>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: TemplateVersionsRowCommands should render CommandBar commands correctly 1`] = `
+Array [
+  <TableActionIcon
+    icon={<PenIcon />}
+    onClick={[Function]}
+    tooltip={
+      Object {
+        "placement": "top",
+        "title": "Edit Version Name",
+      }
+    }
+  />,
+  <TableActionIcon
+    icon={<DeleteIconFilled />}
+    onClick={[Function]}
+    tooltip={
+      Object {
+        "placement": "top",
+        "title": "Delete Version",
+      }
+    }
+  />,
+]
+`;
+
+exports[`Container: TemplateVersionsRowCommands should render correctly 1`] = `
+<TemplateVersionsRowCommandsstyles__StyledCommandBar
+  commands={
+    Array [
+      Object {
+        "renderComponent": [Function],
+      },
+      Object {
+        "renderComponent": [Function],
+      },
+    ]
+  }
+/>
+`;

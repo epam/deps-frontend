@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: LongText should render the correct layout based on the props 1`] = `
+<LongTextstyles__Text>
+  test
+</LongTextstyles__Text>
+`;
+
+exports[`Component: LongText should render the correct layout in case OverflowActive is true 1`] = `
+<LongTextstyles__Wrapper>
+  <Tooltip
+    title={
+      <LongTextstyles__MultilineText>
+        test
+      </LongTextstyles__MultilineText>
+    }
+  >
+    <LongTextstyles__Text>
+      test
+    </LongTextstyles__Text>
+  </Tooltip>
+</LongTextstyles__Wrapper>
+`;

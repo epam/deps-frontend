@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Paragraph ConnectedComponent should render correct layout 1`] = `
+<p>
+  <Word>
+    <div
+      key="0"
+    >
+      Paragraph content
+    </div>
+  </Word>
+   
+</p>
+`;

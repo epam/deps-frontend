@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: PrototypeInfo should render correctly 1`] = `
+<PrototypeInfostyles__Wrapper>
+  <PrototypeInfostyles__FieldsWrapper>
+    <FormItem
+      field={
+        Object {
+          "code": "name",
+          "handler": Object {
+            "onChange": [Function],
+          },
+          "maxLength": 100,
+          "placeholder": "Enter Title",
+          "rules": RequiredValidator {
+            "required": Object {
+              "message": "The value is required.",
+              "value": true,
+            },
+          },
+          "type": "string",
+        }
+      }
+      key="name"
+      label="Title"
+      requiredMark={true}
+    />
+    <FormItem
+      field={
+        Object {
+          "code": "engine",
+          "options": Array [
+            SelectOption {
+              "text": "GCP Document AI",
+              "value": "GCP_VISION",
+            },
+            SelectOption {
+              "text": "AWS Textract",
+              "value": "AWS_TEXTRACT",
+            },
+          ],
+          "placeholder": "Select Engine",
+          "rules": RequiredValidator {
+            "required": Object {
+              "message": "The value is required.",
+              "value": true,
+            },
+          },
+          "type": "enum",
+        }
+      }
+      key="engine"
+      label="Engine"
+      requiredMark={true}
+    />
+    <FormItem
+      field={
+        Object {
+          "code": "language",
+          "options": Array [
+            Object {
+              "text": "English",
+              "value": "eng",
+            },
+            Object {
+              "text": "Russian",
+              "value": "rus",
+            },
+            Object {
+              "text": "Simplified Chinese",
+              "value": "chi_sim",
+            },
+            Object {
+              "text": "Deutsch",
+              "value": "deu",
+            },
+            Object {
+              "text": "Spanish",
+              "value": "spa",
+            },
+            Object {
+              "text": "Ukrainian",
+              "value": "ukr",
+            },
+          ],
+          "placeholder": "Select Language",
+          "rules": RequiredValidator {
+            "required": Object {
+              "message": "The value is required.",
+              "value": true,
+            },
+          },
+          "type": "enum",
+        }
+      }
+      key="language"
+      label="Language"
+      requiredMark={true}
+    />
+    <FormItem
+      field={
+        Object {
+          "code": "description",
+          "handler": Object {
+            "onChange": [Function],
+          },
+          "maxLength": 100,
+          "placeholder": "Enter Description",
+          "type": "string",
+        }
+      }
+      key="description"
+      label="Description"
+    />
+  </PrototypeInfostyles__FieldsWrapper>
+  <PrototypeInfostyles__StyledPrototypeFieldsViewSwitch
+    fieldsViewType="fields"
+    setFieldsViewType={[MockFunction]}
+  />
+</PrototypeInfostyles__Wrapper>
+`;

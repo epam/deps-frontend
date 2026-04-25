@@ -1,0 +1,2 @@
+
+export { useManageExtractor } from './useManageExtractor'

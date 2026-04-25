@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UploadCard should render UploadCard correctly with unknown mime type 1`] = `
+<UploadCardstyles__Wrapper>
+  <UploadCardstyles__CardDescription>
+    <UploadCardstyles__IconWrapper>
+      <FileImageIcon />
+    </UploadCardstyles__IconWrapper>
+    <UploadCardstyles__CardInfo>
+      <UploadCardstyles__DocumentName>
+        <UploadCardstyles__StyledTypographyText
+          content="test"
+          ellipsis={
+            Object {
+              "tooltip": "test",
+            }
+          }
+        />
+      </UploadCardstyles__DocumentName>
+      <UploadCardstyles__DocumentSize>
+        Size: 123 B
+      </UploadCardstyles__DocumentSize>
+    </UploadCardstyles__CardInfo>
+  </UploadCardstyles__CardDescription>
+  <UploadCardstyles__ButtonWrapper>
+    <ForwardRef />
+  </UploadCardstyles__ButtonWrapper>
+</UploadCardstyles__Wrapper>
+`;
+
+exports[`Component: UploadCard should render UploadCard with correct props 1`] = `
+<UploadCardstyles__Wrapper>
+  <UploadCardstyles__CardDescription>
+    <UploadCardstyles__IconWrapper>
+      <FileImageIcon />
+    </UploadCardstyles__IconWrapper>
+    <UploadCardstyles__CardInfo>
+      <UploadCardstyles__DocumentName>
+        <UploadCardstyles__StyledTypographyText
+          content="test"
+          ellipsis={
+            Object {
+              "tooltip": "test",
+            }
+          }
+        />
+      </UploadCardstyles__DocumentName>
+      <UploadCardstyles__DocumentSize>
+        Size: 123 B
+      </UploadCardstyles__DocumentSize>
+    </UploadCardstyles__CardInfo>
+  </UploadCardstyles__CardDescription>
+  <UploadCardstyles__ButtonWrapper>
+    <ForwardRef />
+  </UploadCardstyles__ButtonWrapper>
+</UploadCardstyles__Wrapper>
+`;

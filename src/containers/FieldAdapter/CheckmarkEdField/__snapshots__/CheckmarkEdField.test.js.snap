@@ -1,0 +1,482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: CheckmarkEdField should render correct layout 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="mockId"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="Vertical Reference"
+        required={false}
+      />
+      <PromptPreviewButton />
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <DocumentFieldstyles__PrimitiveFieldContent>
+        <CheckmarkEdFieldstyles__RadioGroupWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={true}
+        >
+          <RadioGroup
+            code="verticalReference"
+            disabled={false}
+            fieldType="string"
+            onChange={[Function]}
+            options={
+              Array [
+                RadioOption {
+                  "text": "True",
+                  "value": true,
+                },
+                RadioOption {
+                  "text": "False",
+                  "value": false,
+                },
+              ]
+            }
+            placeholder=""
+            value="350"
+          />
+          <Flags
+            confidence={69}
+          />
+        </CheckmarkEdFieldstyles__RadioGroupWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.69,
+                "coordinates": FieldCoordinates {
+                  "h": 0.5,
+                  "page": 2,
+                  "w": 0.8,
+                  "x": 0.19,
+                  "y": 0.26,
+                },
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": null,
+                "value": "350",
+              },
+              "fieldPk": 1,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </DocumentFieldstyles__PrimitiveFieldContent>
+      <PrimitiveEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "verticalReference",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": DocumentTypeFieldMeta {
+              "charBlacklist": "BC",
+              "charWhitelist": "A",
+            },
+            "fieldType": "string",
+            "name": "Vertical Reference",
+            "order": 1,
+            "pk": 1,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": FieldData {
+              "confidence": 0.69,
+              "coordinates": FieldCoordinates {
+                "h": 0.5,
+                "page": 2,
+                "w": 0.8,
+                "x": 0.19,
+                "y": 0.26,
+              },
+              "setIndex": null,
+              "sourceBboxCoordinates": null,
+              "sourceTableCoordinates": null,
+              "sourceTextCoordinates": null,
+              "tableCoordinates": null,
+              "value": "350",
+            },
+            "fieldPk": 1,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        FieldValidation {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;
+
+exports[`Container: CheckmarkEdField should render correct layout with multiple coordinates 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="mockId"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="Vertical Reference"
+        required={false}
+      />
+      <PromptPreviewButton />
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <DocumentFieldstyles__PrimitiveFieldContent>
+        <CheckmarkEdFieldstyles__RadioGroupWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={true}
+        >
+          <RadioGroup
+            code="verticalReference"
+            disabled={false}
+            fieldType="string"
+            onChange={[Function]}
+            options={
+              Array [
+                RadioOption {
+                  "text": "True",
+                  "value": true,
+                },
+                RadioOption {
+                  "text": "False",
+                  "value": false,
+                },
+              ]
+            }
+            placeholder=""
+            value="350"
+          />
+          <Flags
+            confidence={69}
+          />
+        </CheckmarkEdFieldstyles__RadioGroupWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.69,
+                "coordinates": Array [
+                  FieldCoordinates {
+                    "h": 0.5,
+                    "page": 2,
+                    "w": 0.8,
+                    "x": 0.19,
+                    "y": 0.26,
+                  },
+                  FieldCoordinates {
+                    "h": 0.5,
+                    "page": 2,
+                    "w": 0.8,
+                    "x": 0.19,
+                    "y": 0.26,
+                  },
+                ],
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": null,
+                "value": "350",
+              },
+              "fieldPk": 1,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </DocumentFieldstyles__PrimitiveFieldContent>
+      <PrimitiveEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "verticalReference",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": DocumentTypeFieldMeta {
+              "charBlacklist": "BC",
+              "charWhitelist": "A",
+            },
+            "fieldType": "string",
+            "name": "Vertical Reference",
+            "order": 1,
+            "pk": 1,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": FieldData {
+              "confidence": 0.69,
+              "coordinates": Array [
+                FieldCoordinates {
+                  "h": 0.5,
+                  "page": 2,
+                  "w": 0.8,
+                  "x": 0.19,
+                  "y": 0.26,
+                },
+                FieldCoordinates {
+                  "h": 0.5,
+                  "page": 2,
+                  "w": 0.8,
+                  "x": 0.19,
+                  "y": 0.26,
+                },
+              ],
+              "setIndex": null,
+              "sourceBboxCoordinates": null,
+              "sourceTableCoordinates": null,
+              "sourceTextCoordinates": null,
+              "tableCoordinates": null,
+              "value": "350",
+            },
+            "fieldPk": 1,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        FieldValidation {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;
+
+exports[`Container: CheckmarkEdField should render correct layout with multiple tableCoordinates 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <InView
+    id="mockId"
+  >
+    <DocumentFieldstyles__InfoWrapper>
+      <DocumentFieldstyles__StyledFieldLabel
+        name="Vertical Reference"
+        required={false}
+      />
+      <PromptPreviewButton />
+    </DocumentFieldstyles__InfoWrapper>
+    <DocumentFieldstyles__ContentWrapper>
+      <DocumentFieldstyles__PrimitiveFieldContent>
+        <CheckmarkEdFieldstyles__RadioGroupWrapper
+          disabled={false}
+          hasErrors={true}
+          hasWarnings={true}
+        >
+          <RadioGroup
+            code="verticalReference"
+            disabled={false}
+            fieldType="string"
+            onChange={[Function]}
+            options={
+              Array [
+                RadioOption {
+                  "text": "True",
+                  "value": true,
+                },
+                RadioOption {
+                  "text": "False",
+                  "value": false,
+                },
+              ]
+            }
+            placeholder=""
+            value="350"
+          />
+          <Flags
+            confidence={69}
+          />
+        </CheckmarkEdFieldstyles__RadioGroupWrapper>
+        <CoordsHighlightTrigger
+          edField={
+            ExtractedDataField {
+              "data": FieldData {
+                "confidence": 0.69,
+                "coordinates": null,
+                "setIndex": null,
+                "sourceBboxCoordinates": null,
+                "sourceTableCoordinates": null,
+                "sourceTextCoordinates": null,
+                "tableCoordinates": Array [
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                      Array [
+                        2,
+                        3,
+                        4,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                  TableCoordinates {
+                    "cellRange": Array [
+                      Array [
+                        1,
+                        1,
+                      ],
+                      Array [
+                        2,
+                        3,
+                        4,
+                      ],
+                    ],
+                    "page": 1,
+                  },
+                ],
+                "value": "350",
+              },
+              "fieldPk": 1,
+            }
+          }
+          highlightArea={[MockFunction]}
+          setHighlightedField={[MockFunction]}
+        />
+      </DocumentFieldstyles__PrimitiveFieldContent>
+      <PrimitiveEdFieldActionsMenu
+        disabled={false}
+        dtField={
+          DocumentTypeField {
+            "code": "verticalReference",
+            "documentTypeCode": "mockDocumentTypeCode",
+            "fieldMeta": DocumentTypeFieldMeta {
+              "charBlacklist": "BC",
+              "charWhitelist": "A",
+            },
+            "fieldType": "string",
+            "name": "Vertical Reference",
+            "order": 1,
+            "pk": 1,
+            "required": false,
+          }
+        }
+        edField={
+          ExtractedDataField {
+            "data": FieldData {
+              "confidence": 0.69,
+              "coordinates": null,
+              "setIndex": null,
+              "sourceBboxCoordinates": null,
+              "sourceTableCoordinates": null,
+              "sourceTextCoordinates": null,
+              "tableCoordinates": Array [
+                TableCoordinates {
+                  "cellRange": Array [
+                    Array [
+                      1,
+                      1,
+                    ],
+                    Array [
+                      2,
+                      3,
+                      4,
+                    ],
+                  ],
+                  "page": 1,
+                },
+                TableCoordinates {
+                  "cellRange": Array [
+                    Array [
+                      1,
+                      1,
+                    ],
+                    Array [
+                      2,
+                      3,
+                      4,
+                    ],
+                  ],
+                  "page": 1,
+                },
+              ],
+              "value": "350",
+            },
+            "fieldPk": 1,
+          }
+        }
+      />
+    </DocumentFieldstyles__ContentWrapper>
+    <FieldValidationResult
+      validation={
+        FieldValidation {
+          "crossFieldErrors": undefined,
+          "crossFieldWarnings": undefined,
+          "errors": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test error",
+              "row": null,
+            },
+          ],
+          "warnings": Array [
+            Object {
+              "column": null,
+              "index": undefined,
+              "kvId": null,
+              "message": "test warning",
+              "row": null,
+            },
+          ],
+        }
+      }
+    />
+  </InView>
+</DocumentFieldstyles__FieldWrapper>
+`;

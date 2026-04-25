@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: RootPage should render component correctly 1`] = `
+<Suspense
+  fallback={
+    <CenteredSpin
+      spinning={true}
+    />
+  }
+>
+  <Switch>
+    <Redirect
+      exact={true}
+      from="/"
+      to="/documents"
+    />
+    <ErrorBoundRoute
+      path="/documents"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/view/:documentId"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/document-types"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/document-types/:documentTypeCode"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/document-types-groups"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/document-types-groups/:groupId"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/batches"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/source-files"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/source-files/:fileId"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/batches/:id"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/help"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <Redirect
+      exact={true}
+      from="/management"
+      to="/management/organisationUsers"
+    />
+    <ErrorBoundRoute
+      exact={true}
+      path={
+        Array [
+          "/management/organisationUsers",
+          "/management/invitees",
+          "/management/waitingForApproval",
+        ]
+      }
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/dashboard"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/prototypes/new"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      exact={true}
+      path="/prototypes/:id"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/error/permission-denied"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <ErrorBoundRoute
+      path="/error/not-found"
+    >
+      <lazy />
+    </ErrorBoundRoute>
+    <lazy />
+  </Switch>
+</Suspense>
+`;

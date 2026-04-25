@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DownloadMenuCommand should render correctly 1`] = `
+<Wrapper
+  containerType="container"
+  disabled={false}
+  documentId="mockId"
+  documentTitle="Title"
+  documentType={
+    DocumentType {
+      "code": "test",
+      "engine": "TESSERACT",
+      "extractionType": "ml",
+      "fields": Array [],
+      "id": undefined,
+      "language": "eng",
+      "name": "Test",
+    }
+  }
+  error={
+    Object {
+      "description": "mockDescription",
+      "inState": "preprocessing",
+    }
+  }
+  files={
+    Array [
+      File {
+        "blobName": "blobName.png",
+        "url": "documentUrl.png",
+      },
+    ]
+  }
+  getPopupContainer={[Function]}
+  isDocumentTypeFetching={false}
+  state="failed"
+>
+  <DownloadMenuCommandstyles__StyledDropdownButton
+    onClick={[Function]}
+    type="primary"
+  >
+    <ExportDocumentIcon />
+    Export
+    <DownloadMenuCommandstyles__RotatableIconWrapper
+      $isRotated={false}
+    >
+      <ArrowDownWideIcon />
+    </DownloadMenuCommandstyles__RotatableIconWrapper>
+  </DownloadMenuCommandstyles__StyledDropdownButton>
+</Wrapper>
+`;

@@ -1,0 +1,624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentPreview should render Empty with correct description and refresh page link in case of document in new state 1`] = `
+<DocumentPreviewstyles__Empty
+  description="Please, wait while document preprocessing is in progress."
+>
+  <a
+    onClick={[MockFunction]}
+  >
+    Refresh the Page
+  </a>
+</DocumentPreviewstyles__Empty>
+`;
+
+exports[`Container: DocumentPreview should render Empty with correct description and refresh page link in case of document in preprocessing state 1`] = `
+<DocumentPreviewstyles__Empty
+  description="Please, wait while document preprocessing is in progress."
+>
+  <a
+    onClick={[MockFunction]}
+  >
+    Refresh the Page
+  </a>
+</DocumentPreviewstyles__Empty>
+`;
+
+exports[`Container: DocumentPreview should render Empty with correct description in case document does not have data to preview and no unified data 1`] = `
+<DocumentPreviewstyles__Empty
+  description="We are sorry, but it looks like there is nothing to preview here."
+/>
+`;
+
+exports[`Container: DocumentPreview should render Empty with correct description in case document does not have data to preview and no unified data 2`] = `
+<DocumentPreviewstyles__Empty
+  description="We are sorry, but it looks like there is nothing to preview here."
+/>
+`;
+
+exports[`Container: DocumentPreview should render Empty with correct description in case document in failed state 1`] = `
+<DocumentPreviewstyles__Empty
+  description="It looks like something went wrong during document processing."
+/>
+`;
+
+exports[`Container: DocumentPreview should render Empty with correct description in case document in failed state and no unified data and preview documents 1`] = `
+<DocumentPreviewstyles__Empty
+  description="It looks like something went wrong during document processing."
+/>
+`;
+
+exports[`Container: DocumentPreview should render Empty with correct description in case unsupported extension 1`] = `
+<DocumentPreviewstyles__Empty
+  description="We are sorry, but .xml file preview is not supported."
+/>
+`;
+
+exports[`Container: DocumentPreview should render correct layout 1`] = `
+<DocumentImageBasedViewer
+  activePage={1}
+  activeSourceId="asdasdasd123asd"
+  addActivePolygons={[MockFunction]}
+  clearActivePolygons={[MockFunction]}
+  document={
+    Document {
+      "_id": "mockId",
+      "communication": Object {
+        "comments": Array [
+          Comment {
+            "createdAt": "2018-09-03T09:34:24.249",
+            "createdBy": "user-uuid",
+            "text": "hello comment text",
+          },
+        ],
+      },
+      "containerMetadata": null,
+      "containerType": null,
+      "date": "2021-07-02T10:00:24.200662+00:00",
+      "documentLayout": DocumentLayout {
+        "id": "documentLayoutId",
+        "pages": Array [
+          PageLayout {
+            "id": "page_1_id",
+            "images": Array [],
+            "keyValuePairs": Array [
+              KeyValuePairLayout {
+                "confidence": 0,
+                "id": "mockId",
+                "key": KeyValuePairElementLayout {
+                  "content": "keyContent",
+                  "polygon": Array [
+                    Point {
+                      "x": 0.111,
+                      "y": 0.222,
+                    },
+                    Point {
+                      "x": 0.333,
+                      "y": 0.444,
+                    },
+                  ],
+                },
+                "value": KeyValuePairElementLayout {
+                  "content": "valueContent",
+                  "polygon": Array [
+                    Point {
+                      "x": 0.731,
+                      "y": 0.456,
+                    },
+                    Point {
+                      "x": 0.123,
+                      "y": 0.234,
+                    },
+                  ],
+                },
+              },
+            ],
+            "pageNumber": 1,
+            "paragraphs": Array [
+              ParagraphLayout {
+                "confidence": 0,
+                "content": "content",
+                "id": "mockId",
+                "lines": Array [
+                  LineLayout {
+                    "confidence": 0,
+                    "content": "content",
+                    "order": 1,
+                    "polygon": Array [
+                      Point {
+                        "x": 0.751,
+                        "y": 0.812,
+                      },
+                      Point {
+                        "x": 0.523,
+                        "y": 0.954,
+                      },
+                      Point {
+                        "x": 0.651,
+                        "y": 0.512,
+                      },
+                      Point {
+                        "x": 0.423,
+                        "y": 0.454,
+                      },
+                    ],
+                  },
+                ],
+                "order": 1,
+                "polygon": Array [
+                  Point {
+                    "x": 0.751,
+                    "y": 0.812,
+                  },
+                  Point {
+                    "x": 0.523,
+                    "y": 0.954,
+                  },
+                  Point {
+                    "x": 0.651,
+                    "y": 0.512,
+                  },
+                  Point {
+                    "x": 0.423,
+                    "y": 0.454,
+                  },
+                ],
+                "role": "role",
+              },
+            ],
+            "parsingType": "AWS_TEXTRACT",
+            "tables": Array [
+              TableLayout {
+                "cells": Array [
+                  TableCellLayout {
+                    "columnIndex": 0,
+                    "columnSpan": 1,
+                    "content": "cell",
+                    "kind": "kind",
+                    "polygon": Array [
+                      Point {
+                        "x": 0.111,
+                        "y": 0.222,
+                      },
+                      Point {
+                        "x": 0.333,
+                        "y": 0.444,
+                      },
+                    ],
+                    "rowIndex": 0,
+                    "rowSpan": 1,
+                  },
+                ],
+                "columnCount": 1,
+                "confidence": 0,
+                "id": "mockTableId",
+                "order": 1,
+                "polygon": Array [
+                  Point {
+                    "x": 0.111,
+                    "y": 0.222,
+                  },
+                  Point {
+                    "x": 0.333,
+                    "y": 0.444,
+                  },
+                ],
+                "rowCount": 1,
+              },
+            ],
+          },
+        ],
+        "tenantId": "tenantId",
+      },
+      "documentType": PreviewEntity {
+        "code": "docType",
+        "name": "Document Type Name",
+      },
+      "engine": "TESSERACT",
+      "error": null,
+      "extractedData": Array [
+        ExtractedDataField {
+          "data": TableData {
+            "cells": Array [],
+            "columns": Array [],
+            "coordinates": Object {
+              "h": 0.4,
+              "page": 2,
+              "w": 0.3,
+              "x": 0.1,
+              "y": 0.2,
+            },
+            "meta": null,
+            "paginatedRows": null,
+            "rows": Array [],
+            "setIndex": null,
+            "sourceBboxCoordinates": Array [
+              SourceBboxCoordinates {
+                "bboxes": Array [
+                  Rect {
+                    "h": 0.4,
+                    "w": 0.3,
+                    "x": 0.1,
+                    "y": 0.2,
+                  },
+                ],
+                "page": 1,
+                "sourceId": "c626d5ee3c964e31aaf2e2c7170823ba",
+              },
+            ],
+            "sourceTableCoordinates": null,
+            "tableCoordinates": null,
+          },
+          "fieldPk": 0,
+        },
+        ExtractedDataField {
+          "data": FieldData {
+            "confidence": 0.69,
+            "coordinates": FieldCoordinates {
+              "h": 0.26,
+              "page": 1,
+              "w": 0.23,
+              "x": 0.1,
+              "y": 0.2,
+            },
+            "setIndex": null,
+            "sourceBboxCoordinates": Array [
+              SourceBboxCoordinates {
+                "bboxes": Array [
+                  Rect {
+                    "h": 0.26,
+                    "w": 0.23,
+                    "x": 0.1,
+                    "y": 0.2,
+                  },
+                ],
+                "page": 1,
+                "sourceId": "c626d5ee3c964e31aaf2e2c7170823ba",
+              },
+            ],
+            "sourceTableCoordinates": null,
+            "sourceTextCoordinates": null,
+            "tableCoordinates": null,
+            "value": 350,
+          },
+          "fieldPk": 1,
+          "modifiedBy": "Mick Duo",
+        },
+        ExtractedDataField {
+          "data": FieldData {
+            "confidence": 0.8,
+            "coordinates": FieldCoordinates {
+              "h": 0.1,
+              "page": 2,
+              "w": 0.1,
+              "x": 0.1,
+              "y": 0.1,
+            },
+            "setIndex": null,
+            "sourceBboxCoordinates": Array [
+              SourceBboxCoordinates {
+                "bboxes": Array [
+                  Rect {
+                    "h": 0.1,
+                    "w": 0.1,
+                    "x": 0.1,
+                    "y": 0.1,
+                  },
+                ],
+                "page": 1,
+                "sourceId": "dadasdqe",
+              },
+            ],
+            "sourceTableCoordinates": null,
+            "sourceTextCoordinates": null,
+            "tableCoordinates": null,
+            "value": "mock value",
+          },
+          "fieldPk": 2,
+        },
+        ExtractedDataField {
+          "data": TableData {
+            "cells": Array [],
+            "columns": Array [],
+            "coordinates": Object {
+              "h": 0.1,
+              "page": 1,
+              "w": 0.1,
+              "x": 0.1,
+              "y": 0.1,
+            },
+            "meta": null,
+            "paginatedRows": null,
+            "rows": Array [],
+            "setIndex": null,
+            "sourceBboxCoordinates": Array [
+              SourceBboxCoordinates {
+                "bboxes": Array [
+                  Rect {
+                    "h": 0.1,
+                    "w": 0.1,
+                    "x": 0.1,
+                    "y": 0,
+                  },
+                ],
+                "page": 1,
+                "sourceId": "c626d5ee3c964e31aaf2e2c7170823ba",
+              },
+            ],
+            "sourceTableCoordinates": null,
+            "tableCoordinates": null,
+          },
+          "fieldPk": 3,
+        },
+        ExtractedDataField {
+          "data": Array [
+            TableData {
+              "cells": Array [],
+              "columns": Array [],
+              "coordinates": Object {
+                "h": 0.1,
+                "page": 2,
+                "w": 0.1,
+                "x": 0.1,
+                "y": 0.1,
+              },
+              "meta": null,
+              "paginatedRows": null,
+              "rows": Array [],
+              "setIndex": null,
+              "sourceBboxCoordinates": Array [
+                SourceBboxCoordinates {
+                  "bboxes": Array [
+                    Rect {
+                      "h": 0.1,
+                      "w": 0.1,
+                      "x": 0.1,
+                      "y": 0,
+                    },
+                  ],
+                  "page": 1,
+                  "sourceId": "dadasdqe",
+                },
+              ],
+              "sourceTableCoordinates": null,
+              "tableCoordinates": null,
+            },
+          ],
+          "fieldPk": 4,
+        },
+        Object {
+          "data": Object {
+            "confidence": 0.69,
+            "coordinates": Object {
+              "h": 58,
+              "page": NaN,
+              "w": 412,
+              "x": 966,
+              "y": 403,
+            },
+            "setIndex": null,
+            "sourceBboxCoordinates": null,
+            "sourceTableCoordinates": null,
+            "sourceTextCoordinates": null,
+            "tableCoordinates": null,
+            "value": "328",
+          },
+          "fieldPk": 1,
+        },
+        Object {
+          "data": Object {
+            "confidence": 0.69,
+            "coordinates": Object {
+              "h": 58,
+              "page": NaN,
+              "w": 412,
+              "x": 966,
+              "y": 403,
+            },
+            "setIndex": null,
+            "sourceBboxCoordinates": null,
+            "sourceTableCoordinates": null,
+            "sourceTextCoordinates": null,
+            "tableCoordinates": null,
+            "value": "328",
+          },
+          "fieldPk": 2,
+        },
+        Object {
+          "data": Object {
+            "confidence": 0.69,
+            "coordinates": Object {
+              "h": 58,
+              "page": NaN,
+              "w": 412,
+              "x": 966,
+              "y": 403,
+            },
+            "setIndex": null,
+            "sourceBboxCoordinates": null,
+            "sourceTableCoordinates": null,
+            "sourceTextCoordinates": null,
+            "tableCoordinates": null,
+            "value": "328",
+          },
+          "fieldPk": 3,
+        },
+      ],
+      "files": Array [
+        Object {
+          "blobName": "0.jpg",
+          "url": "http://localhost:8003/api/v1/storage/file/0.jpg",
+        },
+        Object {
+          "blobName": "1.jpg",
+          "url": "http://localhost:8003/api/v1/storage/file/1.jpg",
+        },
+      ],
+      "groupInfo": undefined,
+      "initialDocumentData": undefined,
+      "labels": Array [
+        Label {
+          "_id": "mockLabelId1",
+          "name": "mock Label Name 1",
+        },
+        Label {
+          "_id": "mockLabelId2",
+          "name": "mock Label Name 2",
+        },
+      ],
+      "language": "eng",
+      "previewDocuments": Object {
+        "1": Object {
+          "blobName": "test/preview/0.png",
+          "url": "http://localhost:8003/api/v1/storage/file/test/preview/0.png",
+        },
+        "2": Object {
+          "blobName": "test/preview/1.png",
+          "url": "http://localhost:8003/api/v1/storage/file/test/preview/1.png",
+        },
+      },
+      "processingDocuments": Object {
+        "1": Object {
+          "blobName": "test/processing/0.png",
+          "url": "http://localhost:8003/api/v1/storage/file/test/processing/0.png",
+        },
+        "2": Object {
+          "blobName": "test/processing/1.png",
+          "url": "http://localhost:8003/api/v1/storage/file/test/processing/1.png",
+        },
+      },
+      "reviewer": DocumentReviewer {
+        "email": "test@example.com",
+        "firstName": "John",
+        "id": "123",
+        "lastName": "Smith",
+      },
+      "state": "inReview",
+      "title": "Mock Title.pdf",
+      "unifiedData": Object {
+        "1": Array [
+          Object {
+            "appliedTransformation": Object {
+              "name": "rotation",
+              "parameters": Object {
+                "args": Array [],
+                "kwargs": Object {
+                  "angle": 0,
+                },
+              },
+            },
+            "blobName": "test/preview/0.png",
+            "height": 3509,
+            "id": "c626d5ee3c964e31aaf2e2c7170823ba",
+            "originalImageId": null,
+            "page": 1,
+            "width": 2480,
+          },
+          Object {
+            "id": "asdasdasd123asd",
+            "page": 1,
+            "wordboxes": Array [
+              UnifiedDataWord {
+                "bbox": Rect {
+                  "h": 0.4,
+                  "w": 0.3,
+                  "x": 0.1,
+                  "y": 0.2,
+                },
+                "word": UnifiedDataWordContent {
+                  "confidence": 1,
+                  "content": "test",
+                },
+              },
+            ],
+          },
+          Object {
+            "id": "1234",
+            "page": 1,
+          },
+          Object {
+            "id": "4321",
+            "page": 1,
+          },
+          Object {
+            "id": "f999d5ee3c964e31aaf2e2c7170823ba",
+            "page": 1,
+          },
+          Object {
+            "cells": Array [],
+            "id": "tableSourceId",
+            "maxColumn": 0,
+            "maxRow": 0,
+          },
+        ],
+        "2": Array [
+          Object {
+            "appliedTransformation": Object {
+              "name": "rotation",
+              "parameters": Object {
+                "args": Array [],
+                "kwargs": Object {
+                  "angle": 0,
+                },
+              },
+            },
+            "blobName": "test/preview/1.png",
+            "height": 3509,
+            "id": "dadasdqe",
+            "originalImageId": null,
+            "page": 2,
+            "width": 2480,
+          },
+          Object {
+            "id": "asdasdsdfgsg32asd123asd",
+            "page": 2,
+            "wordboxes": Array [
+              UnifiedDataWord {
+                "bbox": Rect {
+                  "h": 0.4,
+                  "w": 0.3,
+                  "x": 0.1,
+                  "y": 0.2,
+                },
+                "word": UnifiedDataWordContent {
+                  "confidence": 1,
+                  "content": "word",
+                },
+              },
+            ],
+          },
+        ],
+      },
+      "validation": Object {
+        "detail": Array [
+          Object {
+            "documentId": "mockId",
+            "errors": Array [
+              "Test error message",
+            ],
+            "fieldCode": "glElevation",
+            "warnings": Array [
+              "Test warning message",
+            ],
+          },
+        ],
+        "isValid": true,
+      },
+    }
+  }
+  highlightedField={
+    Array [
+      Array [
+        0,
+        0,
+      ],
+      Array [
+        1,
+        1,
+      ],
+    ]
+  }
+  onChangeActiveImagePage={[MockFunction]}
+  previewAvailable={true}
+/>
+`;

@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correct layout 1`] = `
+<SizeMe(Component)
+  columns={
+    Array [
+      Object {
+        "defaultFilteredValue": "",
+        "ellipsis": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={false}
+          icon={<documentTypeColumnstyles__StyledSearchIcon />}
+        />,
+        "filteredValue": "",
+        "key": "name",
+        "render": [Function],
+        "sortOrder": "",
+        "sorter": [Function],
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "engine",
+        "ellipsis": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={false}
+        />,
+        "filteredValue": Array [],
+        "key": "engine",
+        "render": [Function],
+        "sortOrder": "",
+        "sorter": [Function],
+        "title": "Engine",
+      },
+      Object {
+        "dataIndex": "language",
+        "ellipsis": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={false}
+        />,
+        "filteredValue": Array [],
+        "key": "language",
+        "render": [Function],
+        "sortOrder": "",
+        "sorter": [Function],
+        "title": "Language",
+      },
+      Object {
+        "dataIndex": "createdAt",
+        "ellipsis": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={false}
+          icon={<CalendarIcon />}
+        />,
+        "filteredValue": Array [],
+        "key": "createdAt",
+        "render": [Function],
+        "sortOrder": "",
+        "sorter": [Function],
+        "title": "Creation date",
+      },
+      Object {
+        "disableResize": true,
+        "render": [Function],
+        "title": "",
+        "width": 43,
+      },
+    ]
+  }
+  data={
+    Array [
+      DocumentType {
+        "code": "DocType1",
+        "engine": "TESSERACT",
+        "extractionType": "template",
+        "fields": Array [],
+        "id": undefined,
+        "language": "eng",
+        "name": "Doc Type 1",
+      },
+    ]
+  }
+  onFilter={[Function]}
+  onRow={[Function]}
+  pagination={
+    Object {
+      "current": 1,
+      "onChange": [Function],
+      "onShowSizeChange": [Function],
+      "pageSize": 20,
+      "showSizeChanger": true,
+      "showTotal": [Function],
+      "total": 1,
+    }
+  }
+  rowKey={[Function]}
+/>
+`;
+
+exports[`should render correct layout with custom columns list 1`] = `
+<SizeMe(Component)
+  columns={
+    Array [
+      Object {
+        "defaultFilteredValue": "",
+        "ellipsis": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={false}
+          icon={<documentTypeColumnstyles__StyledSearchIcon />}
+        />,
+        "filteredValue": "",
+        "key": "name",
+        "render": [Function],
+        "sortOrder": "",
+        "sorter": [Function],
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "createdAt",
+        "ellipsis": true,
+        "filterDropdown": [Function],
+        "filterIcon": <TableFilterIndicator
+          active={false}
+          icon={<CalendarIcon />}
+        />,
+        "filteredValue": Array [],
+        "key": "createdAt",
+        "render": [Function],
+        "sortOrder": "",
+        "sorter": [Function],
+        "title": "Creation date",
+      },
+      Object {
+        "disableResize": true,
+        "render": [Function],
+        "title": "",
+        "width": 43,
+      },
+    ]
+  }
+  data={
+    Array [
+      DocumentType {
+        "code": "DocType1",
+        "engine": "TESSERACT",
+        "extractionType": "azure_cloud_extractor",
+        "fields": Array [],
+        "id": undefined,
+        "language": "eng",
+        "name": "Doc Type 1",
+      },
+    ]
+  }
+  onFilter={[Function]}
+  onRow={[Function]}
+  pagination={
+    Object {
+      "current": 1,
+      "onChange": [Function],
+      "onShowSizeChange": [Function],
+      "pageSize": 20,
+      "showSizeChanger": true,
+      "showTotal": [Function],
+      "total": 1,
+    }
+  }
+  rowKey={[Function]}
+/>
+`;

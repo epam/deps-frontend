@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ModelsTableModelCommands should render ModelsTableModelCommands with correct props 1`] = `
+<ForwardRef
+  data-automation="refresh-data-button"
+  icon={<RefreshIcon />}
+  onClick={[MockFunction]}
+  tooltip={
+    Object {
+      "placement": "top",
+      "title": "Refresh Data",
+    }
+  }
+/>
+`;

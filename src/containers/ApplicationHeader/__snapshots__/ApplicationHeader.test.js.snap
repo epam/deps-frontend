@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ApplicationHeader ConnectedComponent should render ApplicationHeader with correct props 1`] = `
+<ApplicationHeaderstyles__Header>
+  <ApplicationHeaderstyles__StyledLogoSearch>
+    <ApplicationLogo />
+    <GlobalSearch />
+  </ApplicationHeaderstyles__StyledLogoSearch>
+  <TrialDrawerButton />
+  <ApplicationHeaderstyles__StyledWrapper>
+    <LanguageSwitch />
+    <UserProfile />
+    <UploadEntities />
+    <GlobalMenu />
+    <UiEnvSettingsDrawer />
+  </ApplicationHeaderstyles__StyledWrapper>
+</ApplicationHeaderstyles__Header>
+`;

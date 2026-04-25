@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DateTimePicker should correct render default state 1`] = `
+<DateTimePickerstyles__StyledDatePicker
+  allowClear={false}
+  format="MM/DD/YYYY h:mm A"
+  getPopupContainer={[Function]}
+  onChange={[MockFunction]}
+  placeholder="MM/DD/YYYY h:mm A"
+  showTime={
+    Object {
+      "format": "h:mm A",
+    }
+  }
+  showToday={false}
+  value={null}
+/>
+`;
+
+exports[`Component: DateTimePicker should correct render with defined value 1`] = `
+<DateTimePickerstyles__StyledDatePicker
+  allowClear={false}
+  format="MM/DD/YYYY h:mm A"
+  getPopupContainer={[Function]}
+  onChange={[MockFunction]}
+  placeholder="MM/DD/YYYY h:mm A"
+  showTime={
+    Object {
+      "format": "h:mm A",
+    }
+  }
+  showToday={false}
+  value={
+    Object {
+      "add": [Function],
+      "diff": [Function],
+      "endOf": [Function],
+      "format": [Function],
+      "isValid": [Function],
+      "localeData": [Function],
+      "longDateFormat": [Function],
+      "startOf": [Function],
+      "subtract": [Function],
+      "toISOString": [Function],
+      "valueOf": [Function],
+    }
+  }
+/>
+`;

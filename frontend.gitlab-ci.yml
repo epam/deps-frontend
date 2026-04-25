@@ -1,0 +1,71 @@
+variables:
+  GIT_DEPTH: 1
+  GIT_SUBMODULE_STRATEGY: recursive
+  DOCKER_HOST: tcp://localhost:2375/
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: ""
+
+  DEPLOY_DEV_BRANCH: develop
+  DEPLOY_RELEASE_BRANCH: master
+
+  K8S_DEV_NAMESPACE: deps-develop
+  K8S_QA_NAMESPACE: deps-qa
+  K8S_DEMO_NAMESPACE: deps-demo
+  K8S_DS_NAMESPACE: dev-ds-sandbox
+  K8S_INS_NAMESPACE: deps-insurance
+
+build:
+  stage: build
+  interruptible: true
+  extends:
+    - .verification-defaults
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  retry: 2
+  script:
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"$REGISTRY_URL\":{\"username\":\"$REGISTRY_USERNAME\",\"password\":\"$REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor
+      --context $CI_PROJECT_DIR
+      --dockerfile $CI_PROJECT_DIR/etc/api/frontend.Dockerfile
+      --build-arg=REPOSITORY_URL=${REPOSITORY_URL}
+      --build-arg=BUILD_HASH=${CI_COMMIT_SHA}
+      --build-arg=BUILD_TAG=${CI_COMMIT_SHORT_SHA}
+      --build-arg=BUILD_DATE=${CI_COMMIT_TIMESTAMP}
+      --build-arg=ENABLE_SOURCE_MAP=${ENABLE_SOURCE_MAP}
+      --build-arg=AUTH_CLIENT_SECRET=${AUTH_CLIENT_SECRET}
+      --build-arg=GOOGLE_DRIVE_API_KEY=${GOOGLE_DRIVE_API_KEY}
+      --destination $REPOSITORY_URL/deps-ci/deps-frontend:${CI_COMMIT_SHORT_SHA:-1.0.0}
+      --destination $REPOSITORY_URL/deps-ci/deps-frontend:latest
+
+lint:
+  stage: tests
+  interruptible: true
+  extends:
+    - .verification-defaults
+  script:
+    - yarn --ignore-scripts --silent --non-interactive
+    - yarn lint
+
+ci:
+  stage: tests
+  interruptible: true
+  extends:
+    - .verification-defaults
+  script:
+    - yarn --silent --non-interactive
+    - yarn test:ci
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - junit.xml
+  needs: ["build"]
+  allow_failure: false
+
+.verification-defaults:
+  interruptible: true
+  image: $REPOSITORY_PROXY_URL/docker-proxy/node:20.19.4-alpine3.21
+  tags:
+    - kubernetes

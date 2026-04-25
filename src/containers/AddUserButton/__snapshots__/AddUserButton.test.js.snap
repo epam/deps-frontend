@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: AddUserButton should render the correct layout 1`] = `
+<Fragment>
+  <Tooltip
+    title="Add User"
+  >
+    <SecondaryButtonstyles__SecondaryButton
+      icon={<AddUserIcon />}
+      onClick={[Function]}
+    />
+  </Tooltip>
+  <InviteDrawer
+    onClose={[Function]}
+    refetchUsers={[MockFunction]}
+    visible={false}
+  />
+</Fragment>
+`;

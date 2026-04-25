@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: MoreOptionsCommandMenu should be rendered correctly 1`] = `
+<CustomMenu
+  getPopupContainer={[Function]}
+  items={
+    Array [
+      Object {
+        "content": [Function],
+      },
+      Object {
+        "content": [Function],
+      },
+      Object {
+        "content": [Function],
+      },
+    ]
+  }
+>
+  <Tooltip
+    title="More Options"
+  >
+    <SecondaryButtonstyles__SecondaryButton
+      icon={<MoreIcon />}
+    />
+  </Tooltip>
+</CustomMenu>
+`;
+
+exports[`Container: MoreOptionsCommandMenu should render menu items correctly 1`] = `
+<div>
+  <ChangeDocumentTypeButton
+    disabled={false}
+    updateDocumentType={[Function]}
+  >
+    Assign Document Type
+  </ChangeDocumentTypeButton>
+</div>
+`;
+
+exports[`Container: MoreOptionsCommandMenu should render menu items correctly 2`] = `
+<div>
+  <ExtractData
+    disabled={true}
+    documentIds={Array []}
+  >
+    Extract Data
+  </ExtractData>
+</div>
+`;
+
+exports[`Container: MoreOptionsCommandMenu should render menu items correctly 3`] = `
+<div>
+  <RetryPreviousStepButton
+    confirmContent="Only documents in \\"Failed\\" state will be sent to retry previous step"
+    disabled={true}
+    retryLastStep={[Function]}
+  />
+</div>
+`;

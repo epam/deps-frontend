@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DocumentStatus should render correct layout 1`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#85A5FF"
+  text="New"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 2`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Unification"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 3`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Preprocessing"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 4`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Identification"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 5`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#700CD4"
+  text="Version Identification"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 6`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Image Preprocessing"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 7`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Parsing"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 8`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Data Extraction"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 9`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Postprocessing"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 10`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#EE8F1B"
+  text="Validation"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 11`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#4BCC7E"
+  text="Needs Review"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 12`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#4BCC7E"
+  text="In Review"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 13`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#506072"
+  text="Exporting"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 14`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#4BCC7E"
+  text="Exported"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 15`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#4BCC7E"
+  text="Ready"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 16`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#FF5645"
+  text="Failed"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 17`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#FF5645"
+  text="Exceptional Queue"
+/>
+`;
+
+exports[`Container: DocumentStatus should render correct layout 18`] = `
+<DocumentStatusstyles__StyledBadge
+  color="#FF5645"
+  text="Postponed"
+/>
+`;

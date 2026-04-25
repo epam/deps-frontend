@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: DetectTableDataButton connected Component should render correct layout 1`] = `
+<DetectModalButton
+  disabled={false}
+  message="Select an area to detect a table"
+  onOk={[Function]}
+  title="detect"
+/>
+`;

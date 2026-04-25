@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: CompleteReviewButton connected Component should render correct layout 1`] = `
+<ForwardRef
+  disabled={false}
+  onClick={[Function]}
+  type="primary"
+>
+  Complete Review
+</ForwardRef>
+`;

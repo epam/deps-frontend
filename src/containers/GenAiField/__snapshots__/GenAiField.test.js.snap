@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: GenAiField should render correct layout 1`] = `
+<DocumentFieldstyles__FieldWrapper>
+  <DocumentFieldstyles__ContentWrapper>
+    <KeyField
+      updateField={[Function]}
+      value="mockKey"
+    />
+    <ValueField
+      updateField={[Function]}
+      value="mockValue"
+    />
+    <FieldControls
+      disabled={false}
+      onDelete={[Function]}
+    />
+  </DocumentFieldstyles__ContentWrapper>
+</DocumentFieldstyles__FieldWrapper>
+`;

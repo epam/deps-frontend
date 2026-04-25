@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ApplicationNavigation as a component should render correct layout 1`] = `
+<ApplicationNavigationstyles__StyledSidebar
+  collapsed={true}
+  config={
+    Array [
+      Array [
+        Object {
+          "icon": "mock-icon-1",
+          "path": "mock-path-1",
+          "title": "mock-title-1",
+        },
+      ],
+    ]
+  }
+  onClick={[Function]}
+  renderExtraItems={[Function]}
+  selectedKeys={
+    Array [
+      "mockPath",
+    ]
+  }
+/>
+`;

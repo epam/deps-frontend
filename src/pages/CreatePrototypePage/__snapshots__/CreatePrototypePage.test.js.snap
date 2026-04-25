@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: CreatePrototypePage should render correct header controls layout 1`] = `
+.c0 {
+  margin-left: auto;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0 2rem;
+}
+
+<ForwardRef
+  className="c0"
+  disabled={false}
+  onClick={[Function]}
+  type="primary"
+>
+  Submit
+</ForwardRef>
+`;
+
+exports[`Page: CreatePrototypePage should render the correct layout 1`] = `
+<Content>
+  <PageNavigationHeader
+    parentPath="/document-types"
+    renderExtra={[Function]}
+    title="New Prototype"
+  />
+  <Component
+    formState={
+      Object {
+        "isValid": true,
+      }
+    }
+    getValues={[MockFunction]}
+  >
+    <PrototypeInfo
+      fieldsViewType="fields"
+      setFieldsViewType={[Function]}
+    />
+  </Component>
+  <PrototypeData
+    addField={[Function]}
+    fieldsViewType="fields"
+    isEditMode={true}
+    regularFields={Array []}
+    removeField={[Function]}
+    tableFields={Array []}
+    updateField={[Function]}
+  />
+</Content>
+`;

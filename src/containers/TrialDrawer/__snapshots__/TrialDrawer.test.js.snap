@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: TrialDrawer should render TrialDrawerButton with correct props 1`] = `
+<TrialDrawerstyles__StyledDrawer
+  destroyOnClose={true}
+  footer={
+    <ForwardRef
+      onClick={[MockFunction]}
+      type="primary"
+    >
+      Got It
+    </ForwardRef>
+  }
+  hasCloseIcon={false}
+  onClose={[MockFunction]}
+  open={true}
+  title={
+    <TrialDrawerstyles__Title>
+      <CircleInfoIcon />
+      Trial period details
+    </TrialDrawerstyles__Title>
+  }
+  width="36rem"
+>
+  <Spin
+    spinning={false}
+  >
+    <TrialLimitationCard
+      currentValue={1}
+      key="limitation"
+      limitValue={20}
+      name="limitation"
+    />
+  </Spin>
+</TrialDrawerstyles__StyledDrawer>
+`;

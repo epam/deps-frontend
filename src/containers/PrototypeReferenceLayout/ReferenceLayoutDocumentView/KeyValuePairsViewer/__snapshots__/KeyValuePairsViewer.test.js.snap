@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show correct layout 1`] = `
+<SizeMe(Component)
+  imageUrl="mockImageUrl"
+  lines={
+    Array [
+      CanvasLine {
+        "closed": true,
+        "coords": Array [
+          Point {
+            "x": 0.111,
+            "y": 0.222,
+          },
+          Point {
+            "x": 0.333,
+            "y": 0.444,
+          },
+        ],
+        "dash": undefined,
+        "onClick": undefined,
+        "onMouseEnter": undefined,
+        "onMouseLeave": undefined,
+        "onMouseMove": undefined,
+        "onWheel": undefined,
+        "stroke": "#FF7C32",
+        "strokeWidth": 1,
+      },
+      CanvasLine {
+        "closed": true,
+        "coords": Array [
+          Point {
+            "x": 0.731,
+            "y": 0.456,
+          },
+          Point {
+            "x": 0.123,
+            "y": 0.234,
+          },
+        ],
+        "dash": Array [
+          6,
+          2,
+        ],
+        "onClick": undefined,
+        "onMouseEnter": undefined,
+        "onMouseLeave": undefined,
+        "onMouseMove": undefined,
+        "onWheel": undefined,
+        "stroke": "#FF7C32",
+        "strokeWidth": 1,
+      },
+      CanvasLine {
+        "closed": undefined,
+        "coords": Array [
+          Object {
+            "x": 0.222,
+            "y": 0.333,
+          },
+          Object {
+            "x": 0.427,
+            "y": 0.34500000000000003,
+          },
+        ],
+        "dash": undefined,
+        "onClick": undefined,
+        "onMouseEnter": undefined,
+        "onMouseLeave": undefined,
+        "onMouseMove": undefined,
+        "onWheel": undefined,
+        "stroke": "#FF7C32",
+        "strokeWidth": 0.5,
+      },
+    ]
+  }
+  onStageClick={[Function]}
+  renderExtra={[Function]}
+  scaleConfig={
+    CanvasScaleConfig {
+      "max": 6,
+      "min": 0.5,
+      "onChange": [MockFunction],
+      "step": 0.1,
+      "value": 1,
+    }
+  }
+/>
+`;

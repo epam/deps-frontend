@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ExportData should render the correct layout 1`] = `
+<Fragment>
+  <div>
+    <p>
+      The processed data is exported by clicking on the download button.
+  The user selects the format (Excel, JSON) and uploads the processed document.
+    </p>
+    <ol>
+      <li>
+        The user can download the document on the open page of the document.
+      </li>
+      <li>
+        The user can download the document by checking the box on the main menu tab ('Documents').
+      </li>
+    </ol>
+  </div>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <ExportDatastyles__FirstExportImage />
+    <ExportDatastyles__SecondExportImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+</Fragment>
+`;

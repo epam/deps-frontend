@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: CellExtraData should return expected HTML node (no args) 1`] = `
+<div
+  class="cell_extraData"
+/>
+`;
+
+exports[`Container: CellExtraData should return expected HTML node 1`] = `
+<div
+  class="cell_extraData"
+>
+  <div
+    class="flag"
+    style="background-color: rgb(57, 128, 232);"
+  >
+    C
+  </div>
+  <div
+    class="tooltip"
+  >
+    <ul>
+      <li>
+        • mockComment
+      </li>
+    </ul>
+  </div>
+  <div
+    class="flag"
+    style="background-color: rgb(101, 113, 129);"
+  >
+    M
+  </div>
+  <div
+    class="tooltip"
+  >
+    <ul>
+      <li>
+        • Modified by User
+      </li>
+    </ul>
+  </div>
+</div>
+`;

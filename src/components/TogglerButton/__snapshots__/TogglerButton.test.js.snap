@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TogglerButton should render a correct layout 1`] = `
+<TogglerButtonstyles__StyledButton>
+  <DownOutlinedIcon
+    rotate={180}
+  />
+  <TogglerButtonstyles__ButtonText>
+    TestTitle
+  </TogglerButtonstyles__ButtonText>
+</TogglerButtonstyles__StyledButton>
+`;

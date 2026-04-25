@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentLabelingToolPage  should render correct 1`] = `
+<Layout>
+  <Connect(DocumentLabelingTool)
+    documentId="mockID"
+  />
+  <ApplicationFooter />
+</Layout>
+`;

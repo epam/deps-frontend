@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ProfileFieldCard should render DragNDropButton if editMode is enabled and enableDragging prop is passed 1`] = `
+<ProfileFieldCardstyles__DragNDropButton
+  disabled={false}
+  icon={<AlternativeArrowsIcon />}
+  onMouseDown={[MockFunction]}
+/>
+`;
+
+exports[`Component: ProfileFieldCard should render correct layout 1`] = `
+<ProfileFieldCardstyles__ListItem>
+  <EnumFieldIcon />
+  <ProfileFieldCardstyles__ListMeta
+    title={
+      <ProfileFieldCardstyles__DescriptionText
+        rows={1}
+        tooltip={true}
+      >
+        name
+      </ProfileFieldCardstyles__DescriptionText>
+    }
+  />
+  <ProfileFieldCardstyles__IconButton
+    disabled={true}
+    icon={
+      <ProfileFieldCardstyles__IconWrapper
+        isInProfile={false}
+      >
+        <SlashedEyeIcon />
+      </ProfileFieldCardstyles__IconWrapper>
+    }
+    onClick={[Function]}
+  />
+</ProfileFieldCardstyles__ListItem>
+`;

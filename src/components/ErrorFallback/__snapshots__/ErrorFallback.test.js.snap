@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ErrorFallback should render the correct layout 1`] = `
+<Layout>
+  <ErrorLayout
+    heading="Oops"
+    info="There's something went wrong. Please try again."
+  >
+    <ForwardRef
+      onClick={[Function]}
+      type="ghost"
+    >
+      To the Home Page
+    </ForwardRef>
+  </ErrorLayout>
+</Layout>
+`;

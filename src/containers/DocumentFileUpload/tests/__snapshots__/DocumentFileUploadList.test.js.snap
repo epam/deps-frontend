@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentFileUploadList should render DocumentFileUploadItem with correct props 1`] = `
+<DocumentFileUploadItem
+  deleteFile={[MockFunction]}
+  document={
+    Object {
+      "files": Array [
+        Object {
+          "uid": "test1",
+        },
+        Object {
+          "uid": "test2",
+        },
+      ],
+      "name": "2020-02-04T15:08:18+03:00 - test1.pdf",
+      "uid": "test1",
+    }
+  }
+  documentUploadState={
+    Object {
+      "files": Object {
+        "test1": 100,
+        "test2": 90,
+      },
+      "status": "PENDING",
+    }
+  }
+  file={
+    Object {
+      "uid": "test1",
+    }
+  }
+  uploading={false}
+/>
+`;
+
+exports[`Component: DocumentFileUploadList should render List with correct props 1`] = `
+<List
+  dataSource={
+    Array [
+      Object {
+        "uid": "test1",
+      },
+      Object {
+        "uid": "test2",
+      },
+    ]
+  }
+  renderItem={[Function]}
+  size="small"
+/>
+`;

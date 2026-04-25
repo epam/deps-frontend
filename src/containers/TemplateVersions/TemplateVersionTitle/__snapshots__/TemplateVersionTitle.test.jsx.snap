@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TemplateVersionTitle should render correctly 1`] = `
+<ForwardRef
+  innerRef={
+    Object {
+      "current": null,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onPressEnter={[Function]}
+  placeholder="testPlaceholder"
+  value="testTitle"
+/>
+`;
+
+exports[`Component: TemplateVersionTitle should render correctly if title is not editable 1`] = `
+<TemplateVersionTitlestyles__TitleWrapper>
+  <LongText
+    text="testTitle"
+  />
+</TemplateVersionTitlestyles__TitleWrapper>
+`;

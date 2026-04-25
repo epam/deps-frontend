@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: UserProfile should render correct items 1`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="0"
+  >
+    View Permissions
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render correct items 2`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="1"
+    onClick={[Function]}
+  >
+    Get API Key
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render correct items 3`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="2"
+  >
+    Support
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render correct items 4`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="3"
+  >
+    Dash Configuration
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render correct items 5`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="4"
+  >
+    <ChangeOrgNameFormButton />
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render correct items 6`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="5"
+  >
+    Change Organization
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render correct items 7`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="6"
+    onClick={[Function]}
+  >
+    Interface Settings
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render correct items 8`] = `
+<div>
+  <UserProfilestyles__ProfileMenuOption
+    key="7"
+  >
+    Log Out
+  </UserProfilestyles__ProfileMenuOption>
+</div>
+`;
+
+exports[`Component: UserProfile should render the correct layout based on the props 1`] = `
+<UserProfilestyles__StyledMenu
+  arrow={true}
+  defaultSelectedKeys={
+    Array [
+      "1111",
+    ]
+  }
+  getPopupContainer={[Function]}
+  items={
+    Array [
+      Object {
+        "content": [Function],
+        "subContent": undefined,
+      },
+      Object {
+        "content": [Function],
+        "subContent": undefined,
+      },
+      Object {
+        "content": [Function],
+        "subContent": undefined,
+      },
+      Object {
+        "content": [Function],
+        "subContent": undefined,
+      },
+      Object {
+        "content": [Function],
+        "subContent": undefined,
+      },
+      Object {
+        "content": [Function],
+        "subContent": <UserOrganisations />,
+      },
+      Object {
+        "content": [Function],
+        "subContent": undefined,
+      },
+      Object {
+        "content": [Function],
+        "subContent": undefined,
+      },
+    ]
+  }
+  trigger="hover"
+>
+  <UserProfilestyles__StyledButton>
+    <UserCard
+      user={
+        User {
+          "creationDate": "10.11.22",
+          "defaultCustomizationUrl": null,
+          "email": "email@email.com",
+          "firstName": "Mick",
+          "lastName": "Duo",
+          "organisation": Organisation {
+            "customizationUrl": null,
+            "name": "TestOrganisation",
+            "pk": "1111",
+          },
+          "pk": "123",
+          "username": "mickDuo",
+        }
+      }
+    />
+    <UserProfilestyles__DownIcon />
+  </UserProfilestyles__StyledButton>
+</UserProfilestyles__StyledMenu>
+`;

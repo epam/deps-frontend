@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Image ConnectedComponent should render correct layout 1`] = `
+<div>
+  <Canvas
+    cursor="default"
+    height={null}
+    imageUrl="http://mockUrl.com/v5/file/mockImageUrl"
+    polygons={Array []}
+    width={null}
+  />
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render canvas page 1`] = `
+<div>
+  <div
+    class="react-pdf__Page"
+    data-page-number="100500"
+    style="--scale-round-x: 1px; --scale-round-y: 1px; --scale-factor: 1; --user-unit: 1.1; --total-scale-factor: calc(var(--scale-factor) * var(--user-unit)); background-color: white; position: relative; min-width: min-content; min-height: min-content;"
+  >
+    <canvas
+      class="react-pdf__Page__canvas"
+      dir="ltr"
+      height="100"
+      style="display: block; user-select: none; width: 100px; height: 100px;"
+      width="100"
+    />
+  </div>
+</div>
+`;

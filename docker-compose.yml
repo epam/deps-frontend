@@ -1,0 +1,22 @@
+version: "3.2"
+
+services:
+  frontend:
+    image: ${REPOSITORY_URL}/ci/frontend:${CI_PIPELINE_ID:-1.0.0}
+    build:
+      context: .
+      dockerfile: ./etc/api/frontend.Dockerfile
+      args:
+        REPOSITORY_URL: "${REPOSITORY_URL}"
+    restart: 'no'
+    container_name: deps_frontend
+    networks:
+      - deps-network
+    ports:
+      - 8080:8000
+    env_file: .env
+
+networks:
+  deps-network:
+    external:
+      name: deps-network

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: PrototypeInfo should render CustomSelects as engine and language fields in case edit mode is enabled 1`] = `
+Object {
+  "fetching": false,
+  "onChange": [Function],
+  "options": Array [
+    SelectOption {
+      "text": "GCP Document AI",
+      "value": "GCP_VISION",
+    },
+    SelectOption {
+      "text": "AWS Textract",
+      "value": "AWS_TEXTRACT",
+    },
+  ],
+  "placeholder": "Select Engine",
+  "value": "Tesseract",
+}
+`;
+
+exports[`Component: PrototypeInfo should render CustomSelects as engine and language fields in case edit mode is enabled 2`] = `
+Object {
+  "fetching": false,
+  "onChange": [Function],
+  "options": Array [
+    Object {
+      "text": "English",
+      "value": "eng",
+    },
+    Object {
+      "text": "Russian",
+      "value": "rus",
+    },
+    Object {
+      "text": "Simplified Chinese",
+      "value": "chi_sim",
+    },
+    Object {
+      "text": "Deutsch",
+      "value": "deu",
+    },
+    Object {
+      "text": "Spanish",
+      "value": "spa",
+    },
+    Object {
+      "text": "Ukrainian",
+      "value": "ukr",
+    },
+  ],
+  "placeholder": "Select Language",
+  "value": "English",
+}
+`;
+
+exports[`Component: PrototypeInfo should render Input as description field in case edit mode is enabled 1`] = `
+Object {
+  "maxLength": 100,
+  "onChange": [Function],
+  "placeholder": "Enter Description",
+  "value": "",
+}
+`;
+
+exports[`Component: PrototypeInfo should render correctly with default props 1`] = `
+<PrototypeInfostyles__Wrapper>
+  <PrototypeInfostyles__FieldsWrapper>
+    <PrototypeInfostyles__FieldWrapper
+      key="engine"
+    >
+      <PrototypeInfostyles__StyledFieldLabel
+        name="Engine"
+        required={true}
+      />
+      <PrototypeInfostyles__ReadonlyField>
+        <LongText
+          text="Tesseract"
+        />
+      </PrototypeInfostyles__ReadonlyField>
+    </PrototypeInfostyles__FieldWrapper>
+    <PrototypeInfostyles__FieldWrapper
+      key="language"
+    >
+      <PrototypeInfostyles__StyledFieldLabel
+        name="Language"
+        required={true}
+      />
+      <PrototypeInfostyles__ReadonlyField>
+        <LongText
+          text="English"
+        />
+      </PrototypeInfostyles__ReadonlyField>
+    </PrototypeInfostyles__FieldWrapper>
+    <PrototypeInfostyles__FieldWrapper
+      key="description"
+    >
+      <PrototypeInfostyles__StyledFieldLabel
+        name="Description"
+      />
+      <PrototypeInfostyles__ReadonlyField>
+        <LongText
+          text=""
+        />
+      </PrototypeInfostyles__ReadonlyField>
+    </PrototypeInfostyles__FieldWrapper>
+  </PrototypeInfostyles__FieldsWrapper>
+  <PrototypeFieldsViewSwitch
+    fieldsViewType="fields"
+    setFieldsViewType={[MockFunction]}
+  />
+</PrototypeInfostyles__Wrapper>
+`;

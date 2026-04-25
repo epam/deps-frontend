@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ServicesVersionsCard should render correct layout in case service version was fetched 1`] = `
+<ServiceVersionInfo
+  key="OCR"
+  serviceInfo={
+    Object {
+      "buildDate": "20.08.1992",
+      "buildTag": "ocr",
+      "commitHash": "someHash",
+    }
+  }
+  serviceName="OCR"
+/>
+`;
+
+exports[`Component: ServicesVersionsCard should render correct layout in case the fetching service version failed 1`] = `
+<ServicesVersionsPagestyles__LocalBoundary
+  key="OCR"
+>
+  <ServicesVersionsPagestyles__LocalBoundaryText>
+    OCR is\`t available now
+  </ServicesVersionsPagestyles__LocalBoundaryText>
+  <ServicesVersionsPagestyles__LocalBoundaryText>
+    Please
+    <ServicesVersionsPagestyles__Link
+      href="mailto:http://mockUrl.com"
+    >
+      Contact support
+    </ServicesVersionsPagestyles__Link>
+  </ServicesVersionsPagestyles__LocalBoundaryText>
+</ServicesVersionsPagestyles__LocalBoundary>
+`;

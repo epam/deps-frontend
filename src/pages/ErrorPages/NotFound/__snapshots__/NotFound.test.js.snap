@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: NotFound should render the correct layout 1`] = `
+<NotFoundstyles__Wrapper>
+  <ErrorLayout
+    heading="Page not found"
+    info="Sorry, we can’t find the page you’re looking for."
+    statusCode={404}
+  >
+    <ForwardRef
+      onClick={[Function]}
+      type="ghost"
+    >
+      Take Me to the Home Page
+    </ForwardRef>
+  </ErrorLayout>
+</NotFoundstyles__Wrapper>
+`;

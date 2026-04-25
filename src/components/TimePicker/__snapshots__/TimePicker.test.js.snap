@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TimePicker should correct render default state 1`] = `
+<TimePickerstyles__StyledTimePicker
+  allowClear={false}
+  format="h:mm A"
+  getPopupContainer={[Function]}
+  onChange={[Function]}
+  placeholder="h:mm A"
+  value={null}
+/>
+`;
+
+exports[`Component: TimePicker should correct render with defined value 1`] = `
+<TimePickerstyles__StyledTimePicker
+  allowClear={false}
+  format="h:mm A"
+  getPopupContainer={[Function]}
+  onChange={[Function]}
+  placeholder="h:mm A"
+  value={
+    Object {
+      "add": [Function],
+      "diff": [Function],
+      "endOf": [Function],
+      "format": [Function],
+      "isValid": [Function],
+      "localeData": [Function],
+      "longDateFormat": [Function],
+      "startOf": [Function],
+      "subtract": [Function],
+      "toISOString": [Function],
+      "valueOf": [Function],
+    }
+  }
+/>
+`;

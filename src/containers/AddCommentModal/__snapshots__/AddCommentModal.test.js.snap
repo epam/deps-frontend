@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: AddCommentModal should render AddCommentModal with correct props 1`] = `
+<Fragment>
+  <TextButtonstyles__TextButton
+    disabled={false}
+    onClick={[Function]}
+  >
+    Modal title
+  </TextButtonstyles__TextButton>
+  <Modal
+    okButtonProps={
+      Object {
+        "disabled": true,
+      }
+    }
+    okText="Send"
+    onCancel={[Function]}
+    onOk={[Function]}
+    open={false}
+    title="Modal title"
+    width="50vw"
+  >
+    <AddCommentModalstyles__TextArea
+      autoSize={
+        Object {
+          "maxRows": 4,
+          "minRows": 2,
+        }
+      }
+      onChange={[Function]}
+      placeholder="Add Comment..."
+      value=""
+    />
+  </Modal>
+</Fragment>
+`;

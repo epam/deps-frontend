@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: AuthenticationGuard should render Redirect to sign in page in case user is not authenticated 1`] = `
+<Redirect
+  to={
+    Object {
+      "pathname": "/authentication/signIn",
+      "state": "http://localhost/",
+    }
+  }
+/>
+`;
+
+exports[`Component: AuthenticationGuard should render children prop if user is authenticated 1`] = `<div />`;

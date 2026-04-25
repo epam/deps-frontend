@@ -1,0 +1,2 @@
+
+export { CommitDocumentTypeModal } from './CommitDocumentTypeModal'

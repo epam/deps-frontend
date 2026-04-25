@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct layout 1`] = `<ExtractedDataTabs />`;

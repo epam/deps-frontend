@@ -1,0 +1,2 @@
+
+export { mapExtractedDataToTabsByFieldsSetIndex } from './mapExtractedDataToTabsByFieldsSetIndex'

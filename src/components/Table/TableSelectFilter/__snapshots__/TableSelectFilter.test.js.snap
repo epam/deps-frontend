@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TableSelectFilter should render the correct layout 1`] = `
+<TableSelectFilterstyles__Wrapper>
+  <TableSelectFilterstyles__Search
+    autoFocus={true}
+    filter=""
+    onChange={[Function]}
+  />
+  <FilterOptions
+    confirmFilter={[Function]}
+    filter=""
+    options={
+      Array [
+        SelectOption {
+          "text": "test",
+          "value": "test",
+        },
+      ]
+    }
+    savedKeys={
+      Array [
+        "test",
+      ]
+    }
+  />
+</TableSelectFilterstyles__Wrapper>
+`;

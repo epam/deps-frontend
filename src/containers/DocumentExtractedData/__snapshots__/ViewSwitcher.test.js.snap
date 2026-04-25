@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewSwitcher component should render correct layout 1`] = `
+<Dropdown
+  dropdownRender={[Function]}
+>
+  <ForwardRef
+    icon={<ViewOfDataIcon />}
+    tooltip={
+      Object {
+        "placement": "topLeft",
+        "title": "Change View",
+      }
+    }
+  />
+</Dropdown>
+`;

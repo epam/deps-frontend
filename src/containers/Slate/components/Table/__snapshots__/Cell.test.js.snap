@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: Cell ConnectedComponent should render correct layout 1`] = `
+<Tablestyles__StyledCell
+  colSpan={1}
+  rowSpan={1}
+>
+  <div />
+</Tablestyles__StyledCell>
+`;

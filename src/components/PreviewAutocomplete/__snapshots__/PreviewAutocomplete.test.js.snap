@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: PreviewAutocomplete should render PreviewAutocomplete with correct props 1`] = `
+<div
+  data-automation="preview-autocomplete"
+>
+  <Spin
+    spinning={false}
+  >
+    <ForwardRef
+      addonAfter={<SearchIcon />}
+      data-automation="add-labels-modal-search-input"
+      onChange={[Function]}
+      placeholder="placeholder"
+      value=""
+    />
+    <PreviewAutocompletestyles__StyledList
+      data-automation="autocomplete-list"
+    >
+      <PreviewAutocompletestyles__ListItem
+        $active={false}
+        key="testValue"
+        onClick={[Function]}
+      >
+        <LongText
+          text="test text"
+        />
+      </PreviewAutocompletestyles__ListItem>
+    </PreviewAutocompletestyles__StyledList>
+  </Spin>
+</div>
+`;
+
+exports[`Component: PreviewAutocomplete should render emptySearchText in case dataSource is empty and emptySearchText is passed 1`] = `
+<div
+  data-automation="preview-autocomplete"
+>
+  <Spin
+    spinning={false}
+  >
+    <ForwardRef
+      addonAfter={<SearchIcon />}
+      data-automation="add-labels-modal-search-input"
+      onChange={[Function]}
+      value=""
+    />
+    <PreviewAutocompletestyles__StyledList
+      data-automation="autocomplete-list"
+    >
+      <PreviewAutocompletestyles__ListItem>
+        empty Search Text
+      </PreviewAutocompletestyles__ListItem>
+    </PreviewAutocompletestyles__StyledList>
+  </Spin>
+</div>
+`;

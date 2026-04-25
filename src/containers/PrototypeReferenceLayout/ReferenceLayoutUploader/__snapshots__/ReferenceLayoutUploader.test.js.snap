@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ReferenceLayoutUploader should render the correct layout 1`] = `
+<FilesPicker
+  accept=".jpg, .jpeg, .png, .pdf, .tiff, .tif"
+  disabled={false}
+  getMime={[Function]}
+  multiple={false}
+  onFileSizeValidationFailed={[Function]}
+  onFilesSelected={[MockFunction]}
+  onFilesValidationFailed={[Function]}
+  renderUploadTrigger={[MockFunction]}
+  type="file"
+/>
+`;

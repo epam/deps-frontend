@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Card should render correct layout 1`] = `
+<Cardstyles__Wrapper
+  onClick={[MockFunction]}
+>
+  <Cardstyles__IconWrapper>
+    <div />
+  </Cardstyles__IconWrapper>
+  <Cardstyles__Title>
+    mockTitle
+    <Cardstyles__Count>
+      1
+    </Cardstyles__Count>
+  </Cardstyles__Title>
+</Cardstyles__Wrapper>
+`;

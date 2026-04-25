@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hook: useCommandExtractionProps should render RegionAreaPicker in case externalOneTimeRender is called 1`] = `
+<RegionAreaPicker
+  fetching={false}
+  imageUrl="http://mockUrl.com/v5/file/test/preview/0.png"
+  message="Select right coordinates of field data on page"
+  onCancel={[MockFunction]}
+  onOk={[MockFunction]}
+  title="Select coordinates on image"
+/>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: NoUserOrganisation should render the correct layout 1`] = `
+<NoUserOrganisationstyles__Wrapper>
+  <ApplicationLogo />
+  <NoUserOrganisationstyles__Container>
+    <NoUserOrganisationstyles__Image />
+    <NoUserOrganisationstyles__Info>
+      <NoUserOrganisationstyles__Text>
+        We are sorry, it appears you are not assigned to any organization. Please, contact support.
+      </NoUserOrganisationstyles__Text>
+      <ForwardRef
+        onClick={[MockFunction]}
+        type="ghost"
+      >
+        Sign out
+      </ForwardRef>
+    </NoUserOrganisationstyles__Info>
+  </NoUserOrganisationstyles__Container>
+</NoUserOrganisationstyles__Wrapper>
+`;

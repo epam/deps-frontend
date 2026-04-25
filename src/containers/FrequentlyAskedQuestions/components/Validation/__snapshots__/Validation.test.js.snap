@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Validation should render the correct layout 1`] = `
+<FrequentlyAskedQuestionsstyles__HelpAnswer>
+  <div>
+    <p>
+      User can run validation based on configured business rules to ensure data consistency.
+  (E.g., passport expiration date validation, total amount equals sum of individual values).
+    </p>
+    <p>
+      Validation is business rules verification, comparison with dictionaries (customer database),
+  spell checking, autocorrection, 3rd party validation services and validation of integrity (documents consolidation).
+    </p>
+    <p>
+      Validate the extracted data with built-in validation and business rules. If automatic validation is configured for a
+  document type, it occurs automatically, the user sees the result of validation by opening the document.
+  The system issues warnings about inaccuracies and errors during data extraction, and checks business rules in documents.
+  Fields modified by the user are also highlighted for easier retrieval.
+    </p>
+  </div>
+  <Validationstyles__StyledValidationImage />
+</FrequentlyAskedQuestionsstyles__HelpAnswer>
+`;

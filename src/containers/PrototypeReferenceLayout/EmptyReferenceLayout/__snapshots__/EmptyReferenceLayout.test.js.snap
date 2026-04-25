@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: EmptyReferenceLayout should render "add new" button on layout uploader 1`] = `
+<EmptyReferenceLayoutstyles__StyledButton
+  type="primary"
+>
+  <NewPlusIcon />
+  Add New
+</EmptyReferenceLayoutstyles__StyledButton>
+`;
+
+exports[`Component: EmptyReferenceLayout should render the correct layout 1`] = `
+<EmptyReferenceLayoutstyles__Wrapper>
+  <EmptyReferenceLayoutstyles__Image />
+  <EmptyReferenceLayoutstyles__ContentWrapper>
+    <EmptyReferenceLayoutstyles__Title>
+      This section doesn't have any items
+    </EmptyReferenceLayoutstyles__Title>
+    <ReferenceLayoutUploader
+      onFilesSelected={[MockFunction]}
+      renderUploadTrigger={[Function]}
+    />
+  </EmptyReferenceLayoutstyles__ContentWrapper>
+</EmptyReferenceLayoutstyles__Wrapper>
+`;

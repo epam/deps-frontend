@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: MappingKeys should render correct layout 1`] = `
+<MappingKeysstyles__Wrapper>
+  <MappingKeysstyles__KeysWrapper>
+    <ReadOnlyMappingKey
+      key="0"
+      mappingKey="1"
+    />
+    <ReadOnlyMappingKey
+      key="1"
+      mappingKey="2"
+    />
+    <ReadOnlyMappingKey
+      key="2"
+      mappingKey="3"
+    />
+  </MappingKeysstyles__KeysWrapper>
+</MappingKeysstyles__Wrapper>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ApproveSelectedUsersButton ConnectedComponent should render correct layout 1`] = `
+<Tooltip
+  title="Approve Selected User(s)"
+>
+  <SecondaryButtonstyles__SecondaryButton
+    disabled={false}
+    icon={<UserCheckIcon />}
+    onClick={[Function]}
+  />
+</Tooltip>
+`;

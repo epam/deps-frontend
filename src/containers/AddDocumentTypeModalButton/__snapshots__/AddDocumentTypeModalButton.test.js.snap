@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: AddDocumentTypeModalButton should render AddDocumentTypeModalButton with correct props 1`] = `
+<Fragment>
+  <AddDocumentTypeModalButtonstyles__TriggerButton
+    $focused={false}
+    onClick={[Function]}
+    type="primary"
+  >
+    <AddDocumentTypeModalButtonstyles__StyledNewPlusIcon />
+    Add Document Type
+  </AddDocumentTypeModalButtonstyles__TriggerButton>
+  <AddDocumentTypeModalButtonstyles__DocTypeModal
+    footer={null}
+    onCancel={[Function]}
+    open={false}
+    title="Select Document Type"
+    width={320}
+  >
+    <List>
+      <AddDocumentTypeModalButtonstyles__ListItem
+        onClick={[Function]}
+      >
+        <CreateAiPromptedExtractorDrawer>
+          <AddDocumentTypeModalButtonstyles__Title>
+            AI-Prompted
+          </AddDocumentTypeModalButtonstyles__Title>
+          <AddDocumentTypeModalButtonstyles__Description>
+            Ideal for data extraction without the need for OCR engines,
+  this document type is perfect for utilizing Language Learning Models (LLM).
+          </AddDocumentTypeModalButtonstyles__Description>
+        </CreateAiPromptedExtractorDrawer>
+      </AddDocumentTypeModalButtonstyles__ListItem>
+      <AddDocumentTypeModalButtonstyles__ListItem
+        onClick={[Function]}
+      >
+        <CreateAzureExtractorDrawer>
+          <AddDocumentTypeModalButtonstyles__Title>
+            Azure Cloud Native Extractor
+          </AddDocumentTypeModalButtonstyles__Title>
+          <AddDocumentTypeModalButtonstyles__Description>
+            Ideal for handling a diverse range of documents, this extractor offers advanced customization capabilities and seamless integration with Azure services.
+          </AddDocumentTypeModalButtonstyles__Description>
+        </CreateAzureExtractorDrawer>
+      </AddDocumentTypeModalButtonstyles__ListItem>
+      <AddDocumentTypeModalButtonstyles__ListItem
+        onClick={[Function]}
+      >
+        <AddDocumentTypeModalButtonstyles__Title>
+          Prototype
+        </AddDocumentTypeModalButtonstyles__Title>
+        <AddDocumentTypeModalButtonstyles__Description>
+          Ideal for manually mapping parsed data into specific fields, allowing for a hands-on approach to your data extraction.
+        </AddDocumentTypeModalButtonstyles__Description>
+      </AddDocumentTypeModalButtonstyles__ListItem>
+      <AddDocumentTypeModalButtonstyles__ListItem
+        onClick={[Function]}
+      >
+        <CreateTemplateDrawer>
+          <AddDocumentTypeModalButtonstyles__Title>
+            Template
+          </AddDocumentTypeModalButtonstyles__Title>
+          <AddDocumentTypeModalButtonstyles__Description>
+            Designed for structured data extraction, templates can be conveniently edited directly from the user interface.
+          </AddDocumentTypeModalButtonstyles__Description>
+        </CreateTemplateDrawer>
+      </AddDocumentTypeModalButtonstyles__ListItem>
+      <Tooltip
+        title="To create a Custom Model, please contact our Support Team at SupportDEPS@epam.com"
+      >
+        <AddDocumentTypeModalButtonstyles__DisabledListItem>
+          <AddDocumentTypeModalButtonstyles__Title>
+            Custom Model
+          </AddDocumentTypeModalButtonstyles__Title>
+          <AddDocumentTypeModalButtonstyles__Description>
+            Good for unstructured data extraction, these models are tailored to the custom needs.
+          </AddDocumentTypeModalButtonstyles__Description>
+        </AddDocumentTypeModalButtonstyles__DisabledListItem>
+      </Tooltip>
+    </List>
+  </AddDocumentTypeModalButtonstyles__DocTypeModal>
+</Fragment>
+`;

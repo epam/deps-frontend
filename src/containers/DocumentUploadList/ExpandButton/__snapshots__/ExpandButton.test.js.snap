@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ExpandButton should render correct layout 1`] = `
+<ExpandButtonstyles__ButtonWrapper>
+  <ExpandButtonstyles__StyledButton
+    onClick={[MockFunction]}
+    type="ghost"
+  >
+    Collapse
+  </ExpandButtonstyles__StyledButton>
+</ExpandButtonstyles__ButtonWrapper>
+`;

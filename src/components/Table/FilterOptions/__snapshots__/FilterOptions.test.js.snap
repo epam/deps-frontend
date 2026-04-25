@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FilterOptions should render the correct layout 1`] = `
+<FilterOptionsstyles__Wrapper>
+  <FilterOptionsstyles__CheckboxBlock>
+    <FilterOptionsstyles__CheckboxItem
+      data-automation="checkbox-item"
+      key="test"
+      onChange={[Function]}
+    >
+      <Checkbox
+        checked={false}
+        data-automation="checkbox"
+        id="test"
+      >
+        <LongText
+          text="test"
+        />
+      </Checkbox>
+    </FilterOptionsstyles__CheckboxItem>
+  </FilterOptionsstyles__CheckboxBlock>
+  <FilterOptionsstyles__FooterButtons>
+    <ForwardRef
+      data-automation="dropdown-ok-link"
+      onClick={[Function]}
+      type="primary"
+    >
+      OK
+    </ForwardRef>
+    <ForwardRef
+      data-automation="dropdown-reset-link"
+      onClick={[Function]}
+      type="link"
+    >
+      Reset All
+    </ForwardRef>
+  </FilterOptionsstyles__FooterButtons>
+</FilterOptionsstyles__Wrapper>
+`;

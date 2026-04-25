@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ExtractData should render the correct layout 1`] = `
+<Fragment>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <div>
+      <p>
+        At this stage data is extracted from the document by the selected extraction engine.
+      </p>
+      <p>
+        Data extraction is the key functionality of the DEPS platform.
+  DEPS can extract multiple entities from multi-languages documents:
+      </p>
+      <ul>
+        <li>
+          Fields
+        </li>
+        <li>
+          Key-value pairs
+        </li>
+        <li>
+          Blocks of text
+        </li>
+        <li>
+          Complex structure (tables, lists)
+        </li>
+      </ul>
+      <p>
+        DEPS can extract several forms of data that have now become relevant for all types of business:
+      </p>
+      <ul>
+        <li>
+          Printed text
+        </li>
+        <li>
+          Hand-printed and handwritten text
+        </li>
+        <li>
+          Images
+        </li>
+        <li>
+          Checkboxes
+        </li>
+      </ul>
+      <p>
+        Extracting of data usually occurs automatically after the document is loaded and preprocessed if the user
+  selects the 'Send for Extraction' check box when uploading documents.
+      </p>
+    </div>
+    <ExtractDatastyles__FirstExtractImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+  <FrequentlyAskedQuestionsstyles__HelpAnswer>
+    <div>
+      <p>
+        To start extracting data, the user also can select the required document on the 'Documents' tab by checking the box
+  on the left and selecting the Extract Data action from the panel that appears at the top.
+      </p>
+      <p>
+        Another way to launch data extracting is to open the document, click the button in the right pane, and select the
+  Extract Data action from the drop-down list.
+      </p>
+    </div>
+    <ExtractDatastyles__SecondExtractImage />
+  </FrequentlyAskedQuestionsstyles__HelpAnswer>
+  <ExtractDatastyles__ThirdExtractImage />
+</Fragment>
+`;

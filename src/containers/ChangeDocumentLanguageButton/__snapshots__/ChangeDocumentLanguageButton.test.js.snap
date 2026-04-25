@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: ChangeDocumentLanguageButton mapStateToProps Component: ChangeDocumentLanguageButton should render ChangeDocumentLanguageButton with correct props 1`] = `
+<SelectOptionModalButton
+  disabled={false}
+  emptySearchText="This language is not available"
+  key="changeLanguage"
+  onSave={[MockFunction]}
+  options={
+    Array [
+      Object {
+        "text": "Russian",
+        "value": "rus",
+      },
+      Object {
+        "text": "English",
+        "value": "eng",
+      },
+    ]
+  }
+  placeholder="Start Typing Document Language"
+  saveButtonText="Confirm"
+  title="Change Document Language"
+>
+  Change Document Language
+</SelectOptionModalButton>
+`;

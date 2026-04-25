@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ModalFormButton should render ModalButton and Form with default props 1`] = `
+<ModalButton
+  destroyOnClose={true}
+  fetching={false}
+  okButtonProps={
+    Object {
+      "disabled": true,
+      "text": "save_button_text",
+    }
+  }
+  onOk={[Function]}
+  title="modal_title"
+>
+  <CustomForm
+    fields={
+      Object {
+        "code": Object {
+          "render": [MockFunction],
+        },
+        "title": Object {
+          "render": [MockFunction],
+        },
+      }
+    }
+    hideErrorsForUntouchedFields={true}
+    onFieldsChange={[Function]}
+    validateOnMount={true}
+  />
+</ModalButton>
+`;
